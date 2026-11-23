@@ -1,0 +1,49 @@
+name: Extract Vakil project ZIP
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extract project into repository root
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          ZIP_FILE="Vakil-8.zip"
+          test -f "$ZIP_FILE"
+
+          mkdir -p /tmp/vakil-source
+          unzip -q "$ZIP_FILE" -d /tmp/vakil-source
+
+          SOURCE_DIR="/tmp/vakil-source/machina1049"
+          test -d "$SOURCE_DIR"
+          test -f "$SOURCE_DIR/Dockerfile"
+
+          # Copy all project files, including hidden files, into the repository root.
+          # Preserve this workflow if the archive happens to contain a matching path.
+          rsync -a --exclude='.git/' "$SOURCE_DIR/" ./
+
+          # Keep the uploaded ZIP as a backup, but exclude it from Docker build context.
+          touch .dockerignore
+          grep -qxF "$ZIP_FILE" .dockerignore || printf '\n%s\n' "$ZIP_FILE" >> .dockerignore
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No project changes to commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Extract Vakil-8 project into repository root"
+            git push
+          fi
