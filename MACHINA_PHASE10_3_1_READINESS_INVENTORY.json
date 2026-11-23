@@ -1,0 +1,66 @@
+{
+  "phase": "10.3.1",
+  "title": "Operational readiness inventory",
+  "date": "2026-11-01",
+  "decision": "CONDITIONAL_NOT_READY_FOR_LIVE_AUTOMATED_OPERATION",
+  "scope": "Static audit of Phase 10.2.5 package and its existing evidence; no network access and no active-bank writes.",
+  "verified_in_code": {
+    "central_runner": "legal_bot.ingestion.maintenance_runner.run_maintenance_cycle",
+    "durable_discovery_memory": "legal_bot.ingestion.discovery_memory_bridge",
+    "source_registry": "legal_bot.ingestion.source_registry.SourceRegistry",
+    "secure_pdf_downloader": "legal_bot.ingestion.secure_pdf_fetcher.SecurePDFDownloader",
+    "pdf_text_extraction": "legal_bot.ingestion.pdf_text_extractor",
+    "persian_ocr": "legal_bot.ingestion.persian_pdf_ocr.ocr_pdf_pages",
+    "validation_and_bank_bridge": "legal_bot.ingestion.validated_bank_bridge",
+    "active_bank_import_default": "disabled_and_explicit_opt_in"
+  },
+  "connector_coverage": {
+    "implemented_fixture_tested": ["majles_rc", "ekhtebar_secondary_discovery_only"],
+    "live_access_verified": [],
+    "official_source_adapters_missing_or_unverified": [
+      "national_regulations_dotic",
+      "official_gazette_rrk",
+      "supreme_court_unity_rulings_official_source",
+      "administrative_justice_general_assembly_rulings_official_source",
+      "judiciary_advisory_opinions_official_source"
+    ],
+    "network_access_enabled": false,
+    "source_registry_authority_requires_evidence": true
+  },
+  "existing_live_evidence": {
+    "majles_rc": "prior browser probe returned HTTP 502; deployment-runtime access remains unknown",
+    "ekhtebar": "a secondary-source PDF was viewable through web probe, but project-runtime download failed at DNS resolution",
+    "project_runtime_live_pdf_download": false,
+    "production_ocr_on_real_source_pdf": false,
+    "historical_archive_backfill": false,
+    "production_scheduler_run": false,
+    "recovery_drill": false,
+    "audited_active_bank_transaction_and_rollback": false
+  },
+  "runtime_environment_observation": {
+    "python_packages_present_in_audit_runtime": ["requests", "PyMuPDF", "pytesseract", "Pillow"],
+    "tesseract_binary_present_in_audit_runtime": true,
+    "tesseract_languages_present": ["fas", "eng"],
+    "production_host_equivalence_proven": false
+  },
+  "hard_gates": [
+    "Do not enable scheduled execution before official adapters and deployment connectivity are verified.",
+    "Do not promote secondary-source documents to official legal authority.",
+    "Do not write to active JSON banks during connector or OCR trials.",
+    "Stop on 403, 429, CAPTCHA, DNS failure, or unapproved redirects; do not bypass access controls.",
+    "Do not infer current legal force from absence of repeal evidence."
+  ],
+  "next_work": [
+    "10.3.2: implement and verify official-source adapter coverage with explicit source-by-source evidence",
+    "10.3.3: bounded live discovery and PDF acquisition from deployment runtime",
+    "10.3.4: real-document extraction and Persian OCR quality trial",
+    "10.3.5: end-to-end staging import, transaction audit and rollback drill",
+    "10.3.6: recovery and scheduled pilot activation only after all gates pass"
+  ],
+  "active_bank_sha256": {
+    "laws.json": "d21b1c56a575511973836271a54d98286a06aff07e93e7852abd0cd1f3f4e7f6",
+    "rulings.json": "2ff2845a9d8f9da61abb1d695684335e8fb68bdd52783ebbde1148225bbc3236",
+    "consultations.json": "30bcac47ebeb98a7c8f14b3c35cbb16ce50454ed3853ca92eb47ff4ee827a7a9",
+    "samples_and_circulars.json": "2b042cacf719e2148acf27f317e8233fc0950b4fb99754cccc9bef236b2ba748"
+  }
+}

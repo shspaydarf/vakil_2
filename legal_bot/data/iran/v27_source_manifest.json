@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "version": "V27",
+  "generated_on": "2026-08-20",
+  "strategy": "breadth_first",
+  "status": "source_ready_pending_text_import",
+  "important_note": "این فایل عمداً متن ماده‌ها را جعل یا ناقص نمی‌کند. رکوردها تا دریافت و تطبیق متن کامل در laws.json وارد نمی‌شوند.",
+  "focus_areas": [
+    "تأمین اجتماعی",
+    "مالیات",
+    "دیوان عدالت اداری",
+    "تجارت الکترونیکی",
+    "وکالت و حرفه حقوقی"
+  ],
+  "laws": [
+    {
+      "title": "قانون تأمین اجتماعی",
+      "domain": "labor_social",
+      "article_range": "1-118",
+      "expected_articles": 118,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "social_security",
+        "labor",
+        "insurance"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [
+        "tamin_law_portal"
+      ],
+      "known_source_urls": [
+        "https://law.tamin.ir/",
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-540/"
+      ],
+      "notes": "متن قانون مشتمل بر ۱۱۸ ماده و ۴۰ تبصره است؛ ماده ۱۱۸ نیز در منابع متن قانون دیده می‌شود. قبل از ورود باید اصلاحات و وضعیت مواد را تطبیق داد."
+    },
+    {
+      "title": "قانون مالیات‌های مستقیم",
+      "domain": "tax",
+      "article_range": "1-282",
+      "expected_articles": 282,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "tax",
+        "direct_tax"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [
+        "tax_authority"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/",
+        "https://intamedia.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-39798/",
+        "https://bidbarg.net/regulation/tax/"
+      ],
+      "notes": "نسخه پایه ۲۸۲ ماده دارد؛ اصلاحات متعدد و جاری بودن برخی احکام باید جداگانه مدل شود. وجود متن ۲۸۲ ماده به‌تنهایی به معنی نسخه جاری verified نیست."
+    },
+    {
+      "title": "قانون مالیات بر ارزش افزوده",
+      "domain": "tax",
+      "article_range": "1-57",
+      "expected_articles": 57,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "tax",
+        "vat"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [
+        "tax_authority"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/",
+        "https://intamedia.ir/"
+      ],
+      "cross_check_urls": [],
+      "notes": "قانون پایه جدید باید از متن جاری و اصلاحات بعدی تفکیک شود؛ صرفاً یک متن قدیمی وارد corpus نشود."
+    },
+    {
+      "title": "قانون دیوان عدالت اداری",
+      "domain": "administrative",
+      "article_range": "1-124",
+      "expected_articles": 124,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "administrative",
+        "judicial_review",
+        "procedure"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-39204/"
+      ],
+      "notes": "قانون ۱۳۹۰ با اصلاحات ۱۴۰۲ باید به‌صورت نسخه تلفیقی و با ثبت اصلاحات وارد شود؛ قانون ۱۳۸۵ منسوخ است و نباید در جستجوی جاری مخلوط شود."
+    },
+    {
+      "title": "قانون تجارت الکترونیکی",
+      "domain": "commercial",
+      "article_range": "1-81",
+      "expected_articles": 81,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "commercial",
+        "technology",
+        "ecommerce",
+        "data_message"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-34221/",
+        "https://law-ir.ir/law/cat/1656/"
+      ],
+      "notes": "متن قانون مشتمل بر ۸۱ ماده و ۷ تبصره است. در ورود، تبصره‌ها و ارجاعات درون‌قانونی حفظ شوند."
+    },
+    {
+      "title": "قانون وکالت",
+      "domain": "legal_profession",
+      "article_range": "1-59",
+      "expected_articles": 59,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "legal_profession",
+        "bar",
+        "advocacy"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-1086/"
+      ],
+      "notes": "قانون وکالت باید از آیین‌نامه‌ها و مقررات انتظامی جدا نگهداری شود؛ نسخه‌های منسوخ یا پیش‌نویس وارد corpus جاری نشوند."
+    },
+    {
+      "title": "لایحه قانونی استقلال کانون وکلای دادگستری",
+      "domain": "legal_profession",
+      "article_range": "1-28",
+      "expected_articles": 28,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "legal_profession",
+        "bar",
+        "independence"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://farsbar.ir/"
+      ],
+      "notes": "این متن باید با اصلاحات و مقررات لازم‌الاجرا تطبیق شود؛ آیین‌نامه اجرایی جداگانه است."
+    },
+    {
+      "title": "قانون کیفیت اخذ پروانه وکالت دادگستری",
+      "domain": "legal_profession",
+      "article_range": "1-8",
+      "expected_articles": 8,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "legal_profession",
+        "bar_license"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://dadavar.ir/"
+      ],
+      "notes": "متن قانون و اصلاحات باید جدا از آیین‌نامه اجرایی نگهداری شود."
+    }
+  ],
+  "verification_rule": "verified فقط پس از دریافت متن کامل، تطبیق با منبع رسمی/اولیه، بررسی اصلاحات/نسخ و checksum."
+}

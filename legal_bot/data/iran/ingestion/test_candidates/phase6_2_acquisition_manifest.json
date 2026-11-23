@@ -1,0 +1,20 @@
+{
+  "phase": "6.2",
+  "candidate_id": "MACHINA-PHASE6-1-IR-LAW-001",
+  "document_title": "قانون احکام دائمی برنامه های توسعه کشور",
+  "source_institution": "مرکز پژوهش‌های مجلس شورای اسلامی",
+  "official_page_url": "https://rc.majlis.ir/fa/law/print_version/1014070",
+  "official_page_check": {
+    "status": "unavailable",
+    "detail": "Live official page retrieval timed out in web access; the execution environment could not resolve rc.majlis.ir. No direct PDF asset URL was established. No direct official PDF asset URL was established; the HTML page URL is not treated as a PDF."
+  },
+  "acquisition_status": "blocked",
+  "reason_code": "official_pdf_asset_url_unresolved",
+  "attempted_asset_url": null,
+  "original_pdf": null,
+  "sha256": null,
+  "downloaded_at": null,
+  "mirror_fallback_used": false,
+  "active_bank_modified": false,
+  "recorded_at": "2026-10-31T23:18:32.412170+00:00"
+}

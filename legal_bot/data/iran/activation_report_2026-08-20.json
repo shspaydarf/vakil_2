@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-20",
+  "mode": "active_user_pdf_source",
+  "laws": [
+    {
+      "law": "قانون مدنی",
+      "file": "مدنی.txt",
+      "pdf_article_records": 55,
+      "active_article_records": 1336,
+      "action": "kept_existing_more_complete_than_pdf",
+      "status": "active_user_pdf_source",
+      "currentity": "not_independently_verified_against_all_later_amendments"
+    },
+    {
+      "law": "قانون تجارت",
+      "file": "تجارت.txt",
+      "pdf_article_records": 600,
+      "active_article_records": 600,
+      "action": "replaced_with_pdf",
+      "status": "active_user_pdf_source",
+      "currentity": "not_independently_verified_against_all_later_amendments"
+    },
+    {
+      "law": "قانون مجازات اسلامی",
+      "file": "کیفری.txt",
+      "pdf_article_records": 728,
+      "active_article_records": 728,
+      "action": "replaced_with_pdf",
+      "status": "active_user_pdf_source",
+      "currentity": "not_independently_verified_against_all_later_amendments"
+    },
+    {
+      "law": "قانون حمایت خانواده",
+      "file": "خانواده.txt",
+      "pdf_article_records": 58,
+      "active_article_records": 58,
+      "action": "replaced_with_pdf",
+      "status": "active_user_pdf_source",
+      "currentity": "not_independently_verified_against_all_later_amendments"
+    },
+    {
+      "law": "قانون آیین دادرسی مدنی",
+      "file": "ایین دادرسی مدنی.txt",
+      "pdf_article_records": 529,
+      "active_article_records": 529,
+      "action": "replaced_with_pdf",
+      "status": "active_user_pdf_source",
+      "currentity": "not_independently_verified_against_all_later_amendments"
+    },
+    {
+      "law": "قانون ثبت اسناد و املاک",
+      "file": "اسناد املاک.txt",
+      "pdf_article_records": 147,
+      "active_article_records": 147,
+      "action": "replaced_with_pdf",
+      "status": "active_user_pdf_source",
+      "currentity": "not_independently_verified_against_all_later_amendments"
+    },
+    {
+      "law": "قانون روابط موجر و مستأجر ۱۳۷۶",
+      "file": "موجر مستاجر.txt",
+      "pdf_article_records": 13,
+      "active_article_records": 13,
+      "action": "replaced_with_pdf",
+      "status": "active_user_pdf_source",
+      "currentity": "not_independently_verified_against_all_later_amendments"
+    },
+    {
+      "law": "قانون نحوه اجرای محکومیت‌های مالی",
+      "file": "اجرای محکومیت های مالی.txt",
+      "pdf_article_records": 29,
+      "active_article_records": 29,
+      "action": "replaced_with_pdf",
+      "status": "active_user_pdf_source",
+      "currentity": "not_independently_verified_against_all_later_amendments"
+    },
+    {
+      "law": "قانون وکالت",
+      "file": "قوانین وکالت.txt",
+      "pdf_article_records": 58,
+      "active_article_records": 58,
+      "action": "replaced_with_pdf",
+      "status": "active_user_pdf_source",
+      "currentity": "not_independently_verified_against_all_later_amendments"
+    },
+    {
+      "law": "قانون اصلاح قانون صدور چک ۱۳۹۷",
+      "file": "صدور چک.txt",
+      "pdf_article_records": 11,
+      "active_article_records": 11,
+      "action": "added_as_amendment_law_not_replacing_base_check_law",
+      "status": "active_user_pdf_source",
+      "currentity": "amendment_text_only"
+    },
+    {
+      "law": "قانون اساسی جمهوری اسلامی ایران",
+      "file": "اساسی.pdf",
+      "pdf_article_records": 177,
+      "active_article_records": 177,
+      "action": "added_constitution_only_excluding_interpretations",
+      "status": "active_user_pdf_source",
+      "currentity": "base text is 1989 revision; not independently checked for later constitutional change"
+    }
+  ]
+}

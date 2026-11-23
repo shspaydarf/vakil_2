@@ -1,0 +1,570 @@
+{
+  "schema_version": "1.0",
+  "jurisdiction": "IR",
+  "last_reviewed": "2026-08-20",
+  "policy": "این فهرست، منبع مرجع را ثبت می‌کند اما تا زمانی که متن ماده به‌صورت مستقل دریافت، تطبیق و checksum شود، رکورد bundled به وضعیت verified ارتقا نمی‌یابد. هر قانون جدید ابتدا در quarantine_manifest نگهداری می‌شود و activation فقط پس از تأیید انسانی و checksum مجاز است.",
+  "authorities": [
+    {
+      "id": "dotic",
+      "name": "سامانه ملی قوانین و مقررات جمهوری اسلامی ایران",
+      "url": "https://dotic.ir/",
+      "role": "primary_legislation_registry",
+      "priority": 1
+    },
+    {
+      "id": "qavanin",
+      "name": "پایگاه قوانین و مقررات کشور",
+      "url": "https://qavanin.ir/",
+      "role": "primary_legislation_database",
+      "priority": 1
+    },
+    {
+      "id": "rrk",
+      "name": "روزنامه رسمی جمهوری اسلامی ایران",
+      "url": "https://www.rrk.ir/",
+      "role": "official_publication",
+      "priority": 1
+    },
+    {
+      "id": "majlis_rc",
+      "name": "مرکز پژوهش‌های مجلس شورای اسلامی / پایگاه قوانین مجلس",
+      "url": "https://rc.majlis.ir/",
+      "role": "legislative_source",
+      "priority": 2
+    },
+    {
+      "id": "adliran",
+      "name": "درگاه خدمات الکترونیک قضایی",
+      "url": "https://adliran.ir/",
+      "role": "judicial_services",
+      "priority": 2
+    }
+  ],
+  "laws": [
+    {
+      "title": "قانون مدنی",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "known_source_urls": [
+        "https://rc.majlis.ir/fa/law/show/95227"
+      ],
+      "article_range": "1-1335",
+      "priority": "P0"
+    },
+    {
+      "title": "قانون آیین دادرسی دادگاه‌های عمومی و انقلاب در امور مدنی",
+      "status": "bundled_text_unverified",
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "article_range": "1-529",
+      "priority": "P0"
+    },
+    {
+      "title": "قانون مسئولیت مدنی",
+      "status": "source_verified_text_pending",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://rc.majlis.ir/fa/law/show/95202"
+      ],
+      "article_range": "1-16",
+      "priority": "P0"
+    },
+    {
+      "title": "قانون روابط موجر و مستأجر مصوب 1356",
+      "status": "source_verified_text_pending",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://rc.majlis.ir/fa/law/print_version/97570"
+      ],
+      "article_range": "1-32",
+      "priority": "P0"
+    },
+    {
+      "title": "قانون روابط موجر و مستأجر مصوب 1376",
+      "status": "source_verified_text_pending",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://rc.majlis.ir/fa/law/print_version/92943"
+      ],
+      "article_range": "1-13",
+      "priority": "P0"
+    },
+    {
+      "title": "قانون اجرای احکام مدنی",
+      "status": "verified_current_source_backed",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "article_range": "1-180",
+      "priority": "P0",
+      "cross_check_urls": [],
+      "known_source_urls": [
+        "https://qavanin.ir/Law/TreeText/?IDS=12257143710724326112"
+      ],
+      "last_verified": "2026-08-20",
+      "activation_note": "فعال‌سازی بر مبنای منبع رسمی qavanin.ir؛ متن محلی کامل هنوز به corpus ماده‌محور منتقل نشده و در صورت نبود ماده محلی، پاسخ‌سازی متنی از منبع خارج از corpus انجام نشود."
+    },
+    {
+      "title": "قانون حمایت خانواده",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "article_range": "1-58",
+      "priority": "P0"
+    },
+    {
+      "title": "قانون نحوه اجرای محکومیت‌های مالی",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "article_range": "1-29",
+      "priority": "P0"
+    },
+    {
+      "status": "current_base_source_backed",
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/",
+        "https://lamtakam.com/law/parliament/93997/%D9%82%D8%A7%D9%86%D9%88%D9%86%2B%D8%AA%D8%AC%D8%A7%D8%B1%D8%AA%2B%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C",
+        "https://www.irancodify.com/b/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D8%AA%D8%AC%D8%A7%D8%B1%D8%AA_%D8%A7%D9%84%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C_%D9%85%D8%B5%D9%88%D8%A8_1382-10-17"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-34221/",
+        "https://law-ir.ir/law/cat/1656/"
+      ],
+      "article_range": "1-81",
+      "priority": "P1",
+      "topic_tags": [
+        "commercial",
+        "technology",
+        "ecommerce",
+        "data_message"
+      ],
+      "title": "قانون تجارت الکترونیکی",
+      "base_text_in_laws_json": true
+    },
+    {
+      "title": "قانون حمایت از حقوق مصرف‌کنندگان",
+      "status": "quarantined",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "priority": "P1",
+      "quarantine_reason": "متن کامل باید با شماره و تاریخ روزنامه رسمی تطبیق شود.",
+      "article_range": "1-22",
+      "cross_check_urls": [
+        "irancodify.com"
+      ]
+    },
+    {
+      "status": "quarantined",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "vakil-edalat.com"
+      ],
+      "article_range": "1-124",
+      "priority": "P1",
+      "topic_tags": [
+        "administrative",
+        "judicial_review",
+        "procedure"
+      ],
+      "title": "قانون دیوان عدالت اداری",
+      "quarantine_reason": "قانون اصلاحی ۱۴۰۲ باید روی متن پایه تنقیح و با مواد اصلاحی ادغام شود."
+    },
+    {
+      "title": "قانون کار",
+      "status": "current_base_source_backed",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "priority": "P1",
+      "base_text_in_laws_json": true,
+      "known_source_urls": [
+        "https://www.irancodify.com/b/10bf598f-37d1-424d-8fec-3e88f1fc21b4",
+        "https://lamtakam.com/law/diagnostic_assembly/99612/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%DA%A9%D8%A7%D8%B1"
+      ]
+    },
+    {
+      "status": "quarantined",
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "known_source_urls": [
+        "https://law.tamin.ir/",
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "law.tamin.ir",
+        "nezamat.ir/post-540/"
+      ],
+      "article_range": "1-118",
+      "priority": "P1",
+      "topic_tags": [
+        "social_security",
+        "labor",
+        "insurance"
+      ],
+      "title": "قانون تأمین اجتماعی",
+      "quarantine_reason": "در corpus فقط بخش محدود/غیرجامع موجود است؛ باید متن کامل و اصلاحات ماده‌به‌ماده تطبیق شود."
+    },
+    {
+      "title": "قانون ثبت اسناد و املاک",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "priority": "P1"
+    },
+    {
+      "title": "قانون روابط موجر و مستأجر ۱۳۵۶",
+      "status": "source_pending_import",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://rc.majlis.ir/fa/law/print_version/97570"
+      ],
+      "priority": "P0"
+    },
+    {
+      "title": "قانون روابط موجر و مستأجر ۱۳۷۶",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://rc.majlis.ir/fa/law/print_version/92943"
+      ],
+      "priority": "P0"
+    },
+    {
+      "status": "current_base_source_backed",
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/",
+        "https://intamedia.ir/",
+        "https://nezamat.ir/post-28895/",
+        "https://bidbarg.net/regulation/tax/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-39798/",
+        "https://bidbarg.net/regulation/tax/"
+      ],
+      "article_range": "1-282",
+      "priority": "P1",
+      "topic_tags": [
+        "tax",
+        "direct_tax"
+      ],
+      "title": "قانون مالیات‌های مستقیم",
+      "base_text_in_laws_json": true
+    },
+    {
+      "title": "قانون جرایم رایانه‌ای",
+      "status": "current_base_source_backed",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/",
+        "https://nezamat.ir/post-37592/"
+      ],
+      "priority": "P1",
+      "base_text_in_laws_json": true
+    },
+    {
+      "title": "قانون حمایت از اطفال و نوجوانان",
+      "status": "quarantined",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "priority": "P1",
+      "quarantine_reason": "قانون مهم کیفری/خانوادگی خارج از پوشش کامل فعلی.",
+      "article_range": "1-51",
+      "cross_check_urls": []
+    },
+    {
+      "title": "قانون الزام به ثبت رسمی معاملات اموال غیرمنقول",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "priority": "P0",
+      "quarantine_reason": "قانون جدید و اثرگذار در ثبت/املاک؛ نیازمند تطبیق با مقررات اجرایی و آخرین وضعیت اجرا.",
+      "cross_check_urls": [],
+      "article_range": "1-15"
+    },
+    {
+      "title": "قانون حمایت از مالکیت صنعتی",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "priority": "P0",
+      "quarantine_reason": "برای مالکیت فکری/تجارت، متن و مقررات مرتبط باید یکجا تنقیح شوند.",
+      "cross_check_urls": [],
+      "article_range": "1-150"
+    },
+    {
+      "title": "قانون بیمه",
+      "status": "quarantined",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "priority": "P1",
+      "quarantine_reason": "قانون پایه قدیمی است اما وضعیت اعتبار و اصلاحات باید قبل از فعال‌سازی بررسی شود.",
+      "article_range": "1-36",
+      "cross_check_urls": [
+        "lamtakam.com"
+      ]
+    },
+    {
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/Law/TreeText/?IDS=5525522950710247937"
+      ],
+      "cross_check_urls": [
+        "nezamat.ir/post-1086/"
+      ],
+      "article_range": "1-59",
+      "priority": "P1",
+      "topic_tags": [
+        "legal_profession",
+        "bar",
+        "advocacy"
+      ],
+      "title": "قانون وکالت",
+      "last_verified": "2026-08-20",
+      "activation_note": "فعال‌سازی بر مبنای منبع رسمی qavanin.ir؛ متن محلی کامل هنوز به corpus ماده‌محور منتقل نشده و در صورت نبود ماده محلی، پاسخ‌سازی متنی از منبع خارج از corpus انجام نشود."
+    },
+    {
+      "title": "لایحه قانونی استقلال کانون وکلای دادگستری",
+      "status": "verified_current_source_backed",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/Law/RelatedIndex/?IDS=15820609018639187844"
+      ],
+      "priority": "P1",
+      "cross_check_urls": [
+        "farsbar.ir"
+      ],
+      "article_range": "1-28",
+      "topic_tags": [
+        "legal_profession",
+        "bar",
+        "independence"
+      ],
+      "last_verified": "2026-08-20",
+      "activation_note": "فعال‌سازی بر مبنای منبع رسمی qavanin.ir؛ متن محلی کامل هنوز به corpus ماده‌محور منتقل نشده و در صورت نبود ماده محلی، پاسخ‌سازی متنی از منبع خارج از corpus انجام نشود."
+    },
+    {
+      "status": "candidate_text_captured_primary_pending",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-29874/",
+        "https://www.irancodify.com/b/%D9%82%D8%A7%D9%86%D9%88%D9%86_%DA%A9%DB%8C%D9%81%DB%8C%D8%AA_%D8%A7%D8%AE%D8%B0_%D9%BE%D8%B1%D9%88%D8%A7%D9%86%D9%87_%D9%88%DA%A9%D8%A7%D9%84%D8%AA_%D8%AF%D8%A7%D8%AF%DA%AF%D8%B3%D8%AA%D8%B1%DB%8C_%D9%85%D8%B5%D9%88%D8%A8_1376-01-17"
+      ],
+      "article_range": "1-7",
+      "priority": "P1",
+      "topic_tags": [
+        "legal_profession",
+        "bar_license"
+      ],
+      "title": "قانون کیفیت اخذ پروانه وکالت دادگستری",
+      "quarantine_reason": "برای بخش حرفه وکالت و آزمون/پروانه ضروری است.",
+      "candidate_file": "quarantine/قانون_کیفیت_اخذ_پروانه_وکالت_دادگستری__candidate.json",
+      "last_verified": "2026-08-20"
+    },
+    {
+      "status": "quarantined",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/",
+        "https://intamedia.ir/"
+      ],
+      "cross_check_urls": [
+        "acco.ir",
+        "guilanbar.ir"
+      ],
+      "article_range": "1-57",
+      "priority": "P1",
+      "topic_tags": [
+        "tax",
+        "vat"
+      ],
+      "title": "قانون مالیات بر ارزش افزوده",
+      "quarantine_reason": "نسخه ۱۴۰۰ قانون جاری است؛ نسخه ۱۳۸۷ نباید به‌عنوان متن جاری وارد شود."
+    },
+    {
+      "title": "قانون بانک مرکزی جمهوری اسلامی ایران",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "qavanin"
+      ],
+      "known_source_urls": [],
+      "article_range": "1-67",
+      "priority": "P1"
+    },
+    {
+      "title": "قانون تشدید مجازات مرتکبین ارتشاء و اختلاس و کلاهبرداری",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "qavanin"
+      ],
+      "known_source_urls": [],
+      "article_range": "1-8",
+      "priority": "P0"
+    },
+    {
+      "title": "قانون اداره تصفیه امور ورشکستگی",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "qavanin"
+      ],
+      "known_source_urls": [],
+      "article_range": "1-60",
+      "priority": "P1"
+    },
+    {
+      "title": "قانون امور گمرکی",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "qavanin"
+      ],
+      "known_source_urls": [],
+      "article_range": "1-165",
+      "priority": "P1"
+    },
+    {
+      "title": "قانون مجازات راجع به انتقال مال غیر",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "qavanin"
+      ],
+      "known_source_urls": [],
+      "article_range": "1-9",
+      "priority": "P0"
+    },
+    {
+      "title": "قانون نحوه اجرای اصل ۴۹ قانون اساسی جمهوری اسلامی ایران",
+      "status": "user_pdf_active",
+      "primary_sources": [
+        "qavanin"
+      ],
+      "known_source_urls": [],
+      "article_range": "1-15",
+      "priority": "P1"
+    },
+    {
+      "title": "قانون شوراهای حل اختلاف ۱۳۸۷",
+      "status": "user_pdf_historical",
+      "primary_sources": [
+        "qavanin"
+      ],
+      "known_source_urls": [],
+      "article_range": "1-51",
+      "priority": "P1"
+    }
+  ],
+  "v27_review": {
+    "reviewed_on": "2026-08-20",
+    "focus": "پنج حوزه بعدی پس از موج اول: تأمین اجتماعی، مالیات، دیوان عدالت اداری، تجارت الکترونیکی، حرفه وکالت",
+    "rule": "URL شناسایی‌شده به معنی verified بودن متن نیست."
+  }
+}

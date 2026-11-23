@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+tests/
+legal_bot/legal_bot.db
+legal_bot/storage/
+legal_bot/uploads/
+legal_bot_backups/
+*.log
+.git/
+
+# Build-only exclusions: keep documentation and local artifacts out of image context.
+*.pkl
+legal_bot/data/iran/.legal_research_stats_v140.pkl
+*_REPORT_*.md
+*AUDIT*.md
+*PATCH_NOTES*.md
+PROJECT_HEALTH_CHECK*.md
+CLEANUP_CANDIDATES_REPORT*.md
+FULL_APP_CLEANUP_QA*.md
+.env
+.env.*
+!.env.production.example
+
+Vakil-8.zip

@@ -1,0 +1,58 @@
+{
+  "phase": "10.3.3",
+  "observation_date": "2026-11-01",
+  "method": "read-only public web fetch observation; no direct HTTP client or PDF download was executed from the project runtime",
+  "network_download_performed": false,
+  "active_bank_write": false,
+  "observations": [
+    {
+      "source_id": "national_regulations",
+      "host": "dotic.ir",
+      "status": "homepage_and_detail_pages_observed",
+      "observed_urls": ["https://dotic.ir/", "https://dotic.ir/news/21843", "https://dotic.ir/news/21824"],
+      "confirmed_discovery_families": ["administrative_justice_general_assembly_rulings", "judiciary_advisory_opinions", "supreme_court_unity_rulings"],
+      "observed_record_shape": "/news/{numeric_id}",
+      "asset_resolution": "not_confirmed; detail pages show a 'دریافت متن کامل' section but the public page extraction did not expose a direct PDF anchor",
+      "robots_and_runtime_access": "not_checked from deployment runtime",
+      "authority_boundary": "official portal page observation is evidence of publication metadata only; each underlying instrument still requires original-document and legal-status validation"
+    },
+    {
+      "source_id": "official_gazette",
+      "host": "rrk.ir",
+      "status": "web_fetch_timeout",
+      "observed_urls": ["https://www.rrk.ir/"],
+      "robots_and_runtime_access": "not_checked",
+      "next_action": "retry from deployment environment only after robots and source policy checks"
+    },
+    {
+      "source_id": "parliament_research_center",
+      "host": "rc.majlis.ir",
+      "status": "gateway_error",
+      "observed_urls": ["https://rc.majlis.ir/fa/law"],
+      "robots_and_runtime_access": "not checked",
+      "next_action": "defer; do not bypass gateway or access controls"
+    },
+    {
+      "source_id": "national_laws_portal",
+      "host": "qavanin.ir",
+      "status": "web_fetch_timeout",
+      "observed_urls": ["https://qavanin.ir/"],
+      "robots_and_runtime_access": "not checked",
+      "next_action": "retry from deployment environment only after robots and source policy checks"
+    },
+    {
+      "source_id": "judiciary_portal",
+      "host": "eadl.ir",
+      "status": "web_fetch_timeout",
+      "observed_urls": ["https://eadl.ir/"],
+      "robots_and_runtime_access": "not checked",
+      "next_action": "defer; identify authoritative sub-portal for each judicial document family"
+    }
+  ],
+  "safety": {
+    "no_captcha_bypass": true,
+    "no_authentication_bypass": true,
+    "no_active_bank_mutation": true,
+    "no_inference_of_legal_validity_from_silence": true
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "phase": "8.3",
+  "purpose": "single_pdf_download_trial",
+  "evidence": {
+    "source_role": "secondary_reference_only",
+    "source_url": "https://www.ekhtebar.ir/wp-content/uploads/2020/06/%D9%82%D8%A7%D9%86%D9%88%D9%86-%DA%A9%D8%A7%D9%87%D8%B4-%D9%85%D8%AC%D8%A7%D8%B2%D8%A7%D8%AA-%D8%AD%D8%A8%D8%B3-%D8%AA%D8%B9%D8%B2%DB%8C%D8%B1%DB%8C-2.pdf",
+    "outcome": "blocked_dns",
+    "detail": "اجرای دانلودر امن داخل runtime پروژه پیش از برقراری اتصال، در بررسی DNS با Temporary failure in name resolution متوقف شد. مطابق سیاست fail-closed، هیچ DNS/IP جایگزین یا دورزدن شبکه‌ای استفاده نشد؛ فایل دریافت و staging نشد.",
+    "attempted_at": "2026-11-01T07:30:00+00:00",
+    "downloaded": false,
+    "staged": false,
+    "ocr_run": false,
+    "active_bank_modified": false
+  },
+  "constraints": {
+    "no_dns_bypass": true,
+    "no_challenge_bypass": true,
+    "secondary_source_not_primary": true,
+    "active_bank_import_performed": false
+  },
+  "report_sha256": "8458551d9d414cabeb74087fb89ec5bf549a90f0cf9875705d628955b092f5f4"
+}

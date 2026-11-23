@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-08-20",
+  "policy": {
+    "default_status": "quarantined",
+    "activation_rule": "رکورد جدید تا زمانی که منبع اولیه، نسخه جاری، تطبیق ماده‌به‌ماده، عدم تکرار و checksum آن تأیید نشود وارد جست‌وجوی فعال نمی‌شود.",
+    "source_priority": [
+      "rrk",
+      "dotic",
+      "qavanin",
+      "majlis_rc"
+    ],
+    "secondary_sources": "برای cross-check و توضیح آموزشی؛ نه برای اثبات متن قانون.",
+    "academic_books": "فقط متادیتا/ارجاع موضوعی؛ متن کامل کتاب بدون فایل مجاز کاربر وارد corpus نمی‌شود."
+  },
+  "candidates": [
+    {
+      "law": "قانون تأمین اجتماعی",
+      "priority": "P0",
+      "status": "quarantined",
+      "article_range": "1-118",
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "cross_check": [
+        "law.tamin.ir",
+        "nezamat.ir/post-540/"
+      ],
+      "reason": "در corpus فقط بخش محدود/غیرجامع موجود است؛ باید متن کامل و اصلاحات ماده‌به‌ماده تطبیق شود.",
+      "production_search_status": "inactive_quarantined",
+      "local_records_moved_to": "quarantine/inactive_laws.json"
+    },
+    {
+      "law": "قانون مالیات بر ارزش افزوده",
+      "priority": "P0",
+      "status": "quarantined",
+      "article_range": "1-57",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk"
+      ],
+      "cross_check": [
+        "acco.ir",
+        "guilanbar.ir"
+      ],
+      "reason": "نسخه ۱۴۰۰ قانون جاری است؛ نسخه ۱۳۸۷ نباید به‌عنوان متن جاری وارد شود.",
+      "production_search_status": "inactive_quarantined",
+      "local_records_moved_to": "quarantine/inactive_laws.json"
+    },
+    {
+      "law": "قانون دیوان عدالت اداری",
+      "priority": "P0",
+      "status": "quarantined",
+      "article_range": "1-124",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk"
+      ],
+      "cross_check": [
+        "vakil-edalat.com"
+      ],
+      "reason": "قانون اصلاحی ۱۴۰۲ باید روی متن پایه تنقیح و با مواد اصلاحی ادغام شود."
+    },
+    {
+      "law": "قانون اجرای احکام مدنی",
+      "priority": "P0",
+      "status": "activated_source_backed",
+      "article_range": "1-180",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "cross_check": [],
+      "reason": "متن کامل در corpus فعال نیست.",
+      "activated": "2026-08-20",
+      "activation_source": "https://qavanin.ir/Law/TreeText/?IDS=12257143710724326112"
+    },
+    {
+      "law": "قانون حمایت از حقوق مصرف‌کنندگان",
+      "priority": "P1",
+      "status": "quarantined",
+      "article_range": "1-22",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "cross_check": [
+        "irancodify.com"
+      ],
+      "reason": "متن کامل باید با شماره و تاریخ روزنامه رسمی تطبیق شود.",
+      "production_search_status": "inactive_quarantined",
+      "local_records_moved_to": "quarantine/inactive_laws.json"
+    },
+    {
+      "law": "قانون بیمه",
+      "priority": "P1",
+      "status": "quarantined",
+      "article_range": "1-36",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "cross_check": [
+        "lamtakam.com"
+      ],
+      "reason": "قانون پایه قدیمی است اما وضعیت اعتبار و اصلاحات باید قبل از فعال‌سازی بررسی شود.",
+      "production_search_status": "inactive_quarantined",
+      "local_records_moved_to": "quarantine/inactive_laws.json"
+    },
+    {
+      "law": "قانون حمایت از اطفال و نوجوانان",
+      "priority": "P1",
+      "status": "quarantined",
+      "article_range": "1-51",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "cross_check": [],
+      "reason": "قانون مهم کیفری/خانوادگی خارج از پوشش کامل فعلی.",
+      "production_search_status": "inactive_quarantined",
+      "local_records_moved_to": "quarantine/inactive_laws.json"
+    },
+    {
+      "law": "قانون الزام به ثبت رسمی معاملات اموال غیرمنقول",
+      "priority": "P0",
+      "status": "quarantined",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "cross_check": [],
+      "reason": "قانون جدید و اثرگذار در ثبت/املاک؛ نیازمند تطبیق با مقررات اجرایی و آخرین وضعیت اجرا.",
+      "production_search_status": "inactive_quarantined",
+      "local_records_moved_to": "quarantine/inactive_laws.json"
+    },
+    {
+      "law": "قانون حمایت از مالکیت صنعتی",
+      "priority": "P1",
+      "status": "quarantined",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "cross_check": [],
+      "reason": "برای مالکیت فکری/تجارت، متن و مقررات مرتبط باید یکجا تنقیح شوند.",
+      "production_search_status": "inactive_quarantined",
+      "local_records_moved_to": "quarantine/inactive_laws.json"
+    },
+    {
+      "law": "قانون وکالت",
+      "priority": "P0",
+      "status": "activated_source_backed",
+      "article_range": "1-59",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk"
+      ],
+      "cross_check": [
+        "nezamat.ir/post-1086/"
+      ],
+      "reason": "هسته حرفه وکالت؛ باید با استقلال کانون، کیفیت اخذ پروانه و آیین‌نامه‌ها شبکه شود.",
+      "activated": "2026-08-20",
+      "activation_source": "https://qavanin.ir/Law/TreeText/?IDS=5525522950710247937"
+    },
+    {
+      "law": "لایحه قانونی استقلال کانون وکلای دادگستری",
+      "priority": "P0",
+      "status": "activated_source_backed",
+      "article_range": "1-28",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk",
+        "majlis_rc"
+      ],
+      "cross_check": [
+        "farsbar.ir"
+      ],
+      "reason": "منبع کلیدی حرفه وکالت؛ نیازمند متن و اصلاحات/آیین‌نامه‌های مرتبط.",
+      "activated": "2026-08-20",
+      "activation_source": "https://qavanin.ir/Law/RelatedIndex/?IDS=15820609018639187844"
+    },
+    {
+      "law": "قانون کیفیت اخذ پروانه وکالت دادگستری",
+      "priority": "P0",
+      "status": "candidate_text_captured_primary_pending",
+      "article_range": "1-7",
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "rrk"
+      ],
+      "cross_check": [
+        "https://nezamat.ir/post-29874/",
+        "https://www.irancodify.com/b/%D9%82%D8%A7%D9%86%D9%88%D9%86_%DA%A9%DB%8C%D9%81%DB%8C%D8%AA_%D8%A7%D8%AE%D8%B0_%D9%BE%D8%B1%D9%88%D8%A7%D9%86%D9%87_%D9%88%DA%A9%D8%A7%D9%84%D8%AA_%D8%AF%D8%A7%D8%AF%DA%AF%D8%B3%D8%AA%D8%B1%DB%8C_%D9%85%D8%B5%D9%88%D8%A8_1376-01-17"
+      ],
+      "reason": "برای بخش حرفه وکالت و آزمون/پروانه ضروری است.",
+      "candidate_file": "quarantine/قانون_کیفیت_اخذ_پروانه_وکالت_دادگستری__candidate.json",
+      "checksum": "092846c7aa39e499700ff239231abbbce50d24178fa922e4996567630b186f85",
+      "last_verified": "2026-08-20",
+      "production_search_status": "inactive_quarantined",
+      "local_records_moved_to": "quarantine/inactive_laws.json"
+    }
+  ],
+  "entries": [
+    {
+      "law": "قانون وکالت",
+      "status": "activated_source_backed",
+      "batch": "batch3",
+      "added": "2026-08-20",
+      "activated": "2026-08-20"
+    },
+    {
+      "law": "آیین‌نامه اجرایی لایحه قانونی استقلال کانون وکلای دادگستری",
+      "status": "activated_source_backed",
+      "batch": "batch3",
+      "added": "2026-08-20",
+      "activated": "2026-08-20"
+    }
+  ],
+  "last_updated": "2026-10-31",
+  "batch3_note": "دو سند اولویت بالای حرفه وکالت به قرنطینه اضافه شدند؛ هیچ‌کدام تا capture کامل و تطبیق ماده‌به‌ماده فعال نشده‌اند.",
+  "activation_note": "چهار منبع رسمی اولویت‌بالا فعال شدند. فعال‌سازی از نوع source-backed است؛ متن ماده‌محور محلی تا زمان capture کامل در laws.json قرار نمی‌گیرد.",
+  "production_search_policy": {
+    "effective_on": "2026-10-31",
+    "inactive_records_file": "quarantine/inactive_laws.json",
+    "runtime_gate": "legal_bot/laws.py::QUARANTINED_LAWS",
+    "inactive_groups": 14,
+    "inactive_records": 770,
+    "note": "موارد قرنطینه‌شده و خلاصه‌های وابسته از laws.json خارج و از ایندکس فعال حذف شدند؛ فایل پشتیبان قرنطینه برای ممیزی و بازیابی نگهداری می‌شود."
+  }
+}

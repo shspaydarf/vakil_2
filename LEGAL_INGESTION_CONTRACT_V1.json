@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "project": "MACHINA",
+  "purpose": "Additive legal document ingestion; preserve existing legal JSON schemas and records.",
+  "non_negotiable_rules": [
+    "Never delete or rewrite the existing legal corpus as part of ingestion.",
+    "Never overwrite an existing document or article based only on title similarity.",
+    "Keep discovery source separate from final issuing authority.",
+    "Keep uncertain, incomplete, conflicting, or unverified documents in review staging.",
+    "Keep original PDF, extracted text, checksum, provenance, and version history.",
+    "Do not automatically reactivate quarantined legal data."
+  ],
+  "source_policy": {
+    "majles": {
+      "role": "preferred discovery and verification source for laws passed by Parliament",
+      "final_authority_for": ["law"]
+    },
+    "ekhtebar": {
+      "role": "discovery and indexing source; not standalone proof of authenticity or current legal effect",
+      "final_authority_for": []
+    },
+    "issuing_court_or_judiciary": {
+      "role": "final source verification for judicial decisions and advisory opinions",
+      "final_authority_for": ["supreme_court_ruling", "administrative_court_ruling", "advisory_opinion"]
+    }
+  },
+  "document_types": [
+    "law",
+    "regulation",
+    "supreme_court_ruling",
+    "administrative_court_ruling",
+    "advisory_opinion",
+    "circular"
+  ],
+  "workflow_statuses": [
+    "discovered",
+    "downloaded",
+    "extracted",
+    "needs_review",
+    "validated",
+    "imported",
+    "rejected",
+    "superseded"
+  ],
+  "required_document_metadata": [
+    "document_id",
+    "document_type",
+    "title",
+    "issuing_authority",
+    "discovery_source_id",
+    "discovery_url",
+    "retrieved_at",
+    "file_sha256",
+    "original_filename",
+    "workflow_status"
+  ],
+  "optional_document_metadata": [
+    "document_number",
+    "adoption_date",
+    "publication_date",
+    "effective_date",
+    "official_source_id",
+    "official_url",
+    "official_match_status",
+    "stored_pdf_path",
+    "extraction_method",
+    "page_count",
+    "extracted_text_path",
+    "extraction_quality",
+    "parser_version",
+    "duplicate_of",
+    "target_json",
+    "target_group",
+    "target_record_ids",
+    "validation_checks",
+    "review_notes"
+  ],
+  "legacy_targets": {
+    "laws": "legal_bot/data/iran/laws.json",
+    "rulings": "legal_bot/data/iran/rulings.json",
+    "consultations": "legal_bot/data/iran/consultations.json",
+    "samples_and_circulars": "legal_bot/data/iran/samples_and_circulars.json"
+  },
+  "staging_targets": {
+    "registry": "legal_bot/data/iran/ingestion_registry.json",
+    "pdf_archive": "legal_bot/data/iran/ingestion_archive/pdfs/",
+    "extracted_text": "legal_bot/data/iran/ingestion_archive/text/",
+    "review_queue": "legal_bot/data/iran/ingestion_review/"
+  },
+  "import_policy": {
+    "new_document": "Append only to the matching existing JSON category after validation.",
+    "amendment": "Retain as a separate amendment/version and link to the base document; do not silently consolidate.",
+    "duplicate": "Do not import; record duplicate_of and preserve provenance.",
+    "uncertain_or_conflicting": "Set workflow_status=needs_review; do not add to active search corpus.",
+    "quarantine": "Never reactivate without a separate explicit source-backed review.",
+    "runtime_index": "Refresh through a controlled reload/restart after a successful atomic import; never mutate active files mid-request."
+  }
+}

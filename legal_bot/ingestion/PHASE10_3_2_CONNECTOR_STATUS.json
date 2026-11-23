@@ -1,0 +1,16 @@
+{
+  "phase": "10.3.2",
+  "status": "fixture_tested_connectors_added_live_access_unverified",
+  "network_access_enabled": false,
+  "active_bank_write": false,
+  "sources": [
+    {"source_id":"majles_rc","connector":"legal_bot.ingestion.connectors.majles_rc.MajlesResearchCenterConnector","status":"fixture_tested_live_access_unverified","authority":"candidate_primary_discovery"},
+    {"source_id":"national_regulations","connector":"legal_bot.ingestion.connectors.official_candidates.DoticRegulationsConnector","status":"fixture_tested_live_access_unverified","authority":"candidate_primary_unverified"},
+    {"source_id":"official_gazette","connector":"legal_bot.ingestion.connectors.official_candidates.OfficialGazetteConnector","status":"fixture_tested_live_access_unverified","authority":"candidate_primary_unverified"},
+    {"source_id":"eadil_portal","connector":"legal_bot.ingestion.connectors.official_candidates.JudiciaryPortalConnector","status":"fixture_tested_live_access_unverified","authority":"candidate_primary_unverified"},
+    {"source_id":"ekhtebar","connector":"legal_bot.ingestion.connectors.ekhtebar.EkhtebarUnityRulingsConnector","status":"fixture_tested_secondary_discovery_only","authority":"secondary"}
+  ],
+  "families": ["laws", "regulations_and_bylaws", "supreme_court_unity_rulings", "administrative_justice_general_assembly_rulings", "judiciary_advisory_opinions"],
+  "test_count": 761,
+  "new_tests": 6
+}

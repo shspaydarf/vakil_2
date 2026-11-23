@@ -1,0 +1,508 @@
+{
+  "version": "1.1",
+  "purpose": "Persian legal OCR disambiguation for lam-alef (لا) vs alef-lam (ال)",
+  "rules": {
+    "do_not_replace_all_al": true,
+    "only_apply_word_level_corrections": true,
+    "preserve_unknown_tokens": true,
+    "use_as_ocr_correction_not_legal_fact": true
+  },
+  "lam_alef_words": [
+    {
+      "canonical": "لازم",
+      "ocr_confusion": [
+        "الزم"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لاحق",
+      "ocr_confusion": [
+        "الحق"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لاجَرَم",
+      "ocr_confusion": [
+        "الجَرَم"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لاجرم",
+      "ocr_confusion": [
+        "الجرم"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لابد",
+      "ocr_confusion": [
+        "البد"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لامحاله",
+      "ocr_confusion": [
+        "المحاله"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لاشک",
+      "ocr_confusion": [
+        "الشک"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لااقل",
+      "ocr_confusion": [
+        "الاقل"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لامحاله",
+      "ocr_confusion": [
+        "المحاله"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لازمه",
+      "ocr_confusion": [
+        "الزمه"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لاوصول",
+      "ocr_confusion": [
+        "الوصول"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لازم‌الاجرا",
+      "ocr_confusion": [
+        "الزم‌الاجرا"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لازم الاجرا",
+      "ocr_confusion": [
+        "الزم الاجرا"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لاشرط",
+      "ocr_confusion": [
+        "الشرط"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لازم‌الاتباع",
+      "ocr_confusion": [
+        "الزم‌الاتباع"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "لازم الاتباع",
+      "ocr_confusion": [
+        "الزم الاتباع"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    }
+  ],
+  "al_words": [
+    {
+      "canonical": "التزام",
+      "ocr_confusion": [
+        "لاتزام"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "الزام",
+      "ocr_confusion": [
+        "لازام"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "الحاق",
+      "ocr_confusion": [
+        "لاحاق"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "احاله",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اعلام",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "ابلاغ",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "الزامی",
+      "ocr_confusion": [
+        "لازامی"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "التزامی",
+      "ocr_confusion": [
+        "لاتزامی"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "التفات",
+      "ocr_confusion": [
+        "لاتفات"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "التماس",
+      "ocr_confusion": [
+        "لاتماس"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اعتراض",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "التجاء",
+      "ocr_confusion": [
+        "لاتجاء"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "الکترونیکی",
+      "ocr_confusion": [
+        "لاکترونیکی"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "التقاط",
+      "ocr_confusion": [
+        "لاتقاط"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "الحاقیه",
+      "ocr_confusion": [
+        "لاحاقیه"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "الزام‌آور",
+      "ocr_confusion": [
+        "لازام‌آور"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "الزام آور",
+      "ocr_confusion": [
+        "لازام آور"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "استعلام",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اطلاع",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اطلاق",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "انتقال",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "انتساب",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "انحلال",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "انفساخ",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اقاله",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اموال",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "املاک",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اهلیت",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اعتبار",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "ادعا",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اعاده",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "احراز",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اخطار",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اخذ",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "ارکان",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اسناد",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اصلاح",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اضافه",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اغفال",
+      "ocr_confusion": [],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "التصاق",
+      "ocr_confusion": [
+        "لاتصاق"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "التحاق",
+      "ocr_confusion": [
+        "لاتحاق"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "الزاماً",
+      "ocr_confusion": [
+        "لازاماً"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "الاقه",
+      "ocr_confusion": [
+        "لااقه"
+      ],
+      "category": "legal_term",
+      "confidence": 0.98
+    },
+    {
+      "canonical": "اختلاف",
+      "ocr_confusion": [
+        "اختالف"
+      ],
+      "category": "legal_term",
+      "confidence": 0.99
+    }
+  ],
+  "proper_names": [
+    {
+      "canonical": "لاهوتی",
+      "ocr_confusion": [
+        "الهوتی"
+      ],
+      "category": "proper_name",
+      "confidence": 0.95
+    },
+    {
+      "canonical": "لاهیجی",
+      "ocr_confusion": [
+        "الهیجی"
+      ],
+      "category": "proper_name",
+      "confidence": 0.95
+    },
+    {
+      "canonical": "لاله",
+      "ocr_confusion": [
+        "الله"
+      ],
+      "category": "proper_name",
+      "confidence": 0.95
+    },
+    {
+      "canonical": "لاله‌زار",
+      "ocr_confusion": [
+        "الله‌زار"
+      ],
+      "category": "proper_name",
+      "confidence": 0.95
+    },
+    {
+      "canonical": "لاچینی",
+      "ocr_confusion": [
+        "الچینی"
+      ],
+      "category": "proper_name",
+      "confidence": 0.95
+    },
+    {
+      "canonical": "لاهیجان",
+      "ocr_confusion": [
+        "الهیجان"
+      ],
+      "category": "proper_name",
+      "confidence": 0.95
+    },
+    {
+      "canonical": "لارستان",
+      "ocr_confusion": [
+        "الرستان"
+      ],
+      "category": "proper_name",
+      "confidence": 0.95
+    },
+    {
+      "canonical": "لاهیجان",
+      "ocr_confusion": [
+        "الهیجان"
+      ],
+      "category": "proper_name",
+      "confidence": 0.95
+    }
+  ]
+}

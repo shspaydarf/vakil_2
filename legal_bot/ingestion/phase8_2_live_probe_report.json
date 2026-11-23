@@ -1,0 +1,47 @@
+{
+  "phase": "8.2",
+  "purpose": "bounded_live_source_probe",
+  "evidence": [
+    {
+      "source_id": "majles_rc",
+      "source_role": "official_primary_candidate",
+      "outcome": "http_502_from_chat_web_probe",
+      "url": "https://rc.majlis.ir/fa/law/show/93849",
+      "detail": "بازکردن مستقیم صفحه در محیط بررسی وب با 502 Bad Gateway ناموفق بود. این نتیجه وضعیت شبکه یا مرورگر استقرار MACHINA را تعیین نمی‌کند. مسیر سه‌مرحله‌ای چاپ فقط بر اساس تصاویر و توضیح کاربر شناخته شده است.",
+      "evidence_origin": "chat_web_open_attempt_and_user_screenshots",
+      "document_pages": null
+    },
+    {
+      "source_id": "ekhtebar",
+      "source_role": "secondary_reference_only",
+      "outcome": "listing_page_readable_pdf_link_confirmed",
+      "url": "https://www.ekhtebar.ir/قوانین/",
+      "detail": "صفحه فهرست قوانین در محیط بررسی وب خوانده شد؛ جدول عنوان/سال/لینک PDF دارد. برای نمونه، لینک PDF قانون کاهش مجازات حبس تعزیری باز شد و محتوای PDF هفت‌صفحه‌ای قابل مشاهده و استخراج متنی بود. این نمونه سند پایلوت مجلس نیست و فقط مسیر فنی PDF اختبار را نشان می‌دهد.",
+      "evidence_origin": "chat_web_open_and_link_click",
+      "document_pages": 7
+    },
+    {
+      "source_id": "ekhtebar_pdf_sample",
+      "source_role": "secondary_sample_not_official_primary",
+      "outcome": "pdf_opened_and_text_visible",
+      "url": "https://www.ekhtebar.ir/wp-content/uploads/2020/06/قانون-کاهش-مجازات-حبس-تعزیری-2.pdf",
+      "detail": "PDF نمونه در محیط وب باز شد؛ هفت صفحه گزارش شد و متن صفحات قابل مشاهده بود. دریافت فایل توسط runtime پروژه، ذخیره staging، OCR محلی و تطبیق حقوقی با نسخه رسمی انجام نشد.",
+      "evidence_origin": "chat_web_pdf_open",
+      "document_pages": 7
+    }
+  ],
+  "findings": {
+    "ekhtebar_listing_and_direct_pdf_route_observed": true,
+    "majles_live_route_confirmed": false,
+    "ekhtebar_is_secondary_only": true,
+    "pilot_document_93849_downloaded": false,
+    "project_runtime_connectivity_proven": false,
+    "local_pdf_downloaded": false,
+    "ocr_run": false,
+    "staging_written": false,
+    "active_bank_modified": false,
+    "legal_validity_assessed": false
+  },
+  "next_gate": "8.3_download_one_authorized_sample_and_validate_without_active_bank_import",
+  "report_sha256": "8e205c0933a47dedff2cae16d822e2ff385d4735130b9e594810bd61ff91b54a"
+}

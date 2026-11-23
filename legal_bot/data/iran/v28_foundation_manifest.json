@@ -1,0 +1,284 @@
+{
+  "schema_version": "1.1",
+  "version": "V28",
+  "generated_on": "2026-08-20",
+  "strategy": "breadth_first",
+  "status": "combined_source_ready_pending_text_import",
+  "workstreams": {
+    "V26_foundation": [
+      "قانون مسئولیت مدنی",
+      "قانون اجرای احکام مدنی",
+      "قانون روابط موجر و مستأجر ۱۳۵۶ + ۱۳۷۶",
+      "قانون کار",
+      "قانون جرایم رایانه‌ای"
+    ],
+    "V27_foundation": [
+      "قانون تأمین اجتماعی",
+      "قانون مالیات‌های مستقیم",
+      "قانون مالیات بر ارزش افزوده",
+      "قانون دیوان عدالت اداری",
+      "قانون تجارت الکترونیکی"
+    ]
+  },
+  "laws": [
+    {
+      "title": "قانون مسئولیت مدنی",
+      "domain": "civil",
+      "article_range": "1-16",
+      "expected_articles": 16,
+      "priority": "P0",
+      "topic_tags": [
+        "civil",
+        "tort",
+        "liability"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://rc.majlis.ir/fa/law/show/95202"
+      ],
+      "status": "source_identified_pending_import"
+    },
+    {
+      "title": "قانون اجرای احکام مدنی",
+      "domain": "civil_procedure",
+      "article_range": "1-180",
+      "expected_articles": 180,
+      "priority": "P0",
+      "topic_tags": [
+        "civil",
+        "procedure",
+        "enforcement"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "status": "source_identified_pending_import"
+    },
+    {
+      "title": "قانون روابط موجر و مستأجر مصوب ۱۳۵۶",
+      "domain": "civil",
+      "article_range": "1-32",
+      "expected_articles": 32,
+      "priority": "P0",
+      "topic_tags": [
+        "civil",
+        "property",
+        "lease"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://rc.majlis.ir/fa/law/print_version/97570"
+      ],
+      "status": "source_identified_pending_import"
+    },
+    {
+      "title": "قانون روابط موجر و مستأجر مصوب ۱۳۷۶",
+      "domain": "civil",
+      "article_range": "1-13",
+      "expected_articles": 13,
+      "priority": "P0",
+      "topic_tags": [
+        "civil",
+        "property",
+        "lease"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://rc.majlis.ir/fa/law/print_version/92943"
+      ],
+      "status": "source_identified_pending_import"
+    },
+    {
+      "title": "قانون کار",
+      "domain": "labor_social",
+      "article_range": "1-203",
+      "expected_articles": 203,
+      "priority": "P1",
+      "topic_tags": [
+        "labor",
+        "employment"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "status": "source_identified_pending_import"
+    },
+    {
+      "title": "قانون جرایم رایانه‌ای",
+      "domain": "criminal",
+      "article_range": "1-56",
+      "expected_articles": 56,
+      "priority": "P1",
+      "topic_tags": [
+        "criminal",
+        "cyber"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin",
+        "majlis_rc"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "status": "source_identified_pending_import"
+    },
+    {
+      "title": "قانون تأمین اجتماعی",
+      "domain": "labor_social",
+      "article_range": "1-118",
+      "expected_articles": 118,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "social_security",
+        "labor",
+        "insurance"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [
+        "tamin_law_portal"
+      ],
+      "known_source_urls": [
+        "https://law.tamin.ir/",
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-540/"
+      ],
+      "notes": "متن قانون مشتمل بر ۱۱۸ ماده و ۴۰ تبصره است؛ ماده ۱۱۸ نیز در منابع متن قانون دیده می‌شود. قبل از ورود باید اصلاحات و وضعیت مواد را تطبیق داد."
+    },
+    {
+      "title": "قانون مالیات‌های مستقیم",
+      "domain": "tax",
+      "article_range": "1-282",
+      "expected_articles": 282,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "tax",
+        "direct_tax"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [
+        "tax_authority"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/",
+        "https://intamedia.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-39798/",
+        "https://bidbarg.net/regulation/tax/"
+      ],
+      "notes": "نسخه پایه ۲۸۲ ماده دارد؛ اصلاحات متعدد و جاری بودن برخی احکام باید جداگانه مدل شود. وجود متن ۲۸۲ ماده به‌تنهایی به معنی نسخه جاری verified نیست."
+    },
+    {
+      "title": "قانون مالیات بر ارزش افزوده",
+      "domain": "tax",
+      "article_range": "1-57",
+      "expected_articles": 57,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "tax",
+        "vat"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [
+        "tax_authority"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/",
+        "https://intamedia.ir/"
+      ],
+      "cross_check_urls": [],
+      "notes": "قانون پایه جدید باید از متن جاری و اصلاحات بعدی تفکیک شود؛ صرفاً یک متن قدیمی وارد corpus نشود."
+    },
+    {
+      "title": "قانون دیوان عدالت اداری",
+      "domain": "administrative",
+      "article_range": "1-124",
+      "expected_articles": 124,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "administrative",
+        "judicial_review",
+        "procedure"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-39204/"
+      ],
+      "notes": "قانون ۱۳۹۰ با اصلاحات ۱۴۰۲ باید به‌صورت نسخه تلفیقی و با ثبت اصلاحات وارد شود؛ قانون ۱۳۸۵ منسوخ است و نباید در جستجوی جاری مخلوط شود."
+    },
+    {
+      "title": "قانون تجارت الکترونیکی",
+      "domain": "commercial",
+      "article_range": "1-81",
+      "expected_articles": 81,
+      "status": "source_identified_pending_import",
+      "priority": "P1",
+      "topic_tags": [
+        "commercial",
+        "technology",
+        "ecommerce",
+        "data_message"
+      ],
+      "primary_sources": [
+        "dotic",
+        "qavanin"
+      ],
+      "official_or_specialized_sources": [],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-34221/",
+        "https://law-ir.ir/law/cat/1656/"
+      ],
+      "notes": "متن قانون مشتمل بر ۸۱ ماده و ۷ تبصره است. در ورود، تبصره‌ها و ارجاعات درون‌قانونی حفظ شوند."
+    }
+  ],
+  "verification_rule": "فقط پس از دریافت متن کامل، تطبیق با منبع رسمی/اولیه، بررسی اصلاحات/نسخ و checksum وضعیت verified داده می‌شود.",
+  "important_note": "این نسخه عمداً متن حقوقی را جعل یا ناقص نمی‌کند. قوانین این موج تا تکمیل import/cross-check در جستجوی قطعی corpus فعال نیستند."
+}

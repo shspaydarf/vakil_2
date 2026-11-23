@@ -1,0 +1,11 @@
+{
+  "version": "V33",
+  "normalization": {
+    "persian_arabic_letter_normalization": true,
+    "zero_width_normalization": true,
+    "whitespace_collapse": true,
+    "compact_form_lookup": true,
+    "half_space_form_lookup": true
+  },
+  "ai_required_for_vocabulary_lookup": false
+}

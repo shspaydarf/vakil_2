@@ -1,0 +1,11 @@
+python-telegram-bot
+Pillow
+python-docx
+PyMuPDF
+jdatetime
+pytesseract
+reportlab
+requests
+# Correct Persian/Arabic glyph shaping and right-to-left ordering in generated PDFs
+arabic-reshaper
+python-bidi

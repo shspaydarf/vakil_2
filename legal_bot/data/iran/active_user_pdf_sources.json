@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-08-20",
+  "sources": {
+    "قانون اجرای احکام مدنی": {
+      "status": "active_user_pdf_source",
+      "source_file": "اجرای احکام مدنی.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "e8117e2f1c01aa140cb454098b6d09bc5711375e1d2f8a0465f9af043836338b",
+      "articles_loaded": 180,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون مسئولیت مدنی": {
+      "status": "active_user_pdf_source",
+      "source_file": "مسئولیت مدنی.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "3f17839b7f25d92fcc44f275d109569de7f55aef67781139954c1ca097b0c6b2",
+      "articles_loaded": 16,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون روابط موجر و مستأجر ۱۳۵۶": {
+      "status": "active_user_pdf_source",
+      "source_file": "موجر مستاجر ۵۶.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "fa521325e58df8125f35360f80a090ccb07757418f15db9f07476721fbcbd29c",
+      "articles_loaded": 32,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون کار": {
+      "status": "active_user_pdf_source",
+      "source_file": "کار.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "c0b9a08a9418307457967f58e4028bb3ff1ccf8cf22b6b1d13050dc9d45a10c5",
+      "articles_loaded": 203,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون تأمین اجتماعی": {
+      "status": "active_user_pdf_source",
+      "source_file": "تامین اجتماعی.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "f4fcf67a311630cb884288db6eeabb7769180469df555f49376e06704e8601f8",
+      "articles_loaded": 118,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون مالیات‌های مستقیم": {
+      "status": "active_user_pdf_source",
+      "source_file": "مالیات مستقیم.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "041316d16b4a204aef87e05ad35c31d1fcaa499aa30fe847a71b4a067a481bd6",
+      "articles_loaded": 271,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون مالیات بر ارزش افزوده": {
+      "status": "active_user_pdf_source",
+      "source_file": "ارزش افزوده.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "abc0fe82cd2d8b21c4d155b2dc91f8db90c34c39407e13fdd9836f838f5fbee4",
+      "articles_loaded": 53,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون تشکیلات و آیین دادرسی دیوان عدالت اداری": {
+      "status": "user_pdf_reference",
+      "source_file": "تشکیلات و ایین.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "dcdb5c86390fc1260f6c0caf15cce9c82a3d478a8422f802a5cf4cfdfdc616e1",
+      "articles_loaded": 124,
+      "last_verified": "2026-08-20",
+      "verification_note": "PDF مرجع کاربر؛ به علت وجود متن قبلی در corpus، رکورد تکراری ایجاد نشده است."
+    },
+    "قانون حمایت از حقوق مصرف‌کنندگان": {
+      "status": "active_user_pdf_source",
+      "source_file": "حمایت مصرفکننده.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "245fc65348d5f7e5cce5d283a29336f26da14ed3b92fa5df07c4f45e14af3516",
+      "articles_loaded": 22,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون راجع به ثبت شرکت‌ها": {
+      "status": "active_user_pdf_source",
+      "source_file": "ثبت شرکت.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "fc7d124bc518472ccb96f5729825597fd1e2c59fed47db69c51f8ad2c5e3278a",
+      "articles_loaded": 10,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون جرایم رایانه‌ای": {
+      "status": "active_user_pdf_source",
+      "source_file": "جرایم رایانه‌ای.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "16b0a2975cc83ec39f500fa7b8e5d5da662f43857280a940e70e4ddc33163875",
+      "articles_loaded": 56,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون افراز و فروش املاک مشاع": {
+      "status": "active_user_pdf_source",
+      "source_file": "مشاع.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "932e57bb1e06f78c8537295de43bdba3f33494446ff25c1c2307bf9d56019c8e",
+      "articles_loaded": 6,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون بیمه اجباری خسارات واردشده به شخص ثالث در اثر حوادث ناشی از وسایل نقلیه": {
+      "status": "active_user_pdf_source",
+      "source_file": "شخص ثالث.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "c61024f74368e21f9423806e58ba674a1f7b9e10fd97d82b69ae5a4122257cd8",
+      "articles_loaded": 66,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "لایحه قانونی استقلال کانون وکلای دادگستری": {
+      "status": "active_user_pdf_source",
+      "source_file": "استقلال وکلا.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "2529bb73394579d4f7daf1acc10c94036d32cfb91ae95519ace1f3862eb66aa7",
+      "articles_loaded": 26,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون اصلاح قانون مبارزه با مواد مخدر و الحاق موادی به آن": {
+      "status": "active_user_pdf_source",
+      "source_file": "مواد مخدر.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "3566ed0b1f5827a470ccf16814c9c3484bf35aae350547562ebf5bd259d38686",
+      "articles_loaded": 40,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون تملک آپارتمان‌ها": {
+      "status": "active_user_pdf_source",
+      "source_file": "آپارتمان تملک .PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "5cb540f44d1f49efd8decd0f288f979916b85d7087a8ff4c8fdd8aea44201ef2",
+      "articles_loaded": 10,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "لایحه قانونی اصلاح قسمتی از قانون تجارت": {
+      "status": "active_user_pdf_source",
+      "source_file": "اصلاحیه قانون تجارت.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "75a0c014ef98d68129cc6b582c37ea3ac54f4bcba8baedfdf5a3d2deace856d4",
+      "articles_loaded": 293,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون حمایت از اطفال و نوجوانان": {
+      "status": "active_user_pdf_source",
+      "source_file": "اطفال.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "ac74b38f87a5c340c43e40fc31a3603e5987d85e9a879835c9b6ce43182e02b1",
+      "articles_loaded": 9,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون تجارت الکترونیکی": {
+      "status": "active_user_pdf_source",
+      "source_file": "تجارت الکترونیک.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "85d13b33bf432d68934de48a5a52bc8a1c62c4be806b0fc20ef9bb27754d9571",
+      "articles_loaded": 76,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون بیمه": {
+      "status": "active_user_pdf_source",
+      "source_file": "بیمه.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "86c02eb0daffb7e58d6f1d0c02762c7225e9f7c42def4d7e0ce6b5504b28c240",
+      "articles_loaded": 36,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "__mismatch__آیین نامه استقلال کانون وکلا": {
+      "status": "not_ingested_mislabeled_or_duplicate",
+      "source_file": "ایین نامه استقلال وکلا.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "3a08fd0f4e9474b093dad81eb5a9b3d9a5e499bed8c82fbfcf7fc19398d7110a",
+      "note": "محتوای فایل با لایحه قانونی استقلال کانون وکلای دادگستری یکسان/هم‌محتوا تشخیص داده شد و به‌عنوان آیین‌نامه اجرایی جداگانه وارد نشد."
+    },
+    "قانون الزام به ثبت رسمی معاملات اموال غیرمنقول": {
+      "status": "user_pdf_active",
+      "source_file": "ثبت منقول.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "551f8e98c77d47e09d64af6ea6a0052ddf427f4097f5d56ab0b85d281d952635",
+      "articles_loaded": 15,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج/ثبت شده است؛ آخرین اصلاحات رسمی مستقل تطبیق نشده‌اند."
+    },
+    "قانون حمایت از مالکیت صنعتی": {
+      "status": "user_pdf_active",
+      "source_file": "مالکیت صنعتی.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "6fa0b9f4f3564ae1d8433567d124c3671e0bb103d784f4e757afd265a3ef8a68",
+      "articles_loaded": 150,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج/ثبت شده است؛ آخرین اصلاحات رسمی مستقل تطبیق نشده‌اند."
+    },
+    "قانون بانک مرکزی جمهوری اسلامی ایران": {
+      "status": "user_pdf_active",
+      "source_file": "بانک مرکزی.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "ca8b7eecbe210096299c12dd8cd55e8cb82c9ec630ebaa29401ea4753aa231cd",
+      "articles_loaded": 67,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج/ثبت شده است؛ آخرین اصلاحات رسمی مستقل تطبیق نشده‌اند."
+    },
+    "قانون تشدید مجازات مرتکبین ارتشاء و اختلاس و کلاهبرداری": {
+      "status": "user_pdf_active",
+      "source_file": "تشدید.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "3601fd1d338936c55dac930f62c55dcd13802116bc10a0bc2c67e8bca2e95a8c",
+      "articles_loaded": 8,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج/ثبت شده است؛ آخرین اصلاحات رسمی مستقل تطبیق نشده‌اند."
+    },
+    "قانون اداره تصفیه امور ورشکستگی": {
+      "status": "user_pdf_active",
+      "source_file": "ورشکستگی.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "a89fecec874e90babc1801b4969039fa4720f4f5fd4beaeb10393a4ec58e215e",
+      "articles_loaded": 60,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج/ثبت شده است؛ آخرین اصلاحات رسمی مستقل تطبیق نشده‌اند."
+    },
+    "قانون امور گمرکی": {
+      "status": "user_pdf_active",
+      "source_file": "گمرکی.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "c6c995b75c881badbe8e01e2c57b3991a55a647ed357831c212e6b97bb607538",
+      "articles_loaded": 165,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج/ثبت شده است؛ آخرین اصلاحات رسمی مستقل تطبیق نشده‌اند."
+    },
+    "قانون مجازات راجع به انتقال مال غیر": {
+      "status": "user_pdf_active",
+      "source_file": "مال غیر.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "4b68f857e07d1782fdc0fa3773eaba54819df4b51b221503a4bfabef1999299e",
+      "articles_loaded": 9,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج/ثبت شده است؛ آخرین اصلاحات رسمی مستقل تطبیق نشده‌اند."
+    },
+    "قانون نحوه اجرای اصل ۴۹ قانون اساسی جمهوری اسلامی ایران": {
+      "status": "user_pdf_active",
+      "source_file": "اصل ۴۹.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "69ce60b59bbf55642e4df7419a5a17b045c2ff6421eccd7c1cb192da1d24ba99",
+      "articles_loaded": 15,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج/ثبت شده است؛ آخرین اصلاحات رسمی مستقل تطبیق نشده‌اند."
+    },
+    "قانون شوراهای حل اختلاف ۱۳۸۷": {
+      "status": "user_pdf_historical",
+      "source_file": "حل اختلاف.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "320cbefd0fc765b5a90f821af093230bdc3ad57c621f78502c2e78a7c1b14f66",
+      "articles_loaded": 51,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج/ثبت شده است؛ آخرین اصلاحات رسمی مستقل تطبیق نشده‌اند."
+    }
+  }
+}

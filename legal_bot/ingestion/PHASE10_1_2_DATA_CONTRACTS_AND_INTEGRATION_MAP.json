@@ -1,0 +1,65 @@
+{
+  "phase": "10.1.2",
+  "contract_version": "10.1.2",
+  "status": "contracts_defined_not_yet_end_to_end_wired",
+  "active_bank_write_performed": false,
+  "network_access_performed": false,
+  "document_kinds": [
+    "law",
+    "regulation",
+    "supreme_court_ruling",
+    "administrative_court_ruling",
+    "advisory_opinion"
+  ],
+  "canonical_identity": {
+    "preferred_basis": ["jurisdiction", "issuer", "document_kind", "official_number", "document_date"],
+    "fallback_basis": ["source_id", "document_kind", "external_id"],
+    "title_only_identity_allowed": false,
+    "cross_source_match_is_legal_equivalence": false,
+    "version_basis": ["document_id", "content_sha256"]
+  },
+  "lifecycle": [
+    "discovered",
+    "identity_checked",
+    "queued",
+    "acquired",
+    "extracted",
+    "validated",
+    "ready_for_import",
+    "imported"
+  ],
+  "terminal_or_exception_states": ["duplicate", "quarantined", "deferred", "rejected", "failed"],
+  "handoffs": [
+    {"from": "source_discovery", "module": "models.py / CandidateDocument", "to": "identity_and_catalog", "input": "CandidateDocument", "output": "canonical document_id + catalog record", "status": "existing_components_contract_defined"},
+    {"from": "identity_and_catalog", "module": "record_identity.py + document_catalog.py", "to": "download_queue", "input": "identity-checked catalog record", "output": "queued document envelope", "status": "partial_integration"},
+    {"from": "download_queue", "module": "download_queue.py + secure_pdf_fetcher.py", "to": "pdf_extraction", "input": "approved HTTPS asset URL", "output": "quarantined PDF + content hash + page count", "status": "components_exist_live_adapter_unverified"},
+    {"from": "pdf_extraction", "module": "pdf_text_extractor.py + persian_pdf_ocr.py + document_pipeline.py", "to": "legal_validation", "input": "PDF bytes and metadata", "output": "normalized extracted candidate", "status": "components_exist_orchestrated_path_incomplete"},
+    {"from": "legal_validation", "module": "final_validation_gate.py + provenance_validator.py + completeness_validator.py + version_conflict_validator.py", "to": "controlled_import", "input": "validated candidate with evidence", "output": "ready_for_import candidate", "status": "existing_components_contract_defined"},
+    {"from": "controlled_import", "module": "controlled_import.py + autonomous_maintenance.py + bank_transactions.py", "to": "offline_json_banks", "input": "verified candidate", "output": "append/update transaction + backup + audit", "status": "append_path_exists_update_semantics_incomplete"}
+  ],
+  "source_families": {
+    "law": ["majles", "official_gazette", "national_regulations"],
+    "regulation": ["official_gazette", "national_regulations"],
+    "supreme_court_ruling": ["official_judiciary_source"],
+    "administrative_court_ruling": ["official_judiciary_source"],
+    "advisory_opinion": ["official_judiciary_source"]
+  },
+  "safety_invariants": [
+    "secondary_sources_are_discovery_only",
+    "no_title_only_identity",
+    "no_legal_equivalence_inference_from_hash_match",
+    "no_status_inference_from_absence_or_silence",
+    "no_active_bank_write_before_validation_and_transaction",
+    "uncertain_normative_status_is_deferred_or_quarantined",
+    "page_budget_is_cumulative_per_run_and_deferred_work_is_resumable",
+    "source_access_is_exact_allowlist_https_and_fail_closed"
+  ],
+  "known_gaps_for_next_steps": [
+    "official_source_connectors_for_all_five_document_kinds",
+    "scheduler_to_discovery_to_import_orchestration",
+    "persistent_seen_cursor_and_change_detection_in_autonomous_runner",
+    "resumable_processing_for_documents_over_20_pages",
+    "safe_update_and_partial_repeal_semantics_for_existing_bank_records",
+    "production_runtime_and_live_source_verification"
+  ]
+}

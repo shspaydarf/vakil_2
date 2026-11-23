@@ -1,0 +1,17 @@
+{
+  "phase": "6.3",
+  "candidate_id": "MACHINA-PHASE6-1-IR-LAW-001",
+  "document_title": "قانون احکام دائمی برنامه های توسعه کشور",
+  "validation_status": "blocked_pending_official_pdf",
+  "reason_codes": ["official_pdf_not_acquired", "official_pdf_source_endpoint_unverified", "original_pdf_missing"],
+  "technical_integrity_passed": false,
+  "legal_authenticity_confirmed": false,
+  "current_force_confirmed": false,
+  "active_bank_modified": false,
+  "notes": [
+    "Phase 6.2 manifest records that the official PDF asset URL was not resolved and acquisition was blocked.",
+    "The official Parliament page URL remains the intended primary source, but the PDF asset itself has not been acquired.",
+    "Search discovery found a 31-page FAOLEX copy and other secondary reproductions; none is accepted as a substitute for the official PDF.",
+    "A 5-case technical validator test suite passed using synthetic fixtures; this does not validate the real law PDF."
+  ]
+}

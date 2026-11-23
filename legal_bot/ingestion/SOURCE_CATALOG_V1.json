@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "source_id": "ekhtebar",
+      "name": "پایگاه خبری اختبار",
+      "base_url": "https://www.ekhtebar.ir/",
+      "allowed_hosts": [
+        "www.ekhtebar.ir",
+        "ekhtebar.ir"
+      ],
+      "source_role": "secondary_discovery",
+      "pilot_category": "supreme_court_unity_rulings",
+      "pilot_url": "https://www.ekhtebar.ir/بانک-آراء-وحدت-رویه-دیوان‌عالی-کشور/",
+      "downloads_enabled": false,
+      "status": "read_only_fixture_tested_connector_implemented",
+      "connector_module": "legal_bot.ingestion.connectors.ekhtebar.EkhtebarUnityRulingsConnector",
+      "implemented_categories": [
+        "supreme_court_unity_rulings"
+      ],
+      "network_access_enabled": false
+    },
+    {
+      "source_id": "majles_rc",
+      "name": "مرکز پژوهش‌های مجلس - سامانه قوانین قدیمی",
+      "base_url": "https://rc.majlis.ir/fa/law",
+      "allowed_hosts": [
+        "rc.majlis.ir"
+      ],
+      "source_role": "preferred_parliamentary_discovery",
+      "example_record_url": "https://rc.majlis.ir/fa/law/print_version/929088",
+      "downloads_enabled": false,
+      "status": "fixture_tested_read_only_connector_implemented_live_access_unverified",
+      "connector_module": "legal_bot.ingestion.connectors.majles_rc.MajlesResearchCenterConnector",
+      "implemented_categories": [
+        "parliamentary_laws"
+      ],
+      "network_access_enabled": false
+    },
+    {
+      "source_id": "national_regulations",
+      "name": "سامانه ملی قوانین و مقررات کشور",
+      "base_url": "https://dotic.ir/",
+      "allowed_hosts": [
+        "dotic.ir",
+        "www.dotic.ir"
+      ],
+      "source_role": "official_registry_candidate_unverified",
+      "pilot_category": "regulations_and_bylaws",
+      "downloads_enabled": false,
+      "status": "fixture_parser_implemented_live_access_unverified",
+      "connector_module": "legal_bot.ingestion.connectors.official_candidates.DoticRegulationsConnector",
+      "implemented_categories": [
+        "laws",
+        "regulations_and_bylaws"
+      ],
+      "network_access_enabled": false
+    },
+    {
+      "source_id": "official_gazette",
+      "name": "روزنامه رسمی جمهوری اسلامی ایران",
+      "base_url": "https://rrk.ir/",
+      "allowed_hosts": [
+        "rrk.ir",
+        "www.rrk.ir"
+      ],
+      "source_role": "official_publication_candidate_unverified",
+      "pilot_category": "official_publications",
+      "downloads_enabled": false,
+      "status": "fixture_parser_implemented_live_access_unverified",
+      "connector_module": "legal_bot.ingestion.connectors.official_candidates.OfficialGazetteConnector",
+      "implemented_categories": [
+        "laws",
+        "regulations_and_bylaws",
+        "official_publications"
+      ],
+      "network_access_enabled": false
+    },
+    {
+      "source_id": "eadil_portal",
+      "name": "درگاه ملی قوه قضاییه",
+      "base_url": "https://eadil.com/",
+      "allowed_hosts": [
+        "eadil.com",
+        "www.eadil.com"
+      ],
+      "source_role": "judiciary_portal_candidate_unverified",
+      "pilot_category": "judiciary_advisory_opinions",
+      "downloads_enabled": false,
+      "status": "fixture_parser_implemented_live_access_unverified",
+      "connector_module": "legal_bot.ingestion.connectors.official_candidates.JudiciaryPortalConnector",
+      "implemented_categories": [
+        "supreme_court_unity_rulings",
+        "administrative_justice_general_assembly_rulings",
+        "judiciary_advisory_opinions",
+        "judiciary_circulars"
+      ],
+      "network_access_enabled": false
+    },
+    {
+      "source_id": "qavanin_national",
+      "name": "سامانه ملی قوانین و مقررات جمهوری اسلامی ایران (Qavanin)",
+      "base_url": "https://qavanin.ir/",
+      "allowed_hosts": [
+        "qavanin.ir",
+        "www.qavanin.ir"
+      ],
+      "source_role": "official_registry_candidate_unverified",
+      "pilot_category": "laws",
+      "downloads_enabled": false,
+      "status": "fixture_parser_implemented_live_access_unverified",
+      "connector_module": "legal_bot.ingestion.connectors.qavanin.QavaninConnector",
+      "implemented_categories": [
+        "laws",
+        "regulations_and_bylaws",
+        "supreme_court_unity_rulings",
+        "administrative_justice_general_assembly_rulings",
+        "judiciary_advisory_opinions"
+      ],
+      "network_access_enabled": false,
+      "notes": "Parser uses saved result-page HTML only; no live HTTP, challenge bypass, PDF download, or active-bank write."
+    }
+  ],
+  "global_policy": {
+    "max_pages_per_run": 2,
+    "max_candidates_per_run": 20,
+    "minimum_request_interval_seconds": 3,
+    "respect_robots_txt": true,
+    "bypass_captcha_or_browser_challenge": false,
+    "write_active_corpus": false
+  }
+}

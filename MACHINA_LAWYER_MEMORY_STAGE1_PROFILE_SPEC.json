@@ -1,0 +1,32 @@
+{
+  "spec_version": "1.0",
+  "stage": "1_of_6",
+  "status": "design_only",
+  "scope": "digital_ai_menu_only",
+  "out_of_scope": ["gramophone_classic_menu", "case_document_storage", "client_secret_data"],
+  "profile_required_fields": [],
+  "categories": {
+    "professional_context": ["practice_areas", "jurisdiction", "professional_role", "practice_context_note"],
+    "writing_style": ["tone", "detail_level", "legal_language", "preferred_language", "style_note"],
+    "legal_analysis": ["analysis_structure", "risk_focus", "counterargument_review", "uncertainty_handling"],
+    "citations_and_sources": ["citation_density", "citation_format", "source_priority", "citation_verification"],
+    "output_formats": ["default_output_types", "heading_style", "include_executive_summary", "include_action_items", "format_note"],
+    "document_review": ["review_focus", "comparison_mode", "evidence_display", "missing_information_behavior"],
+    "assistant_interaction": ["clarification_behavior", "proactivity", "explanation_level", "suggest_next_steps"]
+  },
+  "preference_origins": ["lawyer_entered", "lawyer_confirmed_suggestion", "system_default"],
+  "rules": {
+    "unset_is_not_a_confirmed_preference": true,
+    "ai_suggestions_require_lawyer_confirmation": true,
+    "lawyer_profiles_are_isolated_by_default": true,
+    "case_data_must_not_enter_persistent_preference_profile": true,
+    "preferences_must_not_override_legal_review_or_security": true,
+    "lawyer_can_inspect_edit_deactivate_delete": true
+  },
+  "implementation_changes_in_stage_1": {
+    "database": false,
+    "api": false,
+    "application_code": false,
+    "mini_app_ui": false
+  }
+}

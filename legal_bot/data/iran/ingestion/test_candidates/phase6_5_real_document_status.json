@@ -1,0 +1,30 @@
+{
+  "phase": "6.5",
+  "candidate_id": "MACHINA-PHASE6-1-IR-LAW-001",
+  "document_title": "قانون احکام دائمی برنامه های توسعه کشور",
+  "real_document_evaluation_status": "blocked_waiting_for_official_pdf",
+  "official_source_page": "https://rc.majlis.ir/fa/law/print_version/1014070",
+  "phase6_2_acquisition_status": "blocked",
+  "phase6_2_reason_code": "official_pdf_asset_url_unresolved",
+  "phase6_3_validation_status": "blocked_pending_official_pdf",
+  "official_pdf_available": false,
+  "official_pdf_sha256": null,
+  "real_document_search_evaluation_performed": false,
+  "human_review_performed": false,
+  "human_mapping_approved": false,
+  "active_bank_modified": false,
+  "active_search_index_modified": false,
+  "import_performed": false,
+  "blocker_codes": [
+    "official_pdf_asset_url_unresolved",
+    "original_pdf_missing",
+    "human_review_and_mapping_not_performed"
+  ],
+  "discovery_only_secondary_sources_not_accepted": [
+    "FAOLEX copy",
+    "other secondary reproductions"
+  ],
+  "next_required_action": "Resolve and acquire the direct PDF asset from rc.majlis.ir, then rerun phases 6.2-6.4 before any real-document 6.5 evaluation.",
+  "legal_authenticity_confirmed": false,
+  "current_force_confirmed": false
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "10.2",
+  "status": "discovery_targets_only_not_yet_verified_for_automated_fetch",
+  "sources": [
+    {
+      "source_id": "eadil_portal",
+      "name": "درگاه ملی قوه قضاییه",
+      "url": "https://eadil.com/",
+      "authority": "official_portal_candidate",
+      "categories": [
+        "supreme_court_unity_rulings",
+        "administrative_justice_general_assembly_rulings",
+        "judiciary_advisory_opinions",
+        "judiciary_circulars"
+      ],
+      "network_enabled": false,
+      "connector_module": "legal_bot.ingestion.connectors.official_candidates.JudiciaryPortalConnector",
+      "parser_status": "fixture_parser_added_live_access_unverified"
+    },
+    {
+      "source_id": "majles_research",
+      "name": "مرکز پژوهش‌های مجلس",
+      "url": "https://rc.majlis.ir/fa/law",
+      "authority": "official_parliamentary_candidate",
+      "categories": [
+        "laws"
+      ],
+      "network_enabled": false
+    },
+    {
+      "source_id": "national_regulations",
+      "name": "سامانه ملی قوانین و مقررات کشور",
+      "url": "https://dotic.ir/",
+      "authority": "official_registry_candidate",
+      "categories": [
+        "laws",
+        "regulations_and_bylaws"
+      ],
+      "network_enabled": false,
+      "connector_module": "legal_bot.ingestion.connectors.official_candidates.DoticRegulationsConnector",
+      "parser_status": "fixture_parser_added_live_access_unverified"
+    },
+    {
+      "source_id": "official_gazette",
+      "name": "روزنامه رسمی جمهوری اسلامی ایران",
+      "url": "https://rrk.ir/",
+      "authority": "official_publication_candidate",
+      "categories": [
+        "laws",
+        "regulations_and_bylaws"
+      ],
+      "network_enabled": false,
+      "connector_module": "legal_bot.ingestion.connectors.official_candidates.OfficialGazetteConnector",
+      "parser_status": "fixture_parser_added_live_access_unverified"
+    },
+    {
+      "source_id": "ekhtebar",
+      "name": "پایگاه اختبار",
+      "url": "https://www.ekhtebar.ir/",
+      "authority": "secondary_discovery_only",
+      "categories": [
+        "supreme_court_unity_rulings"
+      ],
+      "network_enabled": false
+    },
+    {
+      "source_id": "qavanin_national",
+      "name": "سامانه ملی قوانین و مقررات جمهوری اسلامی ایران (Qavanin)",
+      "url": "https://qavanin.ir/",
+      "authority": "official_registry_candidate_unverified",
+      "categories": [
+        "laws",
+        "regulations_and_bylaws",
+        "supreme_court_unity_rulings",
+        "administrative_justice_general_assembly_rulings",
+        "judiciary_advisory_opinions"
+      ],
+      "network_enabled": false,
+      "connector_module": "legal_bot.ingestion.connectors.qavanin.QavaninConnector",
+      "parser_status": "fixture_parser_added_live_access_unverified"
+    }
+  ]
+}

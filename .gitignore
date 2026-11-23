@@ -1,0 +1,29 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.production.example
+
+# Local databases, uploads, backups and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+legal_bot/storage/
+legal_bot/uploads/
+legal_bot_backups/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

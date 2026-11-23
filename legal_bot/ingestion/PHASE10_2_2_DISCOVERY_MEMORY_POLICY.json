@@ -1,0 +1,17 @@
+{
+  "schema_version": "10.2.2",
+  "network_discovery_implemented": false,
+  "source_adapters_injected": true,
+  "durable_source_cursor": true,
+  "catalog_deduplication": true,
+  "pipeline_candidates_require": {
+    "source_authority_level": "official_primary",
+    "source_status": "verified",
+    "supported_document_kind": true,
+    "stable_pipeline_identity": true
+  },
+  "secondary_sources_authoritative": false,
+  "title_only_identity_allowed": false,
+  "active_bank_write": false,
+  "legal_validity_inference": false
+}

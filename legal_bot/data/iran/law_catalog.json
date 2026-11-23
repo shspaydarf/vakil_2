@@ -1,0 +1,1096 @@
+{
+  "schema_version": "1.2",
+  "jurisdiction": "IR",
+  "language": "fa",
+  "status": "foundation_searchable_active_user_pdf",
+  "last_verified": "2026-08-20",
+  "important_note": "پوشش پایه برای ۱۰ شاخه حقوقی. متن‌های موجود در corpus برای retrieval محلی استفاده می‌شوند. قوانین تازه‌افزوده در این نسخه پوشش منتخب دارند و هنوز ادعای جامعیت ندارند.",
+  "present_laws": {
+    "قانون مدنی": {
+      "status": "bundled_unverified_after_local_cleanup",
+      "articles_expected": "1-1335"
+    },
+    "قانون تجارت": {
+      "status": "bundled_unverified",
+      "articles_expected": "1-600"
+    },
+    "قانون مجازات اسلامی": {
+      "status": "bundled_unverified",
+      "articles_expected": "1-728"
+    },
+    "قانون حمایت خانواده": {
+      "status": "bundled_unverified",
+      "articles_expected": "1-58"
+    },
+    "قانون صدور چک": {
+      "status": "bundled_incomplete_or_unverified"
+    },
+    "قانون آیین دادرسی مدنی": {
+      "status": "bundled_unverified",
+      "articles_expected": "1-529"
+    },
+    "قانون آیین دادرسی کیفری": {
+      "status": "bundled_unverified",
+      "articles_expected": "1-648"
+    },
+    "قانون ثبت اسناد و املاک": {
+      "status": "bundled_incomplete_or_unverified"
+    },
+    "قانون نحوه اجرای محکومیت‌های مالی": {
+      "status": "bundled_unverified",
+      "articles_expected": "1-29"
+    },
+    "قانون کار": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 203,
+      "source_file": "کار.PDF"
+    },
+    "قانون مالیات‌های مستقیم": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 271,
+      "source_file": "مالیات مستقیم.PDF"
+    },
+    "قانون تجارت الکترونیکی": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 76,
+      "source_file": "تجارت الکترونیک.PDF"
+    },
+    "قانون جرایم رایانه‌ای": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 56,
+      "source_file": "جرایم رایانه‌ای.PDF"
+    },
+    "قانون اجرای احکام مدنی": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 180,
+      "source_file": "اجرای احکام مدنی.PDF"
+    },
+    "قانون مسئولیت مدنی": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 16,
+      "source_file": "مسئولیت مدنی.PDF"
+    },
+    "قانون روابط موجر و مستأجر ۱۳۵۶": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 32,
+      "source_file": "موجر مستاجر ۵۶.PDF"
+    },
+    "قانون تأمین اجتماعی": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 118,
+      "source_file": "تامین اجتماعی.PDF"
+    },
+    "قانون مالیات بر ارزش افزوده": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 53,
+      "source_file": "ارزش افزوده.PDF"
+    },
+    "قانون تشکیلات و آیین دادرسی دیوان عدالت اداری": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 124,
+      "source_file": "عدالت اداری.PDF"
+    },
+    "قانون حمایت از حقوق مصرف‌کنندگان": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 22,
+      "source_file": "حمایت مصرفکننده.PDF"
+    },
+    "قانون راجع به ثبت شرکت‌ها": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 10,
+      "source_file": "ثبت شرکت.PDF"
+    },
+    "قانون افراز و فروش املاک مشاع": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 6,
+      "source_file": "مشاع.PDF"
+    },
+    "قانون بیمه اجباری خسارات واردشده به شخص ثالث در اثر حوادث ناشی از وسایل نقلیه": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 66,
+      "source_file": "شخص ثالث.PDF"
+    },
+    "لایحه قانونی استقلال کانون وکلای دادگستری": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 26,
+      "source_file": "استقلال وکلا.PDF"
+    },
+    "قانون اصلاح قانون مبارزه با مواد مخدر و الحاق موادی به آن": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 40,
+      "source_file": "مواد مخدر.PDF"
+    },
+    "قانون تملک آپارتمان‌ها": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 10,
+      "source_file": "آپارتمان تملک .PDF"
+    },
+    "لایحه قانونی اصلاح قسمتی از قانون تجارت": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 293,
+      "source_file": "اصلاحیه قانون تجارت.PDF"
+    },
+    "قانون حمایت از اطفال و نوجوانان": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 9,
+      "source_file": "اطفال.PDF"
+    },
+    "قانون بیمه": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 36,
+      "source_file": "بیمه.PDF"
+    },
+    "قانون تشکیلات و اختیارات سازمان اوقاف و امور خیریه": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 17,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "آیین‌نامه اجرایی ماده (۱۴) الحاقی قانون مبارزه با پولشویی": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 158,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "قانون نحوه اهداء جنین به زوجین نابارور": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 5,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "قانون اجازه رعایت احوال شخصیه ایرانیان غیرشیعه در محاکم": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 1,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "اصلاح آیین‌نامه اجرای مفاد اسناد رسمی لازم‌الاجرا و طرز رسیدگی به شکایت از عملیات اجرایی سازمان ثبت اسناد و املاک کشور": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 1,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "آیین‌نامه ارائه خدمات الکترونیک قضایی": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 14,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "قانون تابعیت": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 10,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "قانون مجازات اشخاصی که مال غیر را به عوض مال خود معرفی می‌نمایند": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 3,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "قانون مجازات اشخاصی که برای بردن مال غیر تبانی می‌نمایند": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 2,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "قانون مبارزه با پولشویی": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 12,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "قانون مجازات استفاده غیرمجاز از عناوین علمی": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 1,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "قانون حمایت از کودکان و نوجوانان بی‌سرپرست و بدسرپرست": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 37,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    },
+    "قانون اصلاح مواد (۷۰۵) تا (۷۱۱) کتاب پنجم قانون مجازات اسلامی (تعزیرات و مجازات‌های بازدارنده)": {
+      "status": "active_user_pdf_source",
+      "articles_loaded": 8,
+      "source_type": "user_supplied_pdf",
+      "source_batch": "P5.zip",
+      "last_verified": "2026-09-01",
+      "verification_note": "از PDF ارسالی کاربر استخراج و به corpus فعال اضافه شده؛ برای ادعای «آخرین متن تنقیح‌شده رسمی» نیازمند تطبیق با منبع رسمی است."
+    }
+  },
+  "quarantined": {
+    "قانون اساسی جمهوری اسلامی ایران": "نسخه موجود در بسته، متن قانون اساسی نبود و با مواد قوانین دیگر مخلوط شده بود؛ برای جلوگیری از پاسخ نادرست از جست‌وجو حذف شد."
+  },
+  "high_priority_missing_or_should_be_added": [
+    "قانون روابط موجر و مستأجر ۱۳۷۶",
+    "قانون دیوان عدالت اداری",
+    "قانون اجرای احکام کیفری / مقررات مرتبط",
+    "قانون ثبت شرکت‌ها و مقررات مرتبط",
+    "قوانین و مقررات مالکیت فکری",
+    "قوانین و مقررات بانکی و پولی مرتبط",
+    "قوانین خاص خانواده و حمایت از اطفال و نوجوانان",
+    "قوانین مربوط به وکالت و مقررات کانون وکلا / مرکز وکلا",
+    "آرای وحدت رویه دیوان عالی کشور",
+    "آرای وحدت رویه و آرای هیأت عمومی دیوان عدالت اداری",
+    "نظریات مشورتی اداره کل حقوقی قوه قضائیه",
+    "آیین‌نامه‌ها، بخشنامه‌ها و مقررات لازم‌الاجرا"
+  ],
+  "recommended_production_fields": [
+    "law_id",
+    "title",
+    "article_id",
+    "article_text",
+    "article_type",
+    "status",
+    "effective_from",
+    "effective_to",
+    "amendments",
+    "repealed_by",
+    "source_url",
+    "official_gazette_no",
+    "source_date",
+    "last_verified",
+    "topic_tags",
+    "related_articles",
+    "related_cases",
+    "embedding",
+    "checksum"
+  ],
+  "official_source_registry": "official_sources.json",
+  "source_policy": "فقط متن‌هایی که از منبع رسمی دریافت، با نسخه محلی تطبیق، و checksum/اعتبارسنجی شده‌اند می‌توانند verified شوند؛ صرف وجود URL به معنی تأیید متن نیست.",
+  "source_registry_pending": [
+    "قانون روابط موجر و مستأجر ۱۳۷۶",
+    "قانون تجارت الکترونیکی",
+    "قانون حمایت از حقوق مصرف‌کنندگان",
+    "قانون دیوان عدالت اداری"
+  ],
+  "pending_foundation": {
+    "قانون اجرای احکام مدنی": {
+      "status": "active_user_pdf_source",
+      "article_range": "1-180",
+      "priority": "P0",
+      "topic_tags": [
+        "civil",
+        "enforcement"
+      ],
+      "text_in_laws_json": true,
+      "source_url": "https://qavanin.ir/Law/TreeText/?IDS=12257143710724326112",
+      "last_verified": "2026-08-20",
+      "articles_loaded": 180,
+      "source_file": "اجرای احکام مدنی.PDF"
+    },
+    "قانون روابط موجر و مستأجر ۱۳۵۶": {
+      "status": "active_user_pdf_source",
+      "article_range": "1-32",
+      "priority": "P0",
+      "topic_tags": [
+        "civil",
+        "property"
+      ],
+      "text_in_laws_json": true,
+      "articles_loaded": 32,
+      "source_file": "موجر مستاجر ۵۶.PDF",
+      "last_verified": "2026-08-20"
+    },
+    "قانون روابط موجر و مستأجر ۱۳۷۶": {
+      "status": "source_pending_import",
+      "article_range": "1-13",
+      "priority": "P0",
+      "topic_tags": [
+        "civil",
+        "property"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون کار": {
+      "status": "active_user_pdf_source",
+      "article_range": "1-203",
+      "priority": "P1",
+      "topic_tags": [
+        "labor",
+        "employment"
+      ],
+      "text_in_laws_json": true,
+      "articles_loaded": 203,
+      "source_file": "کار.PDF",
+      "last_verified": "2026-08-20"
+    },
+    "قانون تأمین اجتماعی": {
+      "status": "active_user_pdf_source",
+      "article_range": "1-118",
+      "priority": "P1",
+      "topic_tags": [
+        "social_security",
+        "labor",
+        "insurance"
+      ],
+      "text_in_laws_json": true,
+      "v27_source_ready": true,
+      "known_source_urls": [
+        "https://law.tamin.ir/",
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-540/"
+      ],
+      "articles_loaded": 118,
+      "source_file": "تامین اجتماعی.PDF",
+      "last_verified": "2026-08-20"
+    },
+    "قانون مالیات‌های مستقیم": {
+      "status": "active_user_pdf_source",
+      "article_range": "1-282",
+      "priority": "P1",
+      "topic_tags": [
+        "tax",
+        "direct_tax"
+      ],
+      "text_in_laws_json": true,
+      "v27_source_ready": true,
+      "known_source_urls": [
+        "https://qavanin.ir/",
+        "https://intamedia.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-39798/",
+        "https://bidbarg.net/regulation/tax/"
+      ],
+      "articles_loaded": 271,
+      "source_file": "مالیات مستقیم.PDF",
+      "last_verified": "2026-08-20"
+    },
+    "قانون مالیات بر ارزش افزوده": {
+      "status": "active_user_pdf_source",
+      "article_range": "1-57",
+      "priority": "P1",
+      "topic_tags": [
+        "tax",
+        "vat"
+      ],
+      "text_in_laws_json": true,
+      "v27_source_ready": true,
+      "known_source_urls": [
+        "https://qavanin.ir/",
+        "https://intamedia.ir/"
+      ],
+      "cross_check_urls": [],
+      "articles_loaded": 53,
+      "source_file": "ارزش افزوده.PDF",
+      "last_verified": "2026-08-20"
+    },
+    "قانون دیوان عدالت اداری": {
+      "status": "source_identified_pending_import",
+      "article_range": "1-124",
+      "priority": "P1",
+      "topic_tags": [
+        "administrative",
+        "judicial_review",
+        "procedure"
+      ],
+      "text_in_laws_json": false,
+      "v27_source_ready": true,
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-39204/"
+      ]
+    },
+    "قانون تجارت الکترونیکی": {
+      "status": "source_identified_pending_import",
+      "article_range": "1-81",
+      "priority": "P1",
+      "topic_tags": [
+        "commercial",
+        "technology",
+        "ecommerce",
+        "data_message"
+      ],
+      "text_in_laws_json": false,
+      "v27_source_ready": true,
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-34221/",
+        "https://law-ir.ir/law/cat/1656/"
+      ]
+    },
+    "قانون جرایم رایانه‌ای": {
+      "status": "source_pending_import",
+      "article_range": "1-56",
+      "priority": "P1",
+      "topic_tags": [
+        "criminal",
+        "cyber"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون حمایت از حقوق مصرف‌کنندگان": {
+      "status": "source_pending_import",
+      "article_range": "1-23",
+      "priority": "P1",
+      "topic_tags": [
+        "consumer"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون حمایت از اطفال و نوجوانان": {
+      "status": "source_pending_import",
+      "article_range": "1-51",
+      "priority": "P1",
+      "topic_tags": [
+        "family",
+        "children",
+        "criminal"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون ثبت شرکت‌ها و مقررات مرتبط": {
+      "status": "source_pending_import",
+      "article_range": "various",
+      "priority": "P1",
+      "topic_tags": [
+        "commercial",
+        "companies"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون الزام به ثبت رسمی معاملات اموال غیرمنقول": {
+      "status": "source_pending_import",
+      "article_range": "1-15",
+      "priority": "P1",
+      "topic_tags": [
+        "property",
+        "registration"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون حمایت از مالکیت صنعتی": {
+      "status": "source_pending_import",
+      "article_range": "1-99",
+      "priority": "P1",
+      "topic_tags": [
+        "ip",
+        "commercial"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون حمایت حقوق مؤلفان و مصنفان و هنرمندان": {
+      "status": "source_pending_import",
+      "article_range": "1-31",
+      "priority": "P1",
+      "topic_tags": [
+        "ip"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون بیمه": {
+      "status": "source_pending_import",
+      "article_range": "1-36",
+      "priority": "P1",
+      "topic_tags": [
+        "insurance"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون پولی و بانکی کشور": {
+      "status": "source_pending_import",
+      "article_range": "1-45",
+      "priority": "P1",
+      "topic_tags": [
+        "banking"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون عملیات بانکی بدون ربا": {
+      "status": "source_pending_import",
+      "article_range": "1-27",
+      "priority": "P1",
+      "topic_tags": [
+        "banking"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون وکالت": {
+      "status": "active_source_backed",
+      "article_range": "1-59",
+      "priority": "P1",
+      "topic_tags": [
+        "legal_profession",
+        "bar",
+        "advocacy"
+      ],
+      "text_in_laws_json": false,
+      "v27_source_ready": true,
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://nezamat.ir/post-1086/"
+      ],
+      "source_url": "https://qavanin.ir/Law/TreeText/?IDS=5525522950710247937",
+      "last_verified": "2026-08-20"
+    },
+    "لایحه استقلال کانون وکلای دادگستری": {
+      "status": "source_pending_import",
+      "article_range": "1-28",
+      "priority": "P1",
+      "topic_tags": [
+        "legal_profession"
+      ],
+      "text_in_laws_json": false
+    },
+    "قانون کیفیت اخذ پروانه وکالت دادگستری": {
+      "status": "source_identified_pending_import",
+      "article_range": "1-8",
+      "priority": "P1",
+      "topic_tags": [
+        "legal_profession",
+        "bar_license"
+      ],
+      "text_in_laws_json": false,
+      "v27_source_ready": true,
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://dadavar.ir/"
+      ]
+    },
+    "لایحه قانونی استقلال کانون وکلای دادگستری": {
+      "status": "active_source_backed",
+      "article_range": "1-28",
+      "priority": "P1",
+      "topic_tags": [
+        "legal_profession",
+        "bar",
+        "independence"
+      ],
+      "text_in_laws_json": false,
+      "v27_source_ready": true,
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "cross_check_urls": [
+        "https://farsbar.ir/"
+      ],
+      "source_url": "https://qavanin.ir/Law/RelatedIndex/?IDS=15820609018639187844",
+      "last_verified": "2026-08-20"
+    }
+  },
+  "foundation_strategy": "breadth_first",
+  "foundation_note": "این فهرست عمداً متن pending را وارد laws.json نمی‌کند تا جستجو نتیجه ساختگی یا فاقد متن ندهد.",
+  "v27_focus": {
+    "status": "source_ready_pending_text_import",
+    "areas": [
+      "labor_social",
+      "tax",
+      "administrative",
+      "commercial",
+      "legal_profession"
+    ],
+    "laws": [
+      "قانون تأمین اجتماعی",
+      "قانون مالیات‌های مستقیم",
+      "قانون مالیات بر ارزش افزوده",
+      "قانون دیوان عدالت اداری",
+      "قانون تجارت الکترونیکی",
+      "قانون وکالت",
+      "لایحه قانونی استقلال کانون وکلای دادگستری",
+      "قانون کیفیت اخذ پروانه وکالت دادگستری"
+    ],
+    "note": "برای حفظ دقت، متن کامل این قوانین تا مرحله import/cross-check وارد laws.json نشده است."
+  },
+  "foundation_v29": {
+    "domains": 10,
+    "new_searchable_laws": [
+      "قانون کار",
+      "قانون مالیات‌های مستقیم",
+      "قانون تجارت الکترونیکی",
+      "قانون جرایم رایانه‌ای"
+    ],
+    "principle": "breadth_first"
+  },
+  "breadth_v30_domains": [
+    "حقوق مدنی",
+    "آیین دادرسی مدنی",
+    "حقوق کیفری",
+    "آیین دادرسی کیفری",
+    "خانواده",
+    "تجارت",
+    "ثبت و املاک",
+    "کار و تأمین اجتماعی",
+    "مالیات و مالی",
+    "فناوری و حقوق اداری/عمومی"
+  ],
+  "expanded_coverage_file": "expanded_coverage_v30.json",
+  "secondary_academic_sources": "secondary_academic_sources.json",
+  "academic_source_policy": "کتب درسی دانشگاهی برای توضیح، تگ‌گذاری و cross-check مفهومی استفاده می‌شوند؛ منبع متن الزام‌آور قانون نیستند.",
+  "active_source_backed": {
+    "قانون اجرای احکام مدنی": {
+      "status": "active_source_backed",
+      "source_url": "https://qavanin.ir/Law/TreeText/?IDS=12257143710724326112",
+      "last_verified": "2026-08-20",
+      "text_in_laws_json": false
+    },
+    "قانون وکالت": {
+      "status": "active_source_backed",
+      "source_url": "https://qavanin.ir/Law/TreeText/?IDS=5525522950710247937",
+      "last_verified": "2026-08-20",
+      "text_in_laws_json": false
+    },
+    "لایحه قانونی استقلال کانون وکلای دادگستری": {
+      "status": "active_source_backed",
+      "source_url": "https://qavanin.ir/Law/RelatedIndex/?IDS=15820609018639187844",
+      "last_verified": "2026-08-20",
+      "text_in_laws_json": false
+    },
+    "آیین‌نامه اجرایی لایحه قانونی استقلال کانون وکلای دادگستری": {
+      "status": "active_source_backed",
+      "source_url": "https://qavanin.ir/Law/TreeText/?IDS=11182203847219685713",
+      "last_verified": "2026-08-20",
+      "text_in_laws_json": false
+    }
+  },
+  "last_updated": "2026-09-01",
+  "level1_gap_manifest": "level1_gap_manifest_2026-08-20.json",
+  "level1_missing_count": 52,
+  "level1_missing_laws": [
+    "قانون حمایت از حقوق مصرف‌کنندگان",
+    "قانون بیمه",
+    "قانون حمایت از خانواده",
+    "قانون شوراهای حل اختلاف",
+    "قانون مجازات راجع به مجازات اسلامی",
+    "قانون تشدید مجازات مرتکبین ارتشاء و اختلاس و کلاهبرداری",
+    "قانون مبارزه با مواد مخدر",
+    "قانون حمایت از اطفال و نوجوانان",
+    "قانون تشکیل دادگاه‌های عمومی و انقلاب",
+    "قانون ثبت احوال",
+    "قانون نحوه اهدای جنین به زوجین نابارور",
+    "قانون اداره تصفیه امور ورشکستگی",
+    "قانون ثبت شرکت‌ها و مقررات مرتبط",
+    "قانون الزام به ثبت رسمی معاملات اموال غیرمنقول",
+    "قانون تملک آپارتمان‌ها",
+    "قانون تعیین تکلیف وضعیت ثبتی اراضی و ساختمان‌های فاقد سند رسمی",
+    "قانون افراز و فروش املاک مشاع",
+    "قانون بیمه بیکاری",
+    "قانون مدیریت خدمات کشوری",
+    "قانون پایانه‌های فروشگاهی و سامانه مؤدیان",
+    "قانون مالیات بر ارث و مقررات مرتبط",
+    "قانون پولی و بانکی کشور",
+    "قانون عملیات بانکی بدون ربا",
+    "قانون دیوان عدالت اداری",
+    "قانون انتشار و دسترسی آزاد به اطلاعات",
+    "قانون حمایت از مالکیت صنعتی",
+    "قانون حمایت حقوق مؤلفان و مصنفان و هنرمندان",
+    "قانون ثبت اختراعات، طرح‌های صنعتی و علائم تجاری",
+    "قانون حمایت از مالکیت صنعتی ۱۴۰۳",
+    "قانون ترجمه و تکثیر کتب و نشریات و آثار صوتی",
+    "قانون مجازات خودداری از کمک به مصدومین و رفع مخاطرات جانی",
+    "قانون سازمان نظام پزشکی جمهوری اسلامی ایران",
+    "قانون مربوط به مقررات امور پزشکی و دارویی و مواد خوردنی و آشامیدنی",
+    "قانون حمایت از بیماران خاص و صعب‌العلاج",
+    "قانون حفاظت و بهسازی محیط زیست",
+    "قانون شکار و صید",
+    "قانون مدیریت پسماندها",
+    "قانون حفاظت و بهره‌برداری از جنگل‌ها و مراتع",
+    "قانون حفاظت از خاک",
+    "قانون امور گمرکی",
+    "قانون مقررات صادرات و واردات",
+    "قانون حمل و نقل و عبور کالاهای خارجی از قلمرو جمهوری اسلامی ایران",
+    "قانون دریایی ایران",
+    "قانون رسیدگی به تخلفات رانندگی",
+    "قانون نفت",
+    "قانون اصلاح قانون معادن",
+    "قانون اساسنامه شرکت ملی نفت ایران",
+    "قانون سازمان انرژی اتمی ایران",
+    "قانون مانع‌زدایی از توسعه صنعت برق",
+    "قانون وکالت",
+    "لایحه قانونی استقلال کانون وکلای دادگستری",
+    "قانون کیفیت اخذ پروانه وکالت دادگستری"
+  ],
+  "قانون مدنی": {
+    "status": "active_user_pdf_source",
+    "source_file": "مدنی.txt",
+    "articles_loaded": 1336
+  },
+  "قانون تجارت": {
+    "status": "active_user_pdf_source",
+    "source_file": "تجارت.txt",
+    "articles_loaded": 600
+  },
+  "قانون مجازات اسلامی": {
+    "status": "active_user_pdf_source",
+    "source_file": "کیفری.txt",
+    "articles_loaded": 728
+  },
+  "قانون حمایت خانواده": {
+    "status": "active_user_pdf_source",
+    "source_file": "خانواده.txt",
+    "articles_loaded": 58
+  },
+  "قانون آیین دادرسی مدنی": {
+    "status": "active_user_pdf_source",
+    "source_file": "ایین دادرسی مدنی.txt",
+    "articles_loaded": 529
+  },
+  "قانون ثبت اسناد و املاک": {
+    "status": "active_user_pdf_source",
+    "source_file": "اسناد املاک.txt",
+    "articles_loaded": 147
+  },
+  "قانون روابط موجر و مستأجر ۱۳۷۶": {
+    "status": "active_user_pdf_source",
+    "source_file": "موجر مستاجر.txt",
+    "articles_loaded": 13
+  },
+  "قانون نحوه اجرای محکومیت‌های مالی": {
+    "status": "active_user_pdf_source",
+    "source_file": "اجرای محکومیت های مالی.txt",
+    "articles_loaded": 29
+  },
+  "قانون وکالت": {
+    "status": "active_user_pdf_source",
+    "source_file": "قوانین وکالت.txt",
+    "articles_loaded": 58
+  },
+  "قانون اصلاح قانون صدور چک ۱۳۹۷": {
+    "status": "active_user_pdf_source",
+    "source_file": "صدور چک.txt",
+    "articles_loaded": 11
+  },
+  "قانون اساسی جمهوری اسلامی ایران": {
+    "status": "active_user_pdf_source",
+    "source_file": "اساسی.pdf",
+    "articles_loaded": 177
+  },
+  "active_source_backed_user_pdfs": {
+    "قانون اجرای احکام مدنی": {
+      "status": "active_user_pdf_source",
+      "source_file": "اجرای احکام مدنی.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "e8117e2f1c01aa140cb454098b6d09bc5711375e1d2f8a0465f9af043836338b",
+      "articles_loaded": 180,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون مسئولیت مدنی": {
+      "status": "active_user_pdf_source",
+      "source_file": "مسئولیت مدنی.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "3f17839b7f25d92fcc44f275d109569de7f55aef67781139954c1ca097b0c6b2",
+      "articles_loaded": 16,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون روابط موجر و مستأجر ۱۳۵۶": {
+      "status": "active_user_pdf_source",
+      "source_file": "موجر مستاجر ۵۶.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "fa521325e58df8125f35360f80a090ccb07757418f15db9f07476721fbcbd29c",
+      "articles_loaded": 32,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون کار": {
+      "status": "active_user_pdf_source",
+      "source_file": "کار.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "c0b9a08a9418307457967f58e4028bb3ff1ccf8cf22b6b1d13050dc9d45a10c5",
+      "articles_loaded": 203,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون تأمین اجتماعی": {
+      "status": "active_user_pdf_source",
+      "source_file": "تامین اجتماعی.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "f4fcf67a311630cb884288db6eeabb7769180469df555f49376e06704e8601f8",
+      "articles_loaded": 118,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون مالیات‌های مستقیم": {
+      "status": "active_user_pdf_source",
+      "source_file": "مالیات مستقیم.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "041316d16b4a204aef87e05ad35c31d1fcaa499aa30fe847a71b4a067a481bd6",
+      "articles_loaded": 271,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون مالیات بر ارزش افزوده": {
+      "status": "active_user_pdf_source",
+      "source_file": "ارزش افزوده.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "abc0fe82cd2d8b21c4d155b2dc91f8db90c34c39407e13fdd9836f838f5fbee4",
+      "articles_loaded": 53,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون تشکیلات و آیین دادرسی دیوان عدالت اداری": {
+      "status": "active_user_pdf_source",
+      "source_file": "عدالت اداری.PDF",
+      "source_type": "user_supplied_pdf",
+      "sha256": "ec260bea726a6ec3d70268c171500571ca15f81b7e25c9ad67960b1de8ff1fb8",
+      "articles_loaded": 124,
+      "last_verified": "2026-08-20",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده است؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون تشکیلات و اختیارات سازمان اوقاف و امور خیریه": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 17,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "آیین‌نامه اجرایی ماده (۱۴) الحاقی قانون مبارزه با پولشویی": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 158,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون نحوه اهداء جنین به زوجین نابارور": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 5,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون اجازه رعایت احوال شخصیه ایرانیان غیرشیعه در محاکم": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 1,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "اصلاح آیین‌نامه اجرای مفاد اسناد رسمی لازم‌الاجرا و طرز رسیدگی به شکایت از عملیات اجرایی سازمان ثبت اسناد و املاک کشور": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 1,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "آیین‌نامه ارائه خدمات الکترونیک قضایی": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 14,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون تابعیت": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 10,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون مجازات اشخاصی که مال غیر را به عوض مال خود معرفی می‌نمایند": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 3,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون مجازات اشخاصی که برای بردن مال غیر تبانی می‌نمایند": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 2,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون مبارزه با پولشویی": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 12,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون مجازات استفاده غیرمجاز از عناوین علمی": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 1,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون حمایت از کودکان و نوجوانان بی‌سرپرست و بدسرپرست": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 37,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    },
+    "قانون اصلاح مواد (۷۰۵) تا (۷۱۱) کتاب پنجم قانون مجازات اسلامی (تعزیرات و مجازات‌های بازدارنده)": {
+      "status": "active_user_pdf_source",
+      "source_file": "P5.zip",
+      "source_type": "user_supplied_pdf",
+      "articles_loaded": 8,
+      "last_verified": "2026-09-01",
+      "verification_note": "متن از PDF ارسالی کاربر استخراج و وارد corpus فعال شده؛ هنوز به‌عنوان آخرین متن تنقیح‌شده رسمی ادعا نمی‌شود."
+    }
+  },
+  "level1_missing_count_current": 43,
+  "level1_gap_manifest_current": "level1_gap_manifest_current_2026-08-20.json",
+  "p1_ingestion_note": "P1 PDFs ingested on 2026-08-20. Two files (e-commerce and cybercrime) replace earlier partial corpus entries with full user-PDF extraction. The file labeled as آیین نامه استقلال was not ingested separately because its content matches the استقلال لایحه PDF.",
+  "قانون الزام به ثبت رسمی معاملات اموال غیرمنقول": {
+    "status": "user_pdf_active",
+    "article_range": "1-15",
+    "priority": "P0",
+    "topic_tags": [
+      "property",
+      "registration",
+      "contracts"
+    ],
+    "text_in_laws_json": true,
+    "articles_loaded": 15,
+    "source_file": "ثبت منقول.PDF",
+    "last_verified": "2026-08-20"
+  },
+  "قانون حمایت از مالکیت صنعتی": {
+    "status": "user_pdf_active",
+    "article_range": "1-150",
+    "priority": "P0",
+    "topic_tags": [
+      "commercial",
+      "intellectual_property"
+    ],
+    "text_in_laws_json": true,
+    "articles_loaded": 150,
+    "source_file": "مالکیت صنعتی.PDF",
+    "last_verified": "2026-08-20"
+  },
+  "قانون بانک مرکزی جمهوری اسلامی ایران": {
+    "status": "user_pdf_active",
+    "article_range": "1-67",
+    "priority": "P1",
+    "topic_tags": [
+      "banking",
+      "financial"
+    ],
+    "text_in_laws_json": true,
+    "articles_loaded": 67,
+    "source_file": "بانک مرکزی.PDF",
+    "last_verified": "2026-08-20"
+  },
+  "قانون تشدید مجازات مرتکبین ارتشاء و اختلاس و کلاهبرداری": {
+    "status": "user_pdf_active",
+    "article_range": "1-8",
+    "priority": "P0",
+    "topic_tags": [
+      "criminal",
+      "financial_crime"
+    ],
+    "text_in_laws_json": true,
+    "articles_loaded": 8,
+    "source_file": "تشدید.PDF",
+    "last_verified": "2026-08-20"
+  },
+  "قانون اداره تصفیه امور ورشکستگی": {
+    "status": "user_pdf_active",
+    "article_range": "1-60",
+    "priority": "P1",
+    "topic_tags": [
+      "commercial",
+      "bankruptcy"
+    ],
+    "text_in_laws_json": true,
+    "articles_loaded": 60,
+    "source_file": "ورشکستگی.PDF",
+    "last_verified": "2026-08-20"
+  },
+  "قانون امور گمرکی": {
+    "status": "user_pdf_active",
+    "article_range": "1-165",
+    "priority": "P1",
+    "topic_tags": [
+      "commercial",
+      "customs"
+    ],
+    "text_in_laws_json": true,
+    "articles_loaded": 165,
+    "source_file": "گمرکی.PDF",
+    "last_verified": "2026-08-20"
+  },
+  "قانون مجازات راجع به انتقال مال غیر": {
+    "status": "user_pdf_active",
+    "article_range": "1-9",
+    "priority": "P0",
+    "topic_tags": [
+      "criminal",
+      "property"
+    ],
+    "text_in_laws_json": true,
+    "articles_loaded": 9,
+    "source_file": "مال غیر.PDF",
+    "last_verified": "2026-08-20"
+  },
+  "قانون نحوه اجرای اصل ۴۹ قانون اساسی جمهوری اسلامی ایران": {
+    "status": "user_pdf_active",
+    "article_range": "1-15",
+    "priority": "P1",
+    "topic_tags": [
+      "property",
+      "financial",
+      "public_law"
+    ],
+    "text_in_laws_json": true,
+    "articles_loaded": 15,
+    "source_file": "اصل ۴۹.PDF",
+    "last_verified": "2026-08-20"
+  },
+  "قانون شوراهای حل اختلاف ۱۳۸۷": {
+    "status": "user_pdf_historical",
+    "article_range": "1-51",
+    "priority": "P1",
+    "topic_tags": [
+      "civil_procedure",
+      "dispute_resolution",
+      "historical"
+    ],
+    "text_in_laws_json": true,
+    "articles_loaded": 51,
+    "source_file": "حل اختلاف.PDF",
+    "last_verified": "2026-08-20"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "phase": "10.4.3",
+  "status": "deployment_probe_runner_implemented_live_result_pending",
+  "source_id": "national_regulations",
+  "source": "https://dotic.ir/",
+  "probe_scope": [
+    "robots.txt",
+    "one_html_record_page"
+  ],
+  "pdf_downloads_enabled": false,
+  "network_access_enabled_by_default": false,
+  "active_bank_write": false,
+  "scheduler_enabled": false,
+  "tests": {
+    "new": 4,
+    "focused_passed": 17,
+    "collected_total": 789,
+    "full_suite_run": false
+  },
+  "decision": "no_go_pdf_acquisition_until_deployment_probe_and_official_pdf_review",
+  "next_required_evidence": "Run deployment_source_probe.py in the actual API container and review its JSON output."
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": "2.0",
+  "jurisdiction": "IR",
+  "language": "fa",
+  "generated_on": "2026-08-20",
+  "strategy": "breadth_first",
+  "domains": [
+    {
+      "id": "civil",
+      "name": "حقوق مدنی",
+      "priority": "P0",
+      "laws": [
+        {
+          "title": "قانون مدنی",
+          "in_corpus": true,
+          "status": "base_searchable"
+        },
+        {
+          "title": "قانون مسئولیت مدنی",
+          "in_corpus": true,
+          "status": "base_searchable"
+        }
+      ]
+    },
+    {
+      "id": "civil_procedure",
+      "name": "آیین دادرسی مدنی",
+      "priority": "P0",
+      "laws": [
+        {
+          "title": "قانون آیین دادرسی مدنی",
+          "in_corpus": true,
+          "status": "base_searchable"
+        }
+      ]
+    },
+    {
+      "id": "criminal",
+      "name": "حقوق کیفری",
+      "priority": "P0",
+      "laws": [
+        {
+          "title": "قانون مجازات اسلامی",
+          "in_corpus": true,
+          "status": "base_searchable"
+        },
+        {
+          "title": "قانون جرایم رایانه‌ای",
+          "in_corpus": true,
+          "status": "base_searchable"
+        }
+      ]
+    },
+    {
+      "id": "criminal_procedure",
+      "name": "آیین دادرسی کیفری",
+      "priority": "P0",
+      "laws": [
+        {
+          "title": "قانون آیین دادرسی کیفری",
+          "in_corpus": true,
+          "status": "base_searchable"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "name": "حقوق خانواده",
+      "priority": "P0",
+      "laws": [
+        {
+          "title": "قانون حمایت خانواده",
+          "in_corpus": true,
+          "status": "base_searchable"
+        }
+      ]
+    },
+    {
+      "id": "commercial",
+      "name": "حقوق تجارت",
+      "priority": "P0",
+      "laws": [
+        {
+          "title": "قانون تجارت",
+          "in_corpus": true,
+          "status": "base_searchable"
+        },
+        {
+          "title": "قانون صدور چک",
+          "in_corpus": true,
+          "status": "base_searchable"
+        },
+        {
+          "title": "قانون تجارت الکترونیکی",
+          "in_corpus": true,
+          "status": "base_searchable"
+        }
+      ]
+    },
+    {
+      "id": "property",
+      "name": "ثبت، املاک و اجاره",
+      "priority": "P0",
+      "laws": [
+        {
+          "title": "قانون ثبت اسناد و املاک",
+          "in_corpus": true,
+          "status": "base_searchable"
+        },
+        {
+          "title": "قانون روابط موجر و مستأجر ۱۳۵۶",
+          "in_corpus": true,
+          "status": "base_searchable"
+        },
+        {
+          "title": "قانون روابط موجر و مستأجر ۱۳۷۶",
+          "in_corpus": true,
+          "status": "base_searchable"
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "name": "اجرا و محکومیت‌های مالی",
+      "priority": "P0",
+      "laws": [
+        {
+          "title": "قانون نحوه اجرای محکومیت‌های مالی",
+          "in_corpus": true,
+          "status": "base_searchable"
+        }
+      ]
+    },
+    {
+      "id": "labor_social",
+      "name": "کار و تأمین اجتماعی",
+      "priority": "P1",
+      "laws": [
+        {
+          "title": "قانون کار",
+          "in_corpus": true,
+          "status": "base_searchable"
+        },
+        {
+          "title": "قانون تأمین اجتماعی",
+          "in_corpus": true,
+          "status": "base_searchable"
+        }
+      ]
+    },
+    {
+      "id": "tax",
+      "name": "مالیات",
+      "priority": "P1",
+      "laws": [
+        {
+          "title": "قانون مالیات‌های مستقیم",
+          "in_corpus": true,
+          "status": "base_searchable"
+        },
+        {
+          "title": "قانون مالیات بر ارزش افزوده",
+          "in_corpus": true,
+          "status": "base_searchable"
+        }
+      ]
+    }
+  ],
+  "note": "نسخه پایه عمداً بر پوشش ۱۰ شاخه متمرکز است. قوانین موجود در corpus قابل جستجو هستند؛ برای سه قانون تازه‌افزوده متن فقط به‌صورت پایه و منتخب وارد شده و به‌عنوان پوشش کامل ادعا نمی‌شوند."
+}

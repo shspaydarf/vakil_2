@@ -1,0 +1,23 @@
+{
+  "version": "وکیل ۶",
+  "phase": "1.3",
+  "status": "implemented_tested_offline_connector_registry_catalog_integration",
+  "source_archive": "وکیل ۵.zip",
+  "full_tests": {
+    "passed": 873,
+    "failed": 0,
+    "command": "python -m pytest -q"
+  },
+  "compileall": "passed",
+  "network_access": false,
+  "downloads": false,
+  "active_bank_write": false,
+  "active_bank_hashes": {
+    "laws.json": "d21b1c56a575511973836271a54d98286a06aff07e93e7852abd0cd1f3f4e7f6",
+    "rulings.json": "2ff2845a9d8f9da61abb1d695684335e8fb68bdd52783ebbde1148225bbc3236",
+    "consultations.json": "30bcac47ebeb98a7c8f14b3c35cbb16ce50454ed3853ca92eb47ff4ee827a7a9",
+    "samples_and_circulars.json": "2b042cacf719e2148acf27f317e8233fc0950b4fb99754cccc9bef236b2ba748"
+  },
+  "new_module": "legal_bot/ingestion/connector_catalog_ingestor.py",
+  "new_tests": "tests/test_connector_catalog_ingestor.py"
+}

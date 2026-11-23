@@ -1,0 +1,59 @@
+{
+  "phase": "10.4.1",
+  "purpose": "read-only DNS and TLS diagnostics; no HTTP requests or configuration changes",
+  "system_resolver": "configured system resolver only",
+  "network_configuration_changed": false,
+  "alternate_dns_used": false,
+  "proxy_or_access_control_bypass": false,
+  "active_bank_write": false,
+  "results": [
+    {
+      "host": "eadil.com",
+      "status": "dns_failed",
+      "resolved_addresses": [],
+      "detail": "System resolver failed: [Errno -3] Temporary failure in name resolution",
+      "checked_at": "2026-11-01T15:43:28.276056+00:00",
+      "source_id": "eadil_portal"
+    },
+    {
+      "host": "rc.majlis.ir",
+      "status": "dns_failed",
+      "resolved_addresses": [],
+      "detail": "System resolver failed: [Errno -3] Temporary failure in name resolution",
+      "checked_at": "2026-11-01T15:43:28.276944+00:00",
+      "source_id": "majles_research"
+    },
+    {
+      "host": "dotic.ir",
+      "status": "dns_failed",
+      "resolved_addresses": [],
+      "detail": "System resolver failed: [Errno -3] Temporary failure in name resolution",
+      "checked_at": "2026-11-01T15:43:33.287991+00:00",
+      "source_id": "national_regulations"
+    },
+    {
+      "host": "rrk.ir",
+      "status": "dns_failed",
+      "resolved_addresses": [],
+      "detail": "System resolver failed: [Errno -3] Temporary failure in name resolution",
+      "checked_at": "2026-11-01T15:43:33.290457+00:00",
+      "source_id": "official_gazette"
+    },
+    {
+      "host": "www.ekhtebar.ir",
+      "status": "dns_failed",
+      "resolved_addresses": [],
+      "detail": "System resolver failed: [Errno -3] Temporary failure in name resolution",
+      "checked_at": "2026-11-01T15:43:38.295899+00:00",
+      "source_id": "ekhtebar"
+    }
+  ],
+  "decision": "no_go_live_acquisition_scheduler_disabled",
+  "test_summary": {
+    "new_tests_passed": 5,
+    "focused_suite_passed": 28,
+    "full_suite_collected": 781,
+    "full_suite_result": "timed_out_at_82_percent",
+    "compileall": "passed"
+  }
+}

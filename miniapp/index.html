@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#C5D0C2">
+<title>LegalBot</title>
+<meta name="api-base" content="">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://telegram.org; style-src 'self'; img-src 'self' data: blob:; connect-src 'self' https:; font-src 'self' data:; object-src 'none'; base-uri 'none'; frame-ancestors 'none';">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <header class="topbar">
+    <button id="backBtn" class="icon-btn" aria-label="بازگشت">‹</button>
+    <div class="brand"><div class="eyebrow">LEGALBOT</div><strong id="pageTitle">میزکار حقوقی</strong></div>
+    <button id="settingsBtn" class="icon-btn" aria-label="تنظیمات">⚙️</button>
+  </header>
+
+  <main id="app">
+    <section id="homeView" class="machina-home" aria-label="صفحه اصلی میزکار حقوقی">
+      <section class="hero-card home-hero">
+        <div class="hero-icon" aria-hidden="true"><span>⚖</span><i></i></div>
+        <div class="hero-copy">
+          <span class="eyebrow">LEGAL ATELIER · MACHINA</span>
+          <h1>میزکار حقوقی شما</h1>
+          <p>ابزار موردنیازتان را مستقیم انتخاب کنید؛ پرونده‌ها و تحلیل‌ها در یک مسیر منظم کنار هم می‌مانند.</p>
+        </div>
+      </section>
+
+      <section class="unified-search-launch" aria-label="جست‌وجوی سراسری میزکار">
+        <div class="unified-search-heading"><span class="unified-search-emblem" aria-hidden="true">⌕</span><div><span class="eyebrow">MACHINA · GLOBAL FINDER</span><h2>جست‌وجوی سراسری</h2><p>پرونده‌ها، اسناد، یادداشت‌ها و منابع حقوقی را از یک نقطه پیدا کنید.</p></div></div>
+        <form id="globalSearchForm" class="global-search-form" role="search">
+          <input id="globalSearchInput" type="search" maxlength="200" minlength="2" placeholder="مثلاً: موعد تحویل ملک، قرارداد خرداد…" autocomplete="off" aria-label="عبارت جست‌وجوی سراسری">
+          <button class="global-search-submit" type="submit">جست‌وجو <span aria-hidden="true">←</span></button>
+        </form>
+        <div class="global-search-foot"><span>جست‌وجوی محلی و بدون ارسال متن پرونده به AI خارجی</span><button id="globalSearchAdvanced" type="button" class="text-btn">محدوده‌ها و فیلترها</button></div>
+        <div id="globalSearchOptions" class="global-search-options" hidden>
+          <div class="global-search-scope-grid">
+            <label><input type="checkbox" value="cases" checked> پرونده‌ها</label><label><input type="checkbox" value="documents" checked> اسناد و نسخه‌ها</label>
+            <label><input type="checkbox" value="notes" checked> یادداشت‌ها</label><label><input type="checkbox" value="tasks" checked> کارها و رویدادها</label>
+            <label><input type="checkbox" value="ai" checked> تاریخچه AI</label><label><input type="checkbox" value="drafts" checked> پیش‌نویس‌ها</label>
+            <label><input type="checkbox" value="clients" checked> موکلین</label><label><input type="checkbox" value="library" checked> کتابخانه شخصی</label>
+            <label><input type="checkbox" value="laws" checked> منابع حقوقی</label><label><input type="checkbox" value="glossary" checked> واژه‌نامه</label>
+          </div>
+          <label class="global-search-archived"><input id="globalSearchArchived" type="checkbox"> شامل پرونده‌های بایگانی‌شده</label>
+        </div>
+      </section>
+      <div id="globalSearchView" class="global-search-view" hidden></div>
+
+      <section class="atelier-instruments" aria-label="ابزارهای تزئینی کارگاه">
+        <div class="instrument-clock" aria-label="ساعت محلی دستگاه">
+          <div class="instrument-topline"><span>LOCAL TIME</span><span class="instrument-live-dot" aria-hidden="true"></span></div>
+          <div id="machinaClock" class="instrument-time" dir="ltr">--:--:--</div>
+          <div id="machinaDate" class="instrument-date">در حال تنظیم زمان…</div>
+          <div class="clock-ticks" aria-hidden="true"></div>
+        </div>
+        <div class="mini-calendar" id="homeMiniCalendar" role="button" tabindex="0" aria-label="باز کردن تقویم و کارها">
+          <div class="instrument-topline"><span>DATE INDEX · باز کردن تقویم</span><span id="calendarMonth">—</span></div>
+          <div class="calendar-week" aria-hidden="true"><span>ش</span><span>ی</span><span>د</span><span>س</span><span>چ</span><span>پ</span><span>ج</span></div>
+          <div id="calendarDays" class="calendar-days"></div>
+        </div>
+        <button id="calibrationButton" class="calibration-dial" type="button" aria-label="چرخاندن پیچ کالیبراسیون تزئینی">
+          <span class="dial-label">CAL.</span><span class="dial-knob" aria-hidden="true"><i></i></span><small>چرخ کالیبراسیون</small>
+        </button>
+        <div class="copper-pipe pipe-one" aria-hidden="true"></div><div class="copper-pipe pipe-two" aria-hidden="true"></div>
+        <button class="atelier-microfastener microfastener-one" type="button" data-microfastener="1" aria-label="پیچ مخفی چالش کوچک" title=""></button><button class="atelier-microfastener microfastener-two" type="button" data-microfastener="2" aria-label="پیچ مخفی تبدیل واحدها" title=""></button><button class="atelier-microfastener microfastener-three" type="button" data-microfastener="3" aria-label="پیچ مخفی چراغ‌ها و صدای محیطی" title=""></button>
+      </section>
+
+      <section class="home-tools" aria-labelledby="toolsTitle">
+        <div class="section-head"><div><span class="eyebrow">01 / OPERATIONS</span><h2 id="toolsTitle">ابزارهای حقوقی</h2></div><div class="control-bank-mark"><span class="section-kicker">LEGAL WORKSPACE</span><button id="atelierServiceLatch" class="atelier-service-latch" type="button" aria-expanded="false" aria-controls="atelierServiceDrawer" aria-label="باز کردن محفظهٔ مخفی تزئینی">✣</button></div></div><div id="atelierServiceDrawer" class="atelier-service-drawer" hidden><span class="service-drawer-pipe" aria-hidden="true"></span><span class="service-drawer-glyph" aria-hidden="true">⚙</span><span class="service-drawer-copy">محفظهٔ سرویس باز شد؛ داخلش فقط پیچ اضافه و غرور مهندسی پیدا می‌شود. هیچ داده‌ای تغییر نکرده است.</span><span class="service-drawer-code" aria-hidden="true">MCH / AUX-09</span></div>
+        <button id="openAiSubmenu" class="ai-launcher-card" type="button"><span class="ai-launcher-mark">✳</span><span><strong>هوش مصنوعی</strong><small>تحلیل، پرسش حقوقی، نگارش و گردش‌کارهای هوشمند</small></span><b>←</b></button>
+        <button id="openClassicTools" class="classic-launcher-card" type="button"><span class="classic-launcher-mark">⚙</span><span><strong>ابزارها و خدمات حقوقی</strong><small>جست‌وجوی حقوقی، موکلین، محاسبات و راهنماهای تخصصی؛ بدون نیاز به AI</small></span><b>←</b></button>
+      </section>
+
+      <section id="aiSubmenu" class="ai-submenu-panel" hidden aria-label="زیرمنوی هوش مصنوعی">
+        <div class="ai-submenu-head"><div><span class="eyebrow">MACHINA · AI WORKBENCH</span><h2>زیرمنوی هوش مصنوعی</h2><p>ابزارها و گردش‌کارهایی که از هوش مصنوعی استفاده می‌کنند، فقط از این بخش در دسترس‌اند.</p></div><button id="closeAiSubmenu" class="secondary-btn compact-btn" type="button">بازگشت</button></div>
+        <div class="tool-grid ai-tool-grid">
+          <button class="tool-tile tool-question" data-tool="question" type="button"><span class="question-shift-lever" aria-hidden="true"><i></i><b>Q</b></span><span class="tool-symbol">§</span><span class="tool-copy"><strong>پرسش حقوقی</strong><small>گفت‌وگو درباره پرونده انتخابی</small></span><span class="tool-arrow">←</span></button>
+          <button class="tool-tile tool-analysis" data-tool="analysis" type="button"><span class="tool-symbol">⌘</span><span class="tool-copy"><strong>تحلیل پرونده</strong><small>یافته‌ها، ریسک‌ها و اقدام بعدی</small></span><span class="tool-arrow">←</span></button>
+          <button class="tool-tile tool-issues" data-tool="issues" type="button"><span class="tool-symbol radar-symbol">◎</span><span class="tool-copy"><strong>بررسی شواهد و ایرادها</strong><small>ادعاها، تعارض‌ها و خط زمانی</small></span><span class="tool-arrow">←</span></button>
+          <button class="tool-tile tool-drafting" data-tool="drafting" type="button"><span class="tool-symbol">✎</span><span class="tool-copy"><strong>نگارش و بازبینی</strong><small>پیش‌نویس و نسخه‌های پرونده</small></span><span class="tool-arrow">←</span></button>
+        </div>
+        <section class="ai-workflow-manager contract-playbook-manager"><div class="section-head"><div><span class="eyebrow">AI CONTRACT REVIEW</span><h3>الگوهای بررسی قرارداد</h3></div><button id="playbooksRefresh" class="text-btn" type="button">تازه‌سازی ↻</button></div><p class="library-note">این بررسی از AI استفاده می‌کند و فقط پس از فعال‌بودن رضایت ارسال داده به سرویس خارجی و سهمیه انجام می‌شود. هر نتیجه باید با متن کامل قرارداد کنترل شود.</p><div id="contractPlaybooksList" class="work-products-list"><div class="loading-box">در حال دریافت الگوها…</div></div></section>
+        <section class="ai-workflow-manager"><div class="section-head"><div><span class="eyebrow">AI-ASSISTED WORKFLOWS</span><h3>گردش‌کارهای هوشمند</h3></div><button id="workflowCreate" class="secondary-btn compact-btn" type="button">＋ ساخت گردش‌کار</button></div>
+          <div class="library-note">گردش‌کارهای دارای مرحله هوش مصنوعی در این زیرمنو قرار دارند. مراحل فقط با اقدام و تأیید وکیل اجرا می‌شوند؛ هیچ پرسش AI خودکار ارسال نمی‌شود.</div>
+          <div id="workflowTemplatesList" class="work-products-list"><div class="loading-box">در حال دریافت گردش‌کارها…</div></div>
+        </section>
+      <section id="workProductsSection" class="work-products-section" aria-labelledby="workProductsTitle">
+        <div class="section-head"><div><span class="eyebrow">AI / WORK LIBRARY</span><h2 id="workProductsTitle">کتابخانه دستورها و خروجی‌های هوشمند</h2></div><button id="workProductsRefresh" class="text-btn" type="button">تازه‌سازی ↻</button></div>
+        <div class="work-library-tabs" role="tablist" aria-label="بخش‌های کتابخانه"><button type="button" class="work-library-tab active" id="workTabProducts" data-work-tab="products" aria-selected="true">خروجی‌ها و تاریخچه</button><button type="button" class="work-library-tab" id="workTabLibrary" data-work-tab="library" aria-selected="false">دستورها و قالب‌های من</button></div>
+        <div id="workProductsPane">
+          <div class="work-products-tools"><input id="workProductsSearch" type="search" maxlength="120" placeholder="جست‌وجو در پرسش‌ها و پیش‌نویس‌ها…"><label><input id="workProductsSavedOnly" type="checkbox"> فقط نشان‌شده‌ها</label></div>
+          <div id="workProductsList" class="work-products-list"><div class="empty-card"><strong>در حال خواندن خروجی‌ها…</strong></div></div>
+        </div>
+        <div id="lawyerLibraryPane" hidden>
+          <div class="work-products-tools"><input id="lawyerLibrarySearch" type="search" maxlength="120" placeholder="جست‌وجو در دستورها و قالب‌ها…"><select id="lawyerLibraryKind" aria-label="نوع منبع"><option value="">همه منابع</option><option value="prompt">دستورهای آماده</option><option value="template">قالب‌های نگارش</option></select><button id="lawyerLibraryCreate" class="secondary-btn compact-btn" type="button">＋ منبع جدید</button></div>
+          <div class="library-note">منابع آماده فقط نقطه شروع‌اند؛ قبل از اجرا، متن و تناسب آن‌ها با پرونده را بررسی کنید. متن‌ها به‌صورت خصوصی برای حساب شما ذخیره می‌شوند.</div>
+          <div id="lawyerLibraryList" class="work-products-list"><div class="empty-card"><strong>در حال دریافت کتابخانه…</strong></div></div>
+        </div>
+      </section>
+
+      </section>
+
+      <section class="recent-activity-section" aria-labelledby="recentActivityTitle">
+        <div class="section-head"><div><span class="eyebrow">03 / PICK UP WHERE YOU LEFT</span><h2 id="recentActivityTitle">ادامه از آخرین فعالیت</h2></div><button id="recentActivityRefresh" class="text-btn" type="button">تازه‌سازی ↻</button></div>
+        <div id="recentActivityList" class="recent-activity-list"><div class="empty-card"><strong>در حال خواندن فعالیت‌های اخیر…</strong></div></div>
+      </section>
+
+      <section class="saved-documents-section" aria-labelledby="savedDocumentsTitle">
+        <div class="section-head"><div><span class="eyebrow">04 / BOOKMARKED MATERIAL</span><h2 id="savedDocumentsTitle">اسناد نشان‌شده</h2></div><button id="savedDocumentsRefresh" class="text-btn" type="button">تازه‌سازی ↻</button></div>
+        <div id="savedDocumentsList" class="saved-documents-list"><div class="empty-card"><strong>در حال خواندن اسناد نشان‌شده…</strong></div></div>
+      </section>
+
+
+      <section id="caseHub" class="case-hub" aria-labelledby="casesTitle">
+        <div class="section-head"><div class="vault-heading"><span class="eyebrow">02 / CASE VAULT</span><h2 id="casesTitle">کمد پرونده‌ها</h2><small>محفظه پرونده‌ها · قفل صرفاً نمایشی است</small></div><div class="vault-actions"><button id="vaultLatch" class="vault-latch" type="button" aria-expanded="false" aria-label="باز و بسته کردن نمایشی کمد پرونده‌ها"><span aria-hidden="true">✣</span><small>OPEN</small></button><button id="refreshBtn" class="text-btn" type="button" aria-label="تازه‌سازی فهرست پرونده‌ها">تازه‌سازی ↻</button></div></div><div id="vaultStatus" class="vault-status" aria-live="polite" hidden>تق! درِ نمایشی کمد باز شد. قفل امنیتی واقعی نیست 😎</div>
+        <div class="case-tools"><div class="search-box"><span>⌕</span><input id="caseSearch" type="search" placeholder="جست‌وجوی پرونده…" autocomplete="off" aria-label="جست‌وجوی پرونده"></div><div class="case-tabs"><button id="activeCasesBtn" class="case-tab active" type="button" aria-pressed="true">فعال</button><button id="archivedCasesBtn" class="case-tab" type="button" aria-pressed="false">بایگانی</button><button id="pinnedCasesBtn" class="case-tab" type="button" aria-pressed="false">★ نشان‌شده‌ها</button></div></div>
+        <div id="caseList" class="case-list"></div>
+        <button id="newCaseBtn" class="primary-btn vault-create" type="button"><span aria-hidden="true">＋</span> ساخت پرونده جدید <small>NEW FILE</small></button>
+      </section>
+
+
+    </section>
+
+    <section id="workspaceView" hidden>
+      <div id="workspace"></div><div id="legalView" hidden></div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <button class="nav-item active" data-nav="home"><span>⌂</span><small>خانه</small></button>
+    <button class="nav-item" data-nav="cases"><span>📁</span><small>پرونده‌ها</small></button>
+    <button class="nav-item" data-nav="account"><span>⚙️</span><small>حساب</small></button>
+  </nav>
+</div>
+<div id="toast" class="toast"></div><div id="modalRoot" hidden></div>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "dashboard_contract_version": 1,
+  "case": {
+    "id": 0,
+    "name": "",
+    "status": "",
+    "stage": "",
+    "priority": "",
+    "next_action": "",
+    "created_at": "",
+    "updated_at": "",
+    "archived": false
+  },
+  "people": {"client_names": [], "count": 0},
+  "overview": {
+    "document_count": 0,
+    "documents_with_text": 0,
+    "documents_without_text": 0,
+    "version_count": 0,
+    "open_task_count": 0,
+    "overdue_task_count": 0,
+    "upcoming_task_count": 0,
+    "important_date_count": 0,
+    "recent_event_count": 0,
+    "issue_count": 0,
+    "claim_count": 0,
+    "evidence_gap_count": 0,
+    "timeline_event_count": 0,
+    "timeline_conflict_count": 0
+  },
+  "intelligence": {
+    "summary": {},
+    "issues_preview": [],
+    "evidence_preview": [],
+    "timeline_preview": [],
+    "authorities_summary": {},
+    "guidance_summary": {}
+  },
+  "attention": {"alerts": [], "basis": "deterministic_local_rules", "confidence": "low"},
+  "tasks": {"next": [], "overdue": [], "open_count": 0},
+  "dates": {"upcoming": [], "reminder_policy_note": ""},
+  "recent_activity": [],
+  "documents": {"latest": [], "quality": {}},
+  "drafting": {"latest": null, "version_count": 0, "human_review_required": true},
+  "ai": {"history_count": 0, "latest_activity_at": null, "user_triggered": true, "auto_invoked": false},
+  "data_quality": {"coverage": {}, "limitations": [], "generated_at": ""},
+  "navigation": {"documents": "", "timeline": "", "evidence": "", "tasks": "", "ai": "", "drafts": ""}
+}

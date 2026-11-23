@@ -1,0 +1,29 @@
+{
+  "generated_on": "2026-10-31",
+  "source": "restored MACHINA laws.json before quarantine separation",
+  "active_law_groups": 159,
+  "active_records": 8409,
+  "moved_groups": 14,
+  "moved_records": 770,
+  "moved_group_names": [
+    "قانون اساسی جمهوری اسلامی ایران",
+    "قانون تأمین اجتماعی",
+    "قانون مالیات بر ارزش افزوده",
+    "قانون تشکیلات و آیین دادرسی دیوان عدالت اداری",
+    "قانون بیمه",
+    "قانون حمایت از اطفال و نوجوانان",
+    "قانون الزام به ثبت رسمی معاملات اموال غیرمنقول",
+    "قانون حمایت از مالکیت صنعتی",
+    "قانون کیفیت اخذ پروانه وکالت دادگستری",
+    "بسته کاربردی قانون الزام به ثبت رسمی معاملات اموال غیرمنقول",
+    "بسته کاربردی قانون حمایت از اطفال و نوجوانان",
+    "بسته کاربردی قانون بیمه",
+    "قانون حمایت از حقوق مصرف‌کنندگان",
+    "بسته کاربردی آیین‌نامه‌های قانون الزام به ثبت رسمی معاملات اموال غیرمنقول"
+  ],
+  "historical_missing_text_report": "The ten article IDs listed in corpus_quality_report.json dated 2026-08-20 were checked in the restored current laws.json. All ten currently have non-empty text; none was deleted based on the stale report.",
+  "important_note": "The Constitution group was structurally rejected in the historical audit and moved out of active search. This structural exclusion is not a legal judgment that the Constitution itself is invalid.",
+  "policy": "Quarantined records are retained outside active laws.json for audit/recovery, not exposed to search. Reactivation requires primary-source reconciliation and amendment review.",
+  "active_search_index_total": 8496,
+  "active_search_index_note": "عدد ۸۴۹۶ شامل ۸۴۰۹ رکورد قانون فعال به‌علاوه ۸۷ نمونه/بخشنامه است."
+}

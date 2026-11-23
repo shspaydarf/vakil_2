@@ -1,0 +1,238 @@
+{
+  "contract_version": "1.0",
+  "stage": "3.1_of_5",
+  "status": "design_only",
+  "scope": "digital_ai_lawyer_preferences_only",
+  "base_preference_schema": "legal_bot.lawyer_preferences.get_schema",
+  "existing_stage2_is_stateless": true,
+  "tables": {
+    "lawyer_preference_profiles": {
+      "purpose": "One current persisted profile per authenticated lawyer",
+      "columns": {
+        "user_id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "foreign_key": "users.user_id",
+          "on_delete": "CASCADE"
+        },
+        "preferences_json": {
+          "type": "TEXT",
+          "format": "JSON object",
+          "required": true
+        },
+        "field_metadata_json": {
+          "type": "TEXT",
+          "format": "JSON object keyed by category.field",
+          "required": true
+        },
+        "schema_version": {
+          "type": "TEXT",
+          "default": "1.0",
+          "required": true
+        },
+        "profile_version": {
+          "type": "INTEGER",
+          "minimum": 1,
+          "required": true
+        },
+        "status": {
+          "type": "TEXT",
+          "enum": [
+            "active",
+            "inactive"
+          ],
+          "default": "active"
+        },
+        "created_at": {
+          "type": "TEXT",
+          "format": "UTC ISO-8601"
+        },
+        "updated_at": {
+          "type": "TEXT",
+          "format": "UTC ISO-8601"
+        },
+        "confirmed_at": {
+          "type": "TEXT",
+          "format": "UTC ISO-8601"
+        }
+      },
+      "indexes": [],
+      "constraints": [
+        "PRIMARY KEY(user_id)",
+        "CHECK(profile_version >= 1)",
+        "CHECK(status IN ('active','inactive'))"
+      ]
+    },
+    "lawyer_preference_versions": {
+      "purpose": "Immutable snapshots for every successful profile save/status transition",
+      "columns": {
+        "id": {
+          "type": "INTEGER",
+          "primary_key": true,
+          "autoincrement": true
+        },
+        "user_id": {
+          "type": "INTEGER",
+          "foreign_key": "users.user_id",
+          "on_delete": "CASCADE"
+        },
+        "profile_version": {
+          "type": "INTEGER",
+          "minimum": 1
+        },
+        "schema_version": {
+          "type": "TEXT"
+        },
+        "preferences_json": {
+          "type": "TEXT",
+          "format": "JSON object"
+        },
+        "field_metadata_json": {
+          "type": "TEXT",
+          "format": "JSON object"
+        },
+        "change_type": {
+          "type": "TEXT",
+          "enum": [
+            "created",
+            "updated",
+            "activated",
+            "deactivated",
+            "restored"
+          ]
+        },
+        "created_at": {
+          "type": "TEXT",
+          "format": "UTC ISO-8601"
+        }
+      },
+      "indexes": [
+        "(user_id, profile_version DESC)"
+      ],
+      "constraints": [
+        "UNIQUE(user_id, profile_version)",
+        "CHECK(profile_version >= 1)",
+        "CHECK(change_type IN ('created','updated','activated','deactivated','restored'))"
+      ]
+    }
+  },
+  "canonical_preferences": {
+    "categories": {
+      "professional_context": [
+        "practice_areas",
+        "jurisdiction",
+        "professional_role",
+        "practice_context_note"
+      ],
+      "writing_style": [
+        "tone",
+        "detail_level",
+        "legal_language",
+        "preferred_language",
+        "style_note"
+      ],
+      "legal_analysis": [
+        "analysis_structure",
+        "risk_focus",
+        "counterargument_review",
+        "uncertainty_handling"
+      ],
+      "citations_and_sources": [
+        "citation_density",
+        "citation_format",
+        "source_priority",
+        "citation_verification"
+      ],
+      "output_formats": [
+        "default_output_types",
+        "heading_style",
+        "include_executive_summary",
+        "include_action_items",
+        "format_note"
+      ],
+      "document_review": [
+        "review_focus",
+        "comparison_mode",
+        "evidence_display",
+        "missing_information_behavior"
+      ],
+      "assistant_interaction": [
+        "clarification_behavior",
+        "proactivity",
+        "explanation_level",
+        "suggest_next_steps"
+      ]
+    },
+    "unset_means": "not a confirmed preference",
+    "explicit_false_is_preserved": true,
+    "empty_values_removed": true,
+    "empty_profile_allowed": true,
+    "validation_source": "normalize_preferences() in legal_bot/lawyer_preferences.py",
+    "system_defaults_persisted_as_lawyer_preferences": false
+  },
+  "field_metadata": {
+    "key_format": "category.field",
+    "allowed_origins": [
+      "lawyer_entered",
+      "lawyer_confirmed_suggestion"
+    ],
+    "runtime_only_origin": "system_default",
+    "required_properties": [
+      "origin",
+      "created_at",
+      "updated_at",
+      "confirmed_at"
+    ]
+  },
+  "transaction_contract": {
+    "write_transaction": "BEGIN IMMEDIATE",
+    "atomic_operations": [
+      "upsert current profile",
+      "insert immutable version snapshot"
+    ],
+    "optimistic_concurrency": "expected_profile_version required; mismatch returns HTTP 409 profile_version_conflict",
+    "first_save_expected_version": 0,
+    "increment_version_on": "successful save or status transition"
+  },
+  "api_contract": {
+    "GET /api/v1/lawyer-preferences/profile": "Read owner profile; must not create a row",
+    "PUT /api/v1/lawyer-preferences/profile": "Full replacement; requires confirm_save=true, expected_profile_version and preferences",
+    "POST /api/v1/lawyer-preferences/profile/deactivate": "Owner deactivates; data retained; AI loader treats as absent",
+    "POST /api/v1/lawyer-preferences/profile/activate": "Owner reactivates",
+    "GET /api/v1/lawyer-preferences/profile/versions": "Bounded owner-only version history",
+    "DELETE /api/v1/lawyer-preferences/profile": "Explicit confirmed hard delete of current row and all snapshots"
+  },
+  "security": {
+    "owner_source": "authenticated dispatcher uid only",
+    "client_supplied_owner_id_accepted": false,
+    "all_queries_owner_scoped": true,
+    "case_and_client_data_allowed": false,
+    "raw_preference_text_logged": false,
+    "obvious_identifier_patterns_rejected": true,
+    "semantic_secret_detection_guaranteed": false,
+    "organization_sharing": false
+  },
+  "migration": {
+    "existing_rows_to_backfill": false,
+    "initializer_name_proposed": "init_lawyer_preference_tables()",
+    "startup_paths": [
+      "legal_bot/main.py",
+      "legal_bot/api.py"
+    ],
+    "no_existing_tables_modified": true
+  },
+  "out_of_scope": [
+    "AI prompt injection",
+    "Mini App save/load UI",
+    "feedback-learning automation",
+    "Gramophone/classic menu",
+    "case-specific memory",
+    "firm-level shared preferences"
+  ],
+  "implementation_changes_in_this_substage": {
+    "database": false,
+    "api": false,
+    "application_code": false,
+    "mini_app_ui": false
+  }
+}

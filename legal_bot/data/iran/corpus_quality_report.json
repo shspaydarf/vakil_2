@@ -1,0 +1,103 @@
+{
+  "generated": "2026-08-20",
+  "records_searchable": 3741,
+  "quality_report": {
+    "قانون مدنی": {
+      "raw": 1336,
+      "accepted": 1331,
+      "rejected": 5
+    },
+    "قانون تجارت": {
+      "raw": 600,
+      "accepted": 595,
+      "rejected": 5
+    },
+    "قانون مجازات اسلامی": {
+      "raw": 728,
+      "accepted": 728,
+      "rejected": 0
+    },
+    "قانون حمایت خانواده": {
+      "raw": 58,
+      "accepted": 58,
+      "rejected": 0
+    },
+    "قانون صدور چک": {
+      "raw": 15,
+      "accepted": 15,
+      "rejected": 0
+    },
+    "قانون آیین دادرسی مدنی": {
+      "raw": 529,
+      "accepted": 529,
+      "rejected": 0
+    },
+    "قانون آیین دادرسی کیفری": {
+      "raw": 309,
+      "accepted": 309,
+      "rejected": 0
+    },
+    "قانون ثبت اسناد و املاک": {
+      "raw": 147,
+      "accepted": 147,
+      "rejected": 0
+    },
+    "قانون اساسی جمهوری اسلامی ایران": {
+      "raw": 0,
+      "accepted": 0,
+      "rejected": 0
+    },
+    "قانون نحوه اجرای محکومیت‌های مالی": {
+      "raw": 29,
+      "accepted": 29,
+      "rejected": 0
+    },
+    "_quarantined": [
+      "قانون اساسی جمهوری اسلامی ایران"
+    ]
+  },
+  "missing_text_records": [
+    {
+      "law": "قانون مدنی",
+      "article": "517"
+    },
+    {
+      "law": "قانون مدنی",
+      "article": "956"
+    },
+    {
+      "law": "قانون مدنی",
+      "article": "974"
+    },
+    {
+      "law": "قانون مدنی",
+      "article": "1207"
+    },
+    {
+      "law": "قانون مدنی",
+      "article": "1334"
+    },
+    {
+      "law": "قانون تجارت",
+      "article": "113"
+    },
+    {
+      "law": "قانون تجارت",
+      "article": "185"
+    },
+    {
+      "law": "قانون تجارت",
+      "article": "293"
+    },
+    {
+      "law": "قانون تجارت",
+      "article": "336"
+    },
+    {
+      "law": "قانون تجارت",
+      "article": "571"
+    }
+  ],
+  "action": "Records with missing/corrupt text are excluded from search instead of being silently fabricated.",
+  "superseded_note_2026_10_31": "این گزارش snapshot تاریخی 2026-08-20 است و نباید برای توصیف وضعیت فایل بازیابی‌شده 2026-10-31 استفاده شود. وضعیت فعلی در quarantine/inactive_laws_audit_2026-10-31.json ثبت شده است."
+}

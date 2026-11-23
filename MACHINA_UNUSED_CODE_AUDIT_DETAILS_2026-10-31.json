@@ -1,0 +1,1010 @@
+{
+  "python_files_scanned": 175,
+  "import_candidates": [
+    {
+      "file": "persian_case_search.py",
+      "line": 9,
+      "name": "Optional",
+      "origin": "typing.Optional"
+    },
+    {
+      "file": "legal_bot/api.py",
+      "line": 20,
+      "name": "io",
+      "origin": "io"
+    },
+    {
+      "file": "legal_bot/api.py",
+      "line": 23,
+      "name": "URLError",
+      "origin": "urllib.error.URLError"
+    },
+    {
+      "file": "legal_bot/api.py",
+      "line": 41,
+      "name": "latest_draft_artifact",
+      "origin": "drafting_artifacts.latest_draft_artifact"
+    },
+    {
+      "file": "legal_bot/api.py",
+      "line": 51,
+      "name": "jalali_to_gregorian",
+      "origin": "calendar_dates.jalali_to_gregorian"
+    },
+    {
+      "file": "legal_bot/api.py",
+      "line": 53,
+      "name": "get_lawyer_preference_schema",
+      "origin": "lawyer_preferences.get_schema"
+    },
+    {
+      "file": "legal_bot/api.py",
+      "line": 53,
+      "name": "normalize_preferences",
+      "origin": "lawyer_preferences.normalize_preferences"
+    },
+    {
+      "file": "legal_bot/api.py",
+      "line": 55,
+      "name": "PreferencePrivacyError",
+      "origin": "lawyer_preference_store.PreferencePrivacyError"
+    },
+    {
+      "file": "legal_bot/api.py",
+      "line": 59,
+      "name": "init_ai_usage_tables",
+      "origin": "ai_usage.init_ai_usage_tables"
+    },
+    {
+      "file": "legal_bot/api.py",
+      "line": 64,
+      "name": "calculator_parse_iso_date",
+      "origin": "calculators.parse_iso_date"
+    },
+    {
+      "file": "legal_bot/ai_context_optimizer.py",
+      "line": 12,
+      "name": "hybrid_normalize",
+      "origin": "hybrid_retrieval.normalize"
+    },
+    {
+      "file": "legal_bot/ai_context_optimizer.py",
+      "line": 12,
+      "name": "hybrid_terms",
+      "origin": "hybrid_retrieval.terms"
+    },
+    {
+      "file": "legal_bot/unified_search.py",
+      "line": 11,
+      "name": "Iterable",
+      "origin": "typing.Iterable"
+    },
+    {
+      "file": "legal_bot/analysis.py",
+      "line": 3,
+      "name": "Counter",
+      "origin": "collections.Counter"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 2,
+      "name": "hmac",
+      "origin": "hmac"
+    },
+    {
+      "file": "legal_bot/backup.py",
+      "line": 4,
+      "name": "shutil",
+      "origin": "shutil"
+    },
+    {
+      "file": "legal_bot/adversarial_review.py",
+      "line": 10,
+      "name": "List",
+      "origin": "typing.List"
+    },
+    {
+      "file": "legal_bot/adversarial_review.py",
+      "line": 13,
+      "name": "build_case_chronology",
+      "origin": "timeline_engine.build_case_chronology"
+    },
+    {
+      "file": "legal_bot/adversarial_review.py",
+      "line": 14,
+      "name": "build_case_issues",
+      "origin": "issue_engine.build_case_issues"
+    },
+    {
+      "file": "legal_bot/adversarial_review.py",
+      "line": 15,
+      "name": "build_evidence_matrix",
+      "origin": "evidence_engine.build_evidence_matrix"
+    },
+    {
+      "file": "legal_bot/adversarial_review.py",
+      "line": 16,
+      "name": "build_case_authorities",
+      "origin": "authority_engine.build_case_authorities"
+    },
+    {
+      "file": "legal_bot/adversarial_review.py",
+      "line": 17,
+      "name": "build_case_strategies",
+      "origin": "strategy_engine.build_case_strategies"
+    },
+    {
+      "file": "legal_bot/issue_engine.py",
+      "line": 13,
+      "name": "analyze",
+      "origin": "analysis.analyze"
+    },
+    {
+      "file": "legal_bot/property_tree.py",
+      "line": 8,
+      "name": "re",
+      "origin": "re"
+    },
+    {
+      "file": "legal_bot/timeline_engine.py",
+      "line": 13,
+      "name": "Iterable",
+      "origin": "typing.Iterable"
+    },
+    {
+      "file": "legal_bot/timeline_engine.py",
+      "line": 15,
+      "name": "is_probable_source_noise",
+      "origin": "source_quality.is_probable_source_noise"
+    },
+    {
+      "file": "legal_bot/timeline_engine.py",
+      "line": 16,
+      "name": "extract_important_dates",
+      "origin": "calendar_dates.extract_important_dates"
+    },
+    {
+      "file": "legal_bot/timeline_engine.py",
+      "line": 20,
+      "name": "get_case_text",
+      "origin": "db.get_case_text"
+    },
+    {
+      "file": "legal_bot/output_engine.py",
+      "line": 9,
+      "name": "List",
+      "origin": "typing.List"
+    },
+    {
+      "file": "legal_bot/output_engine.py",
+      "line": 100,
+      "name": "WD_SECTION",
+      "origin": "docx.enum.section.WD_SECTION"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 19,
+      "name": "ContextTypes",
+      "origin": "telegram.ext.ContextTypes"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 21,
+      "name": "FREE_CASES",
+      "origin": "config.FREE_CASES"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 21,
+      "name": "SUPPORT_EMAIL",
+      "origin": "config.SUPPORT_EMAIL"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 21,
+      "name": "AI_TEXT_MAX_CHARS",
+      "origin": "config.AI_TEXT_MAX_CHARS"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 21,
+      "name": "AI_MONTHLY_TEXT_LIMIT",
+      "origin": "config.AI_MONTHLY_TEXT_LIMIT"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 21,
+      "name": "AI_CASE_MONTHLY_LIMIT",
+      "origin": "config.AI_CASE_MONTHLY_LIMIT"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 21,
+      "name": "DEBUG_EXTRACTION",
+      "origin": "config.DEBUG_EXTRACTION"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 21,
+      "name": "AI_DEEP_ON_DEMAND",
+      "origin": "config.AI_DEEP_ON_DEMAND"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 33,
+      "name": "search_case_full_text",
+      "origin": "analysis.search_case_full_text"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 33,
+      "name": "search_cases_full_text",
+      "origin": "analysis.search_cases_full_text"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 37,
+      "name": "analysis_text",
+      "origin": "formatting.analysis_text"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 40,
+      "name": "text_assist",
+      "origin": "ai.text_assist"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 40,
+      "name": "structured_analysis",
+      "origin": "ai.structured_analysis"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 40,
+      "name": "draft_legal_brief",
+      "origin": "ai.draft_legal_brief"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 41,
+      "name": "quiz_list_terms",
+      "origin": "quiz.list_terms"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 41,
+      "name": "quiz_get_course",
+      "origin": "quiz.get_course_questions"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 59,
+      "name": "history_lines",
+      "origin": "brief_workspace.history_lines"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 59,
+      "name": "diff_summary",
+      "origin": "brief_workspace.diff_summary"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 59,
+      "name": "extract_opposing_claims",
+      "origin": "brief_workspace.extract_opposing_claims"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 59,
+      "name": "detailed_diff_summary",
+      "origin": "brief_workspace.detailed_diff_summary"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 62,
+      "name": "jalali_to_gregorian",
+      "origin": "calendar_dates.jalali_to_gregorian"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 66,
+      "name": "build_check_tree",
+      "origin": "check_tree.build_check_tree"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 66,
+      "name": "format_check_tree",
+      "origin": "check_tree.format_check_tree"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 67,
+      "name": "build_lease_tree",
+      "origin": "ejare_tree.build_lease_tree"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 75,
+      "name": "EJARE_ROLES",
+      "origin": "ejare_assistant.ROLES"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 77,
+      "name": "diyah_items",
+      "origin": "calculators.diyah_items"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 77,
+      "name": "parse_iso_date",
+      "origin": "calculators.parse_iso_date"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 77,
+      "name": "alcohol_article_702_fine",
+      "origin": "calculators.alcohol_article_702_fine"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 77,
+      "name": "CALC_SOURCE_NOTES",
+      "origin": "calculators.CALC_SOURCE_NOTES"
+    },
+    {
+      "file": "legal_bot/calculators.py",
+      "line": 7,
+      "name": "dataclass",
+      "origin": "dataclasses.dataclass"
+    },
+    {
+      "file": "legal_bot/citation_verifier.py",
+      "line": 13,
+      "name": "List",
+      "origin": "typing.List"
+    },
+    {
+      "file": "legal_bot/source_json_normalizer.py",
+      "line": 9,
+      "name": "re",
+      "origin": "re"
+    },
+    {
+      "file": "legal_bot/files.py",
+      "line": 1,
+      "name": "math",
+      "origin": "math"
+    },
+    {
+      "file": "legal_bot/brief_workspace.py",
+      "line": 9,
+      "name": "Dict",
+      "origin": "typing.Dict"
+    },
+    {
+      "file": "legal_bot/contract_report_pdf.py",
+      "line": 8,
+      "name": "TA_CENTER",
+      "origin": "reportlab.lib.enums.TA_CENTER"
+    },
+    {
+      "file": "legal_bot/contract_report_pdf.py",
+      "line": 14,
+      "name": "KeepTogether",
+      "origin": "reportlab.platypus.KeepTogether"
+    },
+    {
+      "file": "legal_bot/brief_writer.py",
+      "line": 9,
+      "name": "Optional",
+      "origin": "typing.Optional"
+    },
+    {
+      "file": "legal_bot/source_segmentation.py",
+      "line": 12,
+      "name": "List",
+      "origin": "typing.List"
+    },
+    {
+      "file": "legal_bot/main.py",
+      "line": 13,
+      "name": "mahr_amount_cb",
+      "origin": "handlers.mahr_amount_cb"
+    },
+    {
+      "file": "legal_bot/ai.py",
+      "line": 6,
+      "name": "AI_MAX_CHARS",
+      "origin": "config.AI_MAX_CHARS"
+    },
+    {
+      "file": "legal_bot/ai.py",
+      "line": 540,
+      "name": "AI_RECOVERY_MAX_PAGES",
+      "origin": "config.AI_RECOVERY_MAX_PAGES"
+    },
+    {
+      "file": "legal_bot/ai_usage.py",
+      "line": 9,
+      "name": "Path",
+      "origin": "pathlib.Path"
+    },
+    {
+      "file": "legal_bot/draft_engine.py",
+      "line": 12,
+      "name": "get_case_documents",
+      "origin": "db.get_case_documents"
+    },
+    {
+      "file": "legal_bot/repositories/credits.py",
+      "line": 10,
+      "name": "CREDIT_CASE_COST",
+      "origin": "config.CREDIT_CASE_COST"
+    },
+    {
+      "file": "legal_bot/repositories/cases.py",
+      "line": 111,
+      "name": "re",
+      "origin": "re"
+    }
+  ],
+  "top_level_function_candidates": [
+    {
+      "file": "persian_case_search.py",
+      "line": 66,
+      "name": "_line_spans"
+    },
+    {
+      "file": "legal_bot/check_assistant.py",
+      "line": 129,
+      "name": "search_hint"
+    },
+    {
+      "file": "legal_bot/text_guard.py",
+      "line": 201,
+      "name": "needs_ai_recovery"
+    },
+    {
+      "file": "legal_bot/drafting_artifacts.py",
+      "line": 247,
+      "name": "_work_product_is_saved"
+    },
+    {
+      "file": "legal_bot/quiz.py",
+      "line": 64,
+      "name": "list_categories"
+    },
+    {
+      "file": "legal_bot/quiz.py",
+      "line": 75,
+      "name": "get_questions"
+    },
+    {
+      "file": "legal_bot/quiz.py",
+      "line": 81,
+      "name": "list_terms"
+    },
+    {
+      "file": "legal_bot/quiz.py",
+      "line": 108,
+      "name": "format_question"
+    },
+    {
+      "file": "legal_bot/quiz.py",
+      "line": 117,
+      "name": "format_essay"
+    },
+    {
+      "file": "legal_bot/analysis.py",
+      "line": 56,
+      "name": "_find_all"
+    },
+    {
+      "file": "legal_bot/analysis.py",
+      "line": 643,
+      "name": "search_cases_full_text"
+    },
+    {
+      "file": "legal_bot/authority_engine.py",
+      "line": 264,
+      "name": "build_query_plan"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 119,
+      "name": "unlink_client_case"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 215,
+      "name": "has_lawyer_code"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 497,
+      "name": "clear_active_case"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 574,
+      "name": "get_case_version"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 614,
+      "name": "grant"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 625,
+      "name": "revoke"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 629,
+      "name": "add_payment"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 636,
+      "name": "pending_payment"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 639,
+      "name": "has_pending_payment"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 642,
+      "name": "approve_payment"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 648,
+      "name": "reject_payment"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 902,
+      "name": "reserve_ai"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 914,
+      "name": "refund_ai"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 967,
+      "name": "count_case_important_dates"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1179,
+      "name": "get_subscription"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1219,
+      "name": "pending_payments"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1327,
+      "name": "consume_case"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1334,
+      "name": "admin_stats"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1353,
+      "name": "admin_users"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1397,
+      "name": "admin_set_limit"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1440,
+      "name": "get_free_channel_config"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1446,
+      "name": "set_free_channels"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1507,
+      "name": "consume_free_case"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1518,
+      "name": "free_cases_available"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1630,
+      "name": "refund_ai_question"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1647,
+      "name": "ai_quota_text"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1753,
+      "name": "list_pending_service_listings"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1855,
+      "name": "list_open_referrals"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 1932,
+      "name": "list_referral_events"
+    },
+    {
+      "file": "legal_bot/db.py",
+      "line": 2114,
+      "name": "clear_drafting_workflow_session"
+    },
+    {
+      "file": "legal_bot/laws.py",
+      "line": 116,
+      "name": "search_consultations"
+    },
+    {
+      "file": "legal_bot/laws.py",
+      "line": 150,
+      "name": "search_rulings"
+    },
+    {
+      "file": "legal_bot/adversarial_review.py",
+      "line": 39,
+      "name": "_maps"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 133,
+      "name": "legal_search_menu"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 303,
+      "name": "role_choice_keyboard"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 2240,
+      "name": "brief_stage_keyboard"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 2693,
+      "name": "_parse_amount"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 3330,
+      "name": "mahr_amount_cb"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 3455,
+      "name": "delay_amount_text"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 3833,
+      "name": "_process_document"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 3886,
+      "name": "format_case_version_diff"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 6231,
+      "name": "_glossary_text"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 6616,
+      "name": "show_ai_quota"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 6695,
+      "name": "register_v12_choice_handlers"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 6720,
+      "name": "v12_start_gate"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 6726,
+      "name": "ai_question_message_router"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 6730,
+      "name": "mark_ai_answer_success"
+    },
+    {
+      "file": "legal_bot/handlers.py",
+      "line": 6731,
+      "name": "finalize_ai_answer"
+    },
+    {
+      "file": "legal_bot/brief_templates.py",
+      "line": 397,
+      "name": "template_brief_type"
+    },
+    {
+      "file": "legal_bot/calculators.py",
+      "line": 51,
+      "name": "diyah_items"
+    },
+    {
+      "file": "legal_bot/calculators.py",
+      "line": 118,
+      "name": "parse_iso_date"
+    },
+    {
+      "file": "legal_bot/hybrid_retrieval.py",
+      "line": 98,
+      "name": "rank_texts"
+    },
+    {
+      "file": "legal_bot/files.py",
+      "line": 435,
+      "name": "extract"
+    },
+    {
+      "file": "legal_bot/files.py",
+      "line": 441,
+      "name": "recovery_images"
+    },
+    {
+      "file": "legal_bot/brief_workspace.py",
+      "line": 33,
+      "name": "history_lines"
+    },
+    {
+      "file": "legal_bot/brief_workspace.py",
+      "line": 102,
+      "name": "diff_summary"
+    },
+    {
+      "file": "legal_bot/brief_workspace.py",
+      "line": 335,
+      "name": "detailed_diff_summary"
+    },
+    {
+      "file": "legal_bot/final_audit.py",
+      "line": 7,
+      "name": "run_audit"
+    },
+    {
+      "file": "legal_bot/production.py",
+      "line": 33,
+      "name": "validate_production_config"
+    },
+    {
+      "file": "legal_bot/formatting.py",
+      "line": 13,
+      "name": "analysis_text"
+    },
+    {
+      "file": "legal_bot/ai.py",
+      "line": 517,
+      "name": "text_assist"
+    },
+    {
+      "file": "legal_bot/ai.py",
+      "line": 537,
+      "name": "recover_text_from_image"
+    },
+    {
+      "file": "legal_bot/family_assistant.py",
+      "line": 140,
+      "name": "search_hint"
+    },
+    {
+      "file": "legal_bot/draft_engine.py",
+      "line": 54,
+      "name": "_issue_map"
+    },
+    {
+      "file": "legal_bot/ejare_assistant.py",
+      "line": 27,
+      "name": "role_keyboard_rows"
+    },
+    {
+      "file": "legal_bot/ejare_assistant.py",
+      "line": 35,
+      "name": "topic_keyboard_rows"
+    },
+    {
+      "file": "legal_bot/ejare_assistant.py",
+      "line": 169,
+      "name": "search_hint"
+    },
+    {
+      "file": "legal_bot/brief_planner.py",
+      "line": 111,
+      "name": "format_brief_plan"
+    },
+    {
+      "file": "legal_bot/ocr_lam_alef.py",
+      "line": 17,
+      "name": "load_ocr_lexicon"
+    }
+  ],
+  "ast_similar_groups": [
+    [
+      {
+        "file": "legal_bot/contract_tree.py",
+        "line": 12,
+        "name": "_has"
+      },
+      {
+        "file": "legal_bot/ejare_tree.py",
+        "line": 13,
+        "name": "_has"
+      },
+      {
+        "file": "legal_bot/claims_tree.py",
+        "line": 12,
+        "name": "_has"
+      },
+      {
+        "file": "legal_bot/check_tree.py",
+        "line": 14,
+        "name": "_has"
+      },
+      {
+        "file": "legal_bot/property_tree.py",
+        "line": 12,
+        "name": "_has"
+      }
+    ],
+    [
+      {
+        "file": "legal_bot/brief_information.py",
+        "line": 29,
+        "name": "_clean"
+      },
+      {
+        "file": "legal_bot/consistency_gate.py",
+        "line": 59,
+        "name": "_clean"
+      }
+    ],
+    [
+      {
+        "file": "legal_bot/claims_tree.py",
+        "line": 16,
+        "name": "_source_hits"
+      },
+      {
+        "file": "legal_bot/property_tree.py",
+        "line": 14,
+        "name": "_source_hits"
+      }
+    ],
+    [
+      {
+        "file": "legal_bot/authority_engine.py",
+        "line": 106,
+        "name": "_clean"
+      },
+      {
+        "file": "legal_bot/rewrite_engine.py",
+        "line": 42,
+        "name": "_clean"
+      },
+      {
+        "file": "legal_bot/evidence_engine.py",
+        "line": 18,
+        "name": "_clean"
+      },
+      {
+        "file": "legal_bot/adversarial_review.py",
+        "line": 27,
+        "name": "_clean"
+      },
+      {
+        "file": "legal_bot/issue_engine.py",
+        "line": 75,
+        "name": "_clean"
+      },
+      {
+        "file": "legal_bot/timeline_engine.py",
+        "line": 55,
+        "name": "_clean"
+      },
+      {
+        "file": "legal_bot/strategy_engine.py",
+        "line": 12,
+        "name": "_clean"
+      },
+      {
+        "file": "legal_bot/draft_engine.py",
+        "line": 23,
+        "name": "_clean"
+      }
+    ],
+    [
+      {
+        "file": "legal_bot/calendar_dates.py",
+        "line": 140,
+        "name": "_pages"
+      },
+      {
+        "file": "legal_bot/issue_engine.py",
+        "line": 94,
+        "name": "_pages"
+      }
+    ],
+    [
+      {
+        "file": "legal_bot/evidence_engine.py",
+        "line": 22,
+        "name": "_norm"
+      },
+      {
+        "file": "legal_bot/issue_engine.py",
+        "line": 79,
+        "name": "_norm"
+      }
+    ],
+    [
+      {
+        "file": "legal_bot/core/credits.py",
+        "line": 33,
+        "name": "commit"
+      },
+      {
+        "file": "legal_bot/core/ai_entitlement.py",
+        "line": 33,
+        "name": "commit"
+      }
+    ],
+    [
+      {
+        "file": "legal_bot/core/ai_entitlement.py",
+        "line": 40,
+        "name": "question_cost"
+      },
+      {
+        "file": "legal_bot/repositories/entitlements.py",
+        "line": 295,
+        "name": "question_cost"
+      },
+      {
+        "file": "legal_bot/repositories/ai.py",
+        "line": 34,
+        "name": "question_cost"
+      }
+    ]
+  ]
+}

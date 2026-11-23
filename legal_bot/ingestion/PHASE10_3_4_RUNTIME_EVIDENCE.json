@@ -1,0 +1,38 @@
+{
+  "phase": "10.3.4",
+  "status": "local_ocr_runtime_pass_live_source_acquisition_blocked",
+  "observed_environment": {
+    "pymupdf": "1.26.7",
+    "tesseract_binary": "/usr/bin/tesseract",
+    "tesseract_languages_present": ["fas", "eng"],
+    "pillow": "available",
+    "pytesseract": "available"
+  },
+  "local_runtime_tests": {
+    "file": "tests/test_phase10_3_4_ocr_runtime_smoke.py",
+    "passed": 4,
+    "fixture_type": "locally_generated_scanned_pdf_not_an_official_document",
+    "ocr_languages_configured": "fas+eng",
+    "persian_accuracy_verified": false
+  },
+  "live_source_probe": {
+    "host": "dotic.ir",
+    "urls_attempted": [
+      "https://dotic.ir/news/21843",
+      "https://dotic.ir/news/21824",
+      "https://dotic.ir/robots.txt"
+    ],
+    "result": "dns_name_resolution_error",
+    "robots_txt_verified": false,
+    "official_pdf_downloaded": false,
+    "challenge_bypass_attempted": false
+  },
+  "test_suite": {
+    "passed": 767,
+    "deselected": 1,
+    "deselected_test": "test_large_workspace_search_smoke_benchmark",
+    "compileall": "passed"
+  },
+  "active_bank_mutation": false,
+  "next_gate": "Repeat live source retrieval and robots review from an authorized network; then OCR a genuine official PDF and evaluate Persian text quality before any bank import."
+}

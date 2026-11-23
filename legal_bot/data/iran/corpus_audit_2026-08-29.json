@@ -1,0 +1,13 @@
+{
+  "generated": "2026-08-29",
+  "raw_laws": 65,
+  "raw_records": 7524,
+  "searchable_records": 7328,
+  "rejected_records": 196,
+  "quarantined_laws": [
+    "قانون اساسی جمهوری اسلامی ایران"
+  ],
+  "exact_duplicate_text_groups": 2,
+  "exact_duplicate_records_in_groups": 6,
+  "note": "Alias/spacing/half-space/compact search variants live in legal_alias_index_v33.json and are not duplicate law records. Exact duplicate texts were reported but not deleted automatically because identical text can be legitimate across distinct provisions/versions."
+}

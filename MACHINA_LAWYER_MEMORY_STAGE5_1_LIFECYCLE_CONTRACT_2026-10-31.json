@@ -1,0 +1,58 @@
+{
+  "contract_version": "1.0",
+  "stage": "5.1",
+  "status": "design_complete",
+  "implementation_changes": {
+    "database": false,
+    "application_code": false,
+    "api": false,
+    "mini_app_ui": false
+  },
+  "scope": "owner_scoped_lawyer_preference_memory_lifecycle_only",
+  "states": {
+    "not_created": {"storage": "no_profile_row", "ai_context": "none", "transitions": ["active"]},
+    "active": {"storage": "profile.status=active", "ai_context": "active_confirmed_preferences_only", "transitions": ["inactive", "active", "deleted"]},
+    "inactive": {"storage": "profile.status=inactive", "ai_context": "none", "transitions": ["active", "inactive", "deleted"]},
+    "deleted": {"storage": "no_profile_or_version_rows", "ai_context": "none", "transitions": ["active"]}
+  },
+  "invariants": [
+    "owner_uid_from_authenticated_dispatcher_only",
+    "ignore_client_supplied_owner_id",
+    "only_active_profile_reaches_ai",
+    "no_case_or_client_data_in_preference_memory",
+    "explicit_confirmation_for_persistent_sensitive_actions",
+    "immutable_append_only_version_history",
+    "expected_profile_version_required_for_mutations",
+    "atomic_profile_and_snapshot_mutations",
+    "storage_or_validation_failure_never_injects_partial_context",
+    "no_raw_preference_values_in_logs",
+    "no_automatic_preference_learning"
+  ],
+  "versioning": {
+    "first_save": {"version": 1, "change_type": "created"},
+    "edit": {"increment": 1, "change_type": "updated"},
+    "deactivate": {"increment": 1, "change_type": "deactivated", "preserve_preferences": true},
+    "activate": {"increment": 1, "change_type": "activated", "preserve_preferences": true},
+    "restore": {"increment_from_current": 1, "change_type": "restored", "mutate_historical_row": false},
+    "hard_delete": {"delete_profile": true, "delete_all_versions": true, "transactional": true},
+    "recreate_after_delete": {"first_version": 1, "old_history_recoverable": false}
+  },
+  "history": {"default_limit": 20, "maximum_limit": 50, "order": "newest_first", "automatic_pruning": false},
+  "planned_api": [
+    {"method": "POST", "path": "/api/v1/lawyer-preferences/deactivate", "confirmation": true, "expected_profile_version": true},
+    {"method": "POST", "path": "/api/v1/lawyer-preferences/activate", "confirmation": true, "expected_profile_version": true},
+    {"method": "POST", "path": "/api/v1/lawyer-preferences/restore", "confirmation": true, "expected_profile_version": true, "source_profile_version": true},
+    {"method": "DELETE", "path": "/api/v1/lawyer-preferences/profile", "confirmation": true, "expected_profile_version": true},
+    {"method": "GET", "path": "/api/v1/lawyer-preferences/history", "existing": true, "owner_scoped": true}
+  ],
+  "errors": [
+    "404 preference_profile_not_found",
+    "409 preference_version_conflict",
+    "404 preference_version_not_found",
+    "400 confirmation_required",
+    "409 preference_integrity_conflict",
+    "400 invalid_preference_lifecycle_action"
+  ],
+  "critical_storage_note": "lawyer_preference_versions references users, not lawyer_preference_profiles; hard delete must explicitly delete owner version rows and profile row in one transaction.",
+  "implementation_roadmap": ["5.2_activation_deactivation", "5.3_restore", "5.4_hard_delete", "5.5_history_comparison", "5.6_miniapp_ui", "5.7_integrated_qa"]
+}

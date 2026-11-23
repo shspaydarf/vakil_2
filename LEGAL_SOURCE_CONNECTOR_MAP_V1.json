@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-31",
+  "status": "reconnaissance_only",
+  "active_corpus_modified": false,
+  "sources": [
+    {
+      "source_id": "ekhtebar",
+      "name": "پایگاه خبری اختبار",
+      "base_url": "https://www.ekhtebar.ir/",
+      "role": "secondary_discovery",
+      "access_observation": "Indexed pages are discoverable; some direct category opens redirect to a JavaScript/browser challenge.",
+      "confirmed_categories": [
+        "supreme_court_unity_rulings",
+        "advisory_opinions",
+        "laws_and_regulations",
+        "administrative_justice_court_rulings",
+        "circulars",
+        "executive_regulations",
+        "parliamentary_bills_and_proposals",
+        "judicial_sessions"
+      ],
+      "confirmed_patterns": [
+        "WordPress-like category archives",
+        "individual dated posts",
+        "direct media links under /wp-content/uploads/",
+        "year-separated PDF archives",
+        "bulk ZIP archives"
+      ],
+      "pilot_category": "supreme_court_unity_rulings",
+      "pilot_page_url": "https://www.ekhtebar.ir/بانک-آراء-وحدت-رویه-دیوان‌عالی-کشور/",
+      "limitations": [
+        "not an issuing authority",
+        "browser challenge may block direct automated access",
+        "PDF text extraction quality varies and must be measured",
+        "page date and asset date may differ"
+      ],
+      "implementation_status": "not_implemented"
+    },
+    {
+      "source_id": "majles_rc",
+      "name": "مرکز پژوهش‌های مجلس - سامانه قوانین قدیمی",
+      "base_url": "https://rc.majlis.ir/fa/law",
+      "role": "preferred_parliamentary_discovery",
+      "access_observation": "Search index confirms legacy routes; direct browser retrieval returned HTTP 502 during this inspection.",
+      "confirmed_patterns": [
+        "/fa/law/",
+        "/fa/law/search/",
+        "/fa/law/print_version/<numeric-id>"
+      ],
+      "example_record_url": "https://rc.majlis.ir/fa/law/print_version/929088",
+      "unverified": [
+        "live availability from deployment environment",
+        "search parameter names",
+        "pagination",
+        "stable record identifiers",
+        "PDF or other asset links",
+        "robots and rate limits"
+      ],
+      "implementation_status": "connectivity_probe_required"
+    }
+  ],
+  "connector_policy": {
+    "write_to_active_json": false,
+    "download_during_discovery": false,
+    "respect_robots_and_terms": true,
+    "bypass_captcha_or_browser_challenge": false,
+    "retry_with_backoff": true,
+    "store_page_and_asset_urls": true,
+    "deduplicate_candidates_idempotently": true,
+    "staging_only": true
+  },
+  "recommended_pilot": {
+    "source_id": "ekhtebar",
+    "document_type": "supreme_court_unity_ruling",
+    "mode": "metadata_and_link_discovery_only",
+    "max_pages": 2,
+    "max_candidates": 20,
+    "active_corpus_import": false
+  }
+}

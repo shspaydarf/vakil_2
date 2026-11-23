@@ -1,0 +1,64 @@
+{
+  "candidate_id": "MACHINA-PHASE6-1-IR-LAW-001",
+  "phase": "6.1",
+  "candidate_status": "selected_pending_official_pdf_acquisition",
+  "document": {
+    "title": "قانون احکام دائمی برنامه های توسعه کشور",
+    "document_type": "law",
+    "jurisdiction": "IR",
+    "adoption_date_persian": "1395/11/10",
+    "official_letter_number": "33/96683",
+    "official_letter_date_persian": "1395/12/01",
+    "parliament_publication_letter_number": "1054",
+    "parliament_publication_letter_date_persian": "1396/01/16",
+    "reported_pdf_pages": 31
+  },
+  "sources": {
+    "preferred_official_source": {
+      "institution": "مرکز پژوهش‌های مجلس شورای اسلامی",
+      "url": "https://rc.majlis.ir/fa/law/print_version/1014070",
+      "role": "primary_target_for_phase6_2_acquisition",
+      "live_retrieval_status": "not_confirmed_http_502_during_phase6_1_check",
+      "is_official_pdf_download_confirmed": false
+    },
+    "discovery_mirror": {
+      "institution": "FAOLEX",
+      "url": "https://faolex.fao.org/docs/pdf/ira224883.pdf",
+      "role": "secondary_discovery_and_metadata_cross_check_only",
+      "is_official_source_for_ingestion": false,
+      "observed_indicators": [
+        "PDF text header identifies مرکز پژوهش‌ها - طرح‌ها و لوایح",
+        "PDF body repeats the rc.majlis.ir source URL",
+        "letter number 1054 and date 1396/01/16 appear in the document",
+        "letter number 33/96683 and date 1395/12/01 appear in the document",
+        "approval in public session on 1395/11/10 is stated in the forwarding letter"
+      ]
+    }
+  },
+  "bank_collision_screen": {
+    "laws_json_exact_top_level_title_match": false,
+    "law_catalog_exact_title_match": false,
+    "official_sources_exact_title_or_url_match": false,
+    "scope": "exact title and URL checks only; not a full semantic or article-level duplicate determination",
+    "phase5_3_identity_check_required_after_pdf_acquisition": true
+  },
+  "selection_rationale": [
+    "The title is not an exact top-level entry in the current active laws.json.",
+    "A source page associated with the Parliament Research Center is identified in the PDF body and repeated as a URL.",
+    "The 31-page document is large enough to exercise multi-page extraction while remaining practical for a first controlled test.",
+    "The visible text includes nested clauses, notes, inserted provisions, and irregular article numbering, making it useful for testing legal-structure parsing without treating parser output as authoritative."
+  ],
+  "known_risks_and_open_checks": [
+    "The official rc.majlis.ir endpoint returned HTTP 502 in the Phase 6.1 web check; live official retrieval remains unconfirmed.",
+    "The FAOLEX PDF is a mirror and must not be substituted as the official acquisition source under the project source policy.",
+    "The visible text has numbering and layout irregularities; article boundaries and inserted provisions require page-by-page comparison against the original PDF.",
+    "The document's current amendment, repeal, and enforceability status has not been established in Phase 6.1.",
+    "No PDF was downloaded into the project, no SHA-256 was assigned, and no ingestion or active-bank write was performed."
+  ],
+  "phase6_1_decision": {
+    "selected_for_next_phase": true,
+    "approved_for_ingestion": false,
+    "approved_for_active_bank": false,
+    "next_action": "Phase 6.2 must acquire the PDF from the allowlisted official Parliament source, or stop and report source unavailability; the mirror may be used only for discovery comparison, not as a substitute source."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": "V29",
+  "domains": 10,
+  "laws_in_corpus": 20,
+  "records_total": 6197,
+  "new_laws": {
+    "قانون کار": 4,
+    "قانون مالیات‌های مستقیم": 2,
+    "قانون تجارت الکترونیکی": 3,
+    "قانون جرایم رایانه‌ای": 2
+  },
+  "sources": {
+    "قانون کار": [
+      "https://www.irancodify.com/b/10bf598f-37d1-424d-8fec-3e88f1fc21b4",
+      "https://lamtakam.com/law/diagnostic_assembly/99612/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%DA%A9%D8%A7%D8%B1"
+    ],
+    "قانون مالیات‌های مستقیم": [
+      "https://nezamat.ir/post-28895/",
+      "https://bidbarg.net/regulation/tax/"
+    ],
+    "قانون تجارت الکترونیکی": [
+      "https://lamtakam.com/law/parliament/93997/%D9%82%D8%A7%D9%86%D9%88%D9%86%2B%D8%AA%D8%AC%D8%A7%D8%B1%D8%AA%2B%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C",
+      "https://www.irancodify.com/b/%D9%82%D8%A7%D9%86%D9%88%D9%86_%D8%AA%D8%AC%D8%A7%D8%B1%D8%AA_%D8%A7%D9%84%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C_%D9%85%D8%B5%D9%88%D8%A8_1382-10-17"
+    ],
+    "قانون جرایم رایانه‌ای": [
+      "https://nezamat.ir/post-37592/"
+    ]
+  },
+  "additional_foundation": {
+    "قانون مسئولیت مدنی": 3,
+    "قانون اجرای احکام مدنی": 4,
+    "قانون تأمین اجتماعی": 2,
+    "قانون مالیات بر ارزش افزوده": 2,
+    "قانون روابط موجر و مستأجر ۱۳۵۶": 1,
+    "قانون روابط موجر و مستأجر ۱۳۷۶": 3
+  }
+}

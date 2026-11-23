@@ -1,0 +1,947 @@
+{
+  "version": "LEVEL1-2026-08-20",
+  "generated_on": "2026-08-20",
+  "strategy": "breadth_first",
+  "status": "level1_gap_manifest_ready",
+  "base_corpus_existing_laws": 20,
+  "missing_level1_count": 52,
+  "missing_level1": [
+    {
+      "title": "قانون حمایت از حقوق مصرف‌کنندگان",
+      "domain": "تجارت",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون بیمه",
+      "domain": "حقوق مدنی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون حمایت از خانواده",
+      "domain": "حقوق مدنی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون شوراهای حل اختلاف",
+      "domain": "آیین دادرسی مدنی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون مجازات راجع به مجازات اسلامی",
+      "domain": "حقوق کیفری",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون تشدید مجازات مرتکبین ارتشاء و اختلاس و کلاهبرداری",
+      "domain": "حقوق کیفری",
+      "priority": "P0",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": 16,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون مبارزه با مواد مخدر",
+      "domain": "حقوق کیفری",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون حمایت از اطفال و نوجوانان",
+      "domain": "خانواده",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": 51,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون تشکیل دادگاه‌های عمومی و انقلاب",
+      "domain": "آیین دادرسی کیفری",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون ثبت احوال",
+      "domain": "خانواده",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون نحوه اهدای جنین به زوجین نابارور",
+      "domain": "خانواده",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون اداره تصفیه امور ورشکستگی",
+      "domain": "تجارت",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون ثبت شرکت‌ها و مقررات مرتبط",
+      "domain": "تجارت",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون الزام به ثبت رسمی معاملات اموال غیرمنقول",
+      "domain": "ثبت و املاک",
+      "priority": "P0",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": 15,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون تملک آپارتمان‌ها",
+      "domain": "ثبت و املاک",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون تعیین تکلیف وضعیت ثبتی اراضی و ساختمان‌های فاقد سند رسمی",
+      "domain": "ثبت و املاک",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون افراز و فروش املاک مشاع",
+      "domain": "ثبت و املاک",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": 11,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون بیمه بیکاری",
+      "domain": "کار و تأمین اجتماعی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون مدیریت خدمات کشوری",
+      "domain": "فناوری و حقوق اداری/عمومی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون پایانه‌های فروشگاهی و سامانه مؤدیان",
+      "domain": "مالیات و مالی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون مالیات بر ارث و مقررات مرتبط",
+      "domain": "مالیات و مالی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون پولی و بانکی کشور",
+      "domain": "مالیات و مالی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون عملیات بانکی بدون ربا",
+      "domain": "مالیات و مالی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون دیوان عدالت اداری",
+      "domain": "فناوری و حقوق اداری/عمومی",
+      "priority": "P1",
+      "status": "source_backed_pending_text_import",
+      "expected_articles": 124,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون انتشار و دسترسی آزاد به اطلاعات",
+      "domain": "فناوری و حقوق اداری/عمومی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": 23,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون حمایت از مالکیت صنعتی",
+      "domain": "فناوری و حقوق اداری/عمومی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون حمایت حقوق مؤلفان و مصنفان و هنرمندان",
+      "domain": "مالکیت فکری و فناوری",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون ثبت اختراعات، طرح‌های صنعتی و علائم تجاری",
+      "domain": "مالکیت فکری و فناوری",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون حمایت از مالکیت صنعتی ۱۴۰۳",
+      "domain": "مالکیت فکری و فناوری",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون ترجمه و تکثیر کتب و نشریات و آثار صوتی",
+      "domain": "مالکیت فکری و فناوری",
+      "priority": "P2",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون مجازات خودداری از کمک به مصدومین و رفع مخاطرات جانی",
+      "domain": "حقوق پزشکی و سلامت",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون سازمان نظام پزشکی جمهوری اسلامی ایران",
+      "domain": "حقوق پزشکی و سلامت",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون مربوط به مقررات امور پزشکی و دارویی و مواد خوردنی و آشامیدنی",
+      "domain": "حقوق پزشکی و سلامت",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون حمایت از بیماران خاص و صعب‌العلاج",
+      "domain": "حقوق پزشکی و سلامت",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون حفاظت و بهسازی محیط زیست",
+      "domain": "محیط زیست و منابع طبیعی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون شکار و صید",
+      "domain": "محیط زیست و منابع طبیعی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون مدیریت پسماندها",
+      "domain": "محیط زیست و منابع طبیعی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون حفاظت و بهره‌برداری از جنگل‌ها و مراتع",
+      "domain": "محیط زیست و منابع طبیعی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون حفاظت از خاک",
+      "domain": "محیط زیست و منابع طبیعی",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون امور گمرکی",
+      "domain": "گمرک، واردات و صادرات و حمل‌ونقل",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": 143,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون مقررات صادرات و واردات",
+      "domain": "گمرک، واردات و صادرات و حمل‌ونقل",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون حمل و نقل و عبور کالاهای خارجی از قلمرو جمهوری اسلامی ایران",
+      "domain": "گمرک، واردات و صادرات و حمل‌ونقل",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون دریایی ایران",
+      "domain": "گمرک، واردات و صادرات و حمل‌ونقل",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون رسیدگی به تخلفات رانندگی",
+      "domain": "گمرک، واردات و صادرات و حمل‌ونقل",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": 35,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون نفت",
+      "domain": "نفت، گاز، انرژی و معادن",
+      "priority": "P2",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون اصلاح قانون معادن",
+      "domain": "نفت، گاز، انرژی و معادن",
+      "priority": "P2",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون اساسنامه شرکت ملی نفت ایران",
+      "domain": "نفت، گاز، انرژی و معادن",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون سازمان انرژی اتمی ایران",
+      "domain": "نفت، گاز، انرژی و معادن",
+      "priority": "P2",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون مانع‌زدایی از توسعه صنعت برق",
+      "domain": "نفت، گاز، انرژی و معادن",
+      "priority": "P1",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": null,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون وکالت",
+      "domain": "حقوق عمومی/حرفه حقوقی",
+      "priority": "P0",
+      "status": "source_backed_pending_text_import",
+      "expected_articles": 59,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/Law/TreeText/?IDS=5525522950710247937"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "لایحه قانونی استقلال کانون وکلای دادگستری",
+      "domain": "حقوق عمومی/حرفه حقوقی",
+      "priority": "P0",
+      "status": "source_backed_pending_text_import",
+      "expected_articles": 28,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/Law/RelatedIndex/?IDS=15820609018639187844"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    },
+    {
+      "title": "قانون کیفیت اخذ پروانه وکالت دادگستری",
+      "domain": "حقوق عمومی/حرفه حقوقی",
+      "priority": "P0",
+      "status": "official_source_identified_pending_import",
+      "expected_articles": 8,
+      "text_in_laws_json": false,
+      "primary_sources": [
+        "qavanin",
+        "dotic",
+        "rrk"
+      ],
+      "known_source_urls": [
+        "https://qavanin.ir/"
+      ],
+      "last_verified": "2026-08-20",
+      "note": "این رکورد عمداً متن ماده‌ها را جعل/حدس نمی‌کند؛ برای ورود به corpus باید متن از منبع رسمی دریافت و با روزنامه رسمی/منبع ثانویه معتبر cross-check شود."
+    }
+  ],
+  "verification_policy": "text is not marked verified until official-source import + cross-check + human legal review"
+}

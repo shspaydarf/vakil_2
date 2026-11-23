@@ -1,0 +1,133 @@
+{
+  "glossary": {
+    "total": 170,
+    "duplicates": [],
+    "missing_verified_sources": []
+  },
+  "laws": {
+    "قانون مدنی": {
+      "raw": 1336,
+      "basic_valid": 1331,
+      "basic_invalid": 5
+    },
+    "قانون تجارت": {
+      "raw": 600,
+      "basic_valid": 599,
+      "basic_invalid": 1
+    },
+    "قانون مجازات اسلامی": {
+      "raw": 728,
+      "basic_valid": 728,
+      "basic_invalid": 0
+    },
+    "قانون حمایت خانواده": {
+      "raw": 58,
+      "basic_valid": 58,
+      "basic_invalid": 0
+    },
+    "قانون صدور چک": {
+      "raw": 15,
+      "basic_valid": 15,
+      "basic_invalid": 0
+    },
+    "قانون آیین دادرسی مدنی": {
+      "raw": 529,
+      "basic_valid": 529,
+      "basic_invalid": 0
+    },
+    "قانون آیین دادرسی کیفری": {
+      "raw": 309,
+      "basic_valid": 309,
+      "basic_invalid": 0
+    },
+    "قانون ثبت اسناد و املاک": {
+      "raw": 147,
+      "basic_valid": 146,
+      "basic_invalid": 1
+    },
+    "قانون اساسی جمهوری اسلامی ایران": {
+      "raw": 177,
+      "basic_valid": 0,
+      "basic_invalid": 177
+    },
+    "قانون نحوه اجرای محکومیت‌های مالی": {
+      "raw": 29,
+      "basic_valid": 29,
+      "basic_invalid": 0
+    },
+    "قانون کار": {
+      "raw": 203,
+      "basic_valid": 203,
+      "basic_invalid": 0
+    },
+    "قانون مالیات‌های مستقیم": {
+      "raw": 271,
+      "basic_valid": 271,
+      "basic_invalid": 0
+    },
+    "قانون تجارت الکترونیکی": {
+      "raw": 3,
+      "basic_valid": 3,
+      "basic_invalid": 0
+    },
+    "قانون جرایم رایانه‌ای": {
+      "raw": 2,
+      "basic_valid": 2,
+      "basic_invalid": 0
+    },
+    "قانون مسئولیت مدنی": {
+      "raw": 16,
+      "basic_valid": 16,
+      "basic_invalid": 0
+    },
+    "قانون اجرای احکام مدنی": {
+      "raw": 180,
+      "basic_valid": 180,
+      "basic_invalid": 0
+    },
+    "قانون تأمین اجتماعی": {
+      "raw": 118,
+      "basic_valid": 118,
+      "basic_invalid": 0
+    },
+    "قانون مالیات بر ارزش افزوده": {
+      "raw": 53,
+      "basic_valid": 53,
+      "basic_invalid": 0
+    },
+    "قانون روابط موجر و مستأجر ۱۳۵۶": {
+      "raw": 32,
+      "basic_valid": 32,
+      "basic_invalid": 0
+    },
+    "قانون روابط موجر و مستأجر ۱۳۷۶": {
+      "raw": 13,
+      "basic_valid": 13,
+      "basic_invalid": 0
+    },
+    "قانون وکالت": {
+      "raw": 58,
+      "basic_valid": 58,
+      "basic_invalid": 0
+    },
+    "قانون اصلاح قانون صدور چک ۱۳۹۷": {
+      "raw": 11,
+      "basic_valid": 11,
+      "basic_invalid": 0
+    },
+    "قانون تشکیلات و آیین دادرسی دیوان عدالت اداری": {
+      "raw": 124,
+      "basic_valid": 124,
+      "basic_invalid": 0
+    }
+  },
+  "sources": {
+    "authorities": 5,
+    "laws_in_registry": 26,
+    "verified_texts": 0,
+    "pending_text_sync": 26
+  },
+  "quarantine": [],
+  "policy": "فقط رکوردهای دارای متن، شماره ماده و منبع داخلی معتبرشده در جستجو/واژه‌نامه استفاده شوند؛ رکوردهای مشکوک قرنطینه شوند. وجود URL رسمی به‌تنهایی به معنی تأیید متن نیست.",
+  "superseded_note_2026_10_31": "این گزارش snapshot تاریخی 2026-08-20 است و نباید برای توصیف وضعیت فایل بازیابی‌شده 2026-10-31 استفاده شود. وضعیت فعلی در quarantine/inactive_laws_audit_2026-10-31.json ثبت شده است."
+}

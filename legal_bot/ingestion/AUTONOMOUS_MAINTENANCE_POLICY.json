@@ -1,0 +1,28 @@
+{
+  "schema_version": "10.2",
+  "enabled": false,
+  "timezone": "Asia/Tehran",
+  "schedule": {
+    "frequency": "biweekly",
+    "weekday": "Monday",
+    "local_time": "09:00",
+    "interval_weeks": 2
+  },
+  "scope": [
+    "laws",
+    "regulations_and_bylaws",
+    "supreme_court_unity_rulings",
+    "administrative_justice_general_assembly_rulings",
+    "judiciary_advisory_opinions"
+  ],
+  "discovery_modes": [
+    "recent_updates",
+    "historical_backfill"
+  ],
+  "max_total_pdf_pages_per_run": 20,
+  "max_candidates_per_run": 100,
+  "automatic_append": "only_after_verified_official_publication_and_current_status_evidence",
+  "uncertain_status": "skip_and_log",
+  "secondary_sources": "discovery_only_never_active_bank_authority",
+  "note": "Schedule is intentionally disabled until official source adapters and live connectivity are verified."
+}
